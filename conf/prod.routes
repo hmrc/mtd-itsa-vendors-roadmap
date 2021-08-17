@@ -1,0 +1,4 @@
+->      /                                           health.Routes
+GET     /roadmaps/mtd-itsa-vendors-roadmap           controllers.Default.redirect(to = "/roadmaps/mtd-itsa-vendors-roadmap/")
+GET     /roadmaps/mtd-itsa-vendors-roadmap/          controllers.Assets.at(path="/public", file="index.html")
+GET     /roadmaps/mtd-itsa-vendors-roadmap/*file     controllers.Assets.at(path="/public", file)
