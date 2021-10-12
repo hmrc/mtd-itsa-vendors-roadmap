@@ -52,10 +52,11 @@ Keep up to date with changes to Current Endpoint Functionality in Test and Live 
 
 |  Function 	|   Part of Quarterly Updates	| Can be used within 1 year	| Change(s)	| Details |
 |---	|---	|---	|---	|---	|
-|Property Income API  	| Yes | Yes  | New API | The property endpoints will be moved out of the Self-Assessment API into a new property specific API for 22/23 tax year onwards.<br><br> This change is required so that both property business types, UK and Foreign can be supported by our systems.<br><br> **Target date to Sandbox December 21** |
-|Capital Allowances	|  No 	|  Yes 	|  Amendment to API 	| Enhancement to existing endpoints to include Structure and Building allowances and First year electric charge allowance.<br><br> **Target date to Sandbox December 21**  	|
-| Business Validation Rules  	|  No 	|  Yes 	|  New API and amendment to existing API	|  Changes to the business validation rules in the service to support the new income types and functionality that has been delivered.<br><br> **Target date to Sandbox December 21** 	|
-|Amendments to Final Submission |  No |  No | New API and amendment to existing API  | Allows a customer to make a change to their return after they have finalised that year.<br><br> **Target date to Sandbox December 21**|
+|Property Income API  	| Yes | Yes  | New API | The property endpoints will be moved out of the Self-Assessment API into a new property specific API for 22/23 tax year onwards.<br><br> This change is required so that both property business types, UK and Foreign can be supported by our systems.<br><br> **Target date to Sandbox January 22** |
+|Capital Allowances	|  No 	|  Yes 	|  Amendment to API 	| Enhancement to existing endpoints to include Structure and Building allowances and First year electric charge allowance.<br><br> **Target date to Sandbox January 22**  	|
+|Business Validation Rules 	|  No 	|  Yes 	|  New API and amendment to existing API	|  Changes to the business validation rules in the service to support the new income types and functionality that has been delivered.<br><br> **Target date to Sandbox January 22** 	|
+|Tax Calculations Version 3 |  No 	|  Yes 	|  New API	|  Refining Tax Calc API by adding a tax year data item and reducing the number of endpoints in response to the software market demand.<br><br> **Target date to Sandbox January 22** 	|
+|Changes to the SA API	  	|  Yes 	|  Yes 	|  New API and amendment to existing API	|  The remainder of the SA API (Self Employment, Gift Aid and Dividends and Interest) will be moved into our new domain model.<br><br> **Target date to Sandbox March 22** 	|
 
 ### ITSA Future Deliverables - Delivery dates to be confirmed
 
