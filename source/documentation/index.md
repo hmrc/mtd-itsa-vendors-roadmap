@@ -39,61 +39,80 @@ Keep up to date with changes to the APIs in sandbox and production with our new 
 #### Current Endpoint Functionality in Test and Live
 Keep up to date with changes to Current Endpoint Functionality in Test and Live by reviewing the [API Documentation](https://developer.service.hmrc.gov.uk/api-documentation/docs/api) on the Developer Hub.
 
-### ITSA Future Deliverables - Date due: December 2021
+### ITSA Future API Deliverables
+Production by **December 2021**
 
-|  Function 	|   Part of Quarterly Updates	| Can be used within 1 year	| Change(s)	| Details |
-|---	|---	|---	|---	|---	|
-|As is interest  	| No | Yes  | New endpoint | This will enhance the view of a customer account to include interest being charged on any outstanding liability or late payment.<br><br> New endpoints will be added to the [Self Assessment Accounts API](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/self-assessment-accounts-api/1.0).<br><br> **Target date to Sandbox August 21** |
-|Employment coded out	|  No 	|  No 	|  New endpoints 	| This will allow a customer with employment income to request that they do not want their self-assessment liability coded out.<br><br> They can also request a debt from a previous year to be coded out. New endpoints have been added to the [Self Assessment Accounts API](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/self-assessment-accounts-api/1.0).<br><br> **Target date to Sandbox June 21**  	|
-| Capital Gains Tax  	|  No 	|  Yes 	|  New API 	|  This will allow a customer to report a Capital gain.<br><br> **Target date to Sandbox August 21** 	|
-|Marriage Allowance	|  No 	|  Yes 	|  New API 	|  This will enable a customer to transfer unused personal allowance to their spouse or partner.<br><br> **Target date to Sandbox August 21** 	|
+| Function | Must be part of legislated quarterly updates | Can be used in year | Details |
+|---	|---	|---	|---	|
+|As is interest  	| No | Yes  | This will enhance the view of a customer account to include interest being charged on any outstanding liability or late payment.<br><br> New endpoints will be added to the [Self Assessment Accounts API](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/self-assessment-accounts-api/1.0).<br><br> **Target date to Sandbox August 21** |
+|Employment coded out (in year only)	|  No 	|  No 	| This will allow a customer with employment income to request that they do not want their self-assessment liability coded out.<br><br> They can also request a debt from a previous year to be coded out. New endpoints have been added to the [Self Assessment Accounts API](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/self-assessment-accounts-api/1.0).<br><br> **Target date to Sandbox June 21**  	|
+|Capital Gains Tax  	|  No 	|  Yes 	|  This will allow a customer to report a Capital gain.<br><br> **Target date to Sandbox August 21** 	|
+|Marriage Allowance	|  No 	|  Yes 	|  This will enable a customer to transfer unused personal allowance to their spouse or partner.<br><br> **Target date to Sandbox August 21** 	|
 
-### ITSA Future Deliverables - Date due: End of April 2022
+### ITSA Future API Deliverables
+Production by **End of April 2022**
 
-|  Function 	|   Part of Quarterly Updates	| Can be used within 1 year	| Change(s)	| Details |
-|---	|---	|---	|---	|---	|
-|Property Income API  	| Yes | Yes  | New API | The property endpoints will be moved out of the Self-Assessment API into a new property specific API for 22/23 tax year onwards.<br><br> This change is required so that both property business types, UK and Foreign can be supported by our systems.<br><br> **Target date to Sandbox January 22** |
-|Capital Allowances	|  No 	|  Yes 	|  Amendment to API 	| Enhancement to existing endpoints to include Structure and Building allowances and First year electric charge allowance.<br><br> **Target date to Sandbox January 22**  	|
-|Business Validation Rules 	|  No 	|  Yes 	|  New API and amendment to existing API	|  Changes to the business validation rules in the service to support the new income types and functionality that has been delivered.<br><br> **Target date to Sandbox January 22** 	|
-|Tax Calculations Version 3 |  No 	|  Yes 	|  New API	|  Refining Tax Calc API by adding a tax year data item and reducing the number of endpoints in response to the software market demand.<br><br> **Target date to Sandbox January 22** 	|
-|Changes to the SA API	  	|  Yes 	|  Yes 	|  New API and amendment to existing API	|  The remainder of the SA API (Self Employment, Gift Aid and Dividends and Interest) will be moved into our new domain model.<br><br> **Target date to Sandbox March 22** 	|
+| Function | Must be part of legislated quarterly updates | Can be used in year | Details |
+|---	|---	|---	|---	|
+|Property Income API  	| Yes | Yes  | The property endpoints will be moved out of the Self-Assessment API into a new property specific API for 22/23 tax year onwards.<br><br> This change is required so that both property business types, UK and Foreign can be supported by our systems.<br><br> **Target date to Sandbox January 22** |
+|Capital Allowances	|  No 	|  Yes 	| Enhancement to existing endpoints to include Structure and Building allowances and First year electric charge allowance.<br><br> **Target date to Sandbox January 22**  	|
+|Business Validation Rules 	|  No 	|  Yes 	|  Changes to the business validation rules in the service to support the new income types and functionality that has been delivered.<br><br> **Target date to Sandbox January 22** 	|
+|Tax Calculations Version 3 |  No 	|  Yes 	|  Refining Tax Calc API by adding a tax year data item and reducing the number of endpoints in response to the software market demand.<br><br> **Target date to Sandbox January 22** 	|
+|Changes to the SA API	  	|  Yes 	|  Yes 	|  The remainder of the SA API (Self Employment, Gift Aid and Dividends and Interest) will be moved into our new domain model.<br><br> **Target date to Sandbox March 22** 	|
+|Employment coded out (end of year)	|  No 	|  No 	| This will allow a customer with employment income to request that they do not want their self assessment liability coded out. They can also request a debt from a previous year to be coded out. New endpoints have been added to the [Self Assessment Accounts API](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/self-assessment-accounts-api/1.0). 	|
+
 
 ### ITSA Future Deliverables - Delivery dates to be confirmed
 
-|  Function 	|   Part of Quarterly Updates	| Can be used within 1 year	| Change(s)	| Details |
+| Function | Must be part of legislated quarterly updates | Can be used in year | Details |
+|---	|---	|---	|---	|
+| Post crystallisation amendments | No | No | Allows a customer to make a change to their return after they have finalised that year.
+| Residence and remittance basis  	| No | Yes  | To enable software to support overseas customers with UK income. |
+| Trust Income	|  No 	|  Yes 	| To enable software to support customers that have income from a Trust.  	|
+| Partner Income (SA104)  	|  No 	|  Yes 	|  To enable software to support customers that have income from partnership.	|
+| Carry back of losses |  No |  No | To enable customers to be able to claim to carry back losses via a software product.|
+| Allowance: Blind persons, married couples  |  No |  Yes | To enable the submission service to support Allowance: Blind persons, marriage & married couples.
+| Ministers of Religion | No  |  Yes | To enable submission service to support Ministers of Religion.
+| Lloyd's Underwriters  | No  |  Yes | To enable submission service to support Lloyd's Underwriters.
+| Changing accounting period  | No  | Yes  | To enable customers to change their accounting period digitally (Note, discovery session with external vendors took place 5th May 2021.)
+| MPs |  No | Yes  | To allow MPs that have trade or property income to be able to interact with MTD.
+| High Income Child benefit | No  | Yes  | To allow customers who are required to pay the High Income Child Benefit Charge to interact with HMRC.
+| Averaging adjustments & special arrangements | No| Yes | To cater for customers that have averaging adjustments or claim carer's relief.
+| Partnerships | No | Yes | To enable software to support Partnerships.
+| HMRC assist (transactional risking) | Yes | Yes | Providing near real-time feedback to help customers to get things right.
+
+### ITSA submission service
+Planned deliveries
+
+| Function | Must be part of legislated quarterly updates | Can be used in year | Status | Details |
 |---	|---	|---	|---	|---	|
-|Residence and remittance basis  	| No | Yes  | New API | To enable software to support overseas customers with UK income. |
-|Trust Income	|  No 	|  Yes 	|  New API 	| To enable software to support customers that have income from a Trust.  	|
-| Partner Income (SA104)  	|  No 	|  Yes 	|  New API	|  To enable software to support customers that have income from partnership.	|
-|Carry back of losses |  No |  No | New API  | To enable customers to be able to claim to carry back losses via a software product.|
-| Allowance: Blind persons, married couples  |  No |  Yes | New API  | To enable the submission service to support Allowance: Blind persons, marriage & married couples.
-|  Ministers of Religion | No  |  Yes | New API  | To enable submission service to support Ministers of Religion.
-| Lloyd's Underwriters  | No  |  Yes | New API  | To enable submission service to support Lloyd's Underwriters.
-| Changing accounting period  | No  | Yes  | Amendment to existing API  |To enable customers to change their accounting period digitally (Note, discovery session with external vendors took place 5th May 2021.)
-|  MPs |  No | Yes  |  New API |To allow MPs that have trade or property income to be able to interact with MTD.
-|  High Income Child benefit | No  | Yes  |  New API |To allow customers who are required to pay the High Income Child Benefit Charge to interact with HMRC.
-|Averaging adjustments & special arrangements | No| Yes|New API |To cater for customers that have averaging adjustments or claim carer's relief.
-| Partnerships| No|Yes | New API |To enable software to support Partnerships.
+| UK dividends | No | Yes | Live | The ability to report UK dividends.
+| UK interest | No | Yes | Live | The ability to report UK interest.
+| Charitable giving | No | Yes | Live | The ability to report any charitable donations made.
+| Employments (in year) | No | Yes | December 2021 | The ability to view employments information.
+| Employments (end of year) | No | No | April 2022 | The ability to report, amend and/or add new employment details.
+| Crystallisation | No | No | April 2022 | The ability to crystallise/complete the final declaration for a given tax year.
 
 ### Control List Sign Up Guide
 Items shown in **Bold** are mandated income types
 
-|  Income Type / Control List Restriction​ 	|   Earliest Tax Year Supported via API	| Customer can sign up at gov.uk	| Customer can sign up via Handholding	|
-|---	|---	|---	|---
-| **Self Employment**​	| 2019/20 | Yes  | Yes |
-| **UK Property**| 2019/20| Yes| Yes|
-| Foreign (**including Foreign Property**)| 2021/22| No|Yes|
-|**Multiple Self Employment**​ |2020-/21 | No | Yes|
-| UK Interest| 2020/21| Yes|Yes|
-| UK Dividends| 2020/21| Yes|Yes|
-|Gift Aid| 2020/21| Yes|Yes|
-|Employment| 2021/22| Yes|Yes|
-|CIS Deductions| 2020/21| No|Yes|
-|Pension Contributions (including charges & reliefs)​| 2020/21| No|Yes|
-|SA Additional Income​| 2021/22| No|Yes|
-|Pension Income (including State Pension)​| 2021/22| No|Yes|
-|Voluntary Class 2 NICs​| 2021/22| No|Yes|
-|Student Loans| 2020/21| No|Yes|
+|Income Type / Control List Restriction | Earliest Tax Year Supported via API | Customer can sign up at gov.uk	| Customer can sign up via Handholding | Control list/eligibility restriction lifted
+|---	|---	|---	|--- |---
+|**Self Employment** | 2019/20 | Yes  | Yes | Yes
+|**UK Property**| 2019/20| Yes| Yes | Yes
+|**Foreign (including Foreign Property)**| 2021/22| No| Yes | No
+|**Multiple Self Employment** |2020-/21 | No | Yes | No
+|UK Interest| 2020/21| Yes | Yes | Yes
+|UK Dividends| 2020/21| Yes |Yes | Yes
+|Gift Aid| 2020/21| Yes | Yes | Yes
+|Employment| 2021/22| Yes | Yes | No
+|CIS Deductions| 2020/21| No|Yes| No
+|Pension Contributions (including charges & reliefs) | 2020/21| No|Yes| No
+|SA Additional Income | 2021/22| No|Yes| No
+|Pension Income (including State Pension) | 2021/22| No| Yes| No
+|Voluntary Class 2 NICs | 2021/22| No| Yes | No
+|Student Loans| 2020/21| No | Yes | No
+
 
 ### Business and non-business datasets
 |  Mandated Business Datasets 	|   Non-Mandated Datasets	|
