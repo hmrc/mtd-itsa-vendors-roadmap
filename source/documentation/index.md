@@ -58,7 +58,7 @@ Production by **End of April 2022**
 |Business Validation Rules 	|  No 	|  Yes 	|  Changes to the business validation rules in the service to support the new income types and functionality that has been delivered.<br><br> **Target date to Sandbox January 22** 	|
 |Tax Calculations Version 3 |  No 	|  Yes 	|  Refining Tax Calc API by adding a tax year data item and reducing the number of endpoints in response to the software market demand.<br><br> **Target date to Sandbox January 22** 	|
 |Changes to the SA API	  	|  Yes 	|  Yes 	|  The remainder of the SA API (Self Employment, Gift Aid and Dividends and Interest) will be moved into our new domain model.<br><br> **Target date to Sandbox March 22** 	|
-|Employment coded out |  No 	|  No 	| This will allow a customer with employment income to request that they do not want their self assessment liability coded out. They can also request a debt from a previous year to be coded out. New endpoints have been added to the [Self Assessment Accounts API](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/self-assessment-accounts-api/1.0). 	|
+|Employment coded out |  No 	|  No 	| This will allow a customer with employment income to request that they do not want their self assessment liability coded out. They can also request a debt from a previous year to be coded out.<br><br>New endpoints have been added to the [Self Assessment Accounts API](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/self-assessment-accounts-api/1.0). <br><br> **Target date to Sandbox January 22**	|
 
 
 ### ITSA Future Deliverables - Delivery dates to be confirmed
@@ -88,29 +88,29 @@ Planned deliveries
 | UK dividends | No | Yes | Live | The ability to report UK dividends.
 | UK interest | No | Yes | Live | The ability to report UK interest.
 | Charitable giving | No | Yes | Live | The ability to report any charitable donations made.
-| Employments (in year) | No | Yes | December 2021 | The ability to view employments information.
+| Employments (in year) | No | Yes | December 2021 | The ability to view employment information.
 | Employments (end of year) | No | No | April 2022 | The ability to report, amend and/or add new employment details.
 | Crystallisation | No | No | April 2022 | The ability to crystallise/complete the final declaration for a given tax year.
 
 ### Control List Sign Up Guide
 Items shown in **Bold** are mandated income types
 
-|Income Type / Control List Restriction | Earliest Tax Year Supported via API | Customer can sign up at gov.uk	| Customer can sign up via Handholding | Control list/eligibility restriction lifted
+|Income Type / Control List Restriction | Earliest Tax Year Supported via API | Service supports customer sign up | Customer can sign up via handholding | Control list/eligibility restriction lifted
 |---	|---	|---	|--- |---
 |**Self Employment** | 2019/20 | Yes  | Yes | Yes
 |**UK Property**| 2019/20| Yes| Yes | Yes
-|**Foreign (including Foreign Property)**| 2021/22| No| Yes | No
-|**Multiple Self Employment** |2020-/21 | No | Yes | No
+|**Foreign (including Foreign Property)**| 2021/22| Yes| Yes | No
+|**Multiple Self Employment** |2020/21 | Yes | Yes | No
 |UK Interest| 2020/21| Yes | Yes | Yes
 |UK Dividends| 2020/21| Yes |Yes | Yes
 |Gift Aid| 2020/21| Yes | Yes | Yes
 |Employment| 2021/22| Yes | Yes | No
-|CIS Deductions| 2020/21| No|Yes| No
-|Pension Contributions (including charges & reliefs) | 2020/21| No|Yes| No
-|SA Additional Income | 2021/22| No|Yes| No
-|Pension Income (including State Pension) | 2021/22| No| Yes| No
-|Voluntary Class 2 NICs | 2021/22| No| Yes | No
-|Student Loans| 2020/21| No | Yes | No
+|CIS Deductions| 2020/21| Yes|Yes| No
+|Pension Contributions (including charges & reliefs) | 2020/21| Yes|Yes| No
+|SA Additional Income | 2021/22| Yes|Yes| No
+|Pension Income (including State Pension) | 2021/22| Yes| Yes| No
+|Voluntary Class 2 NICs | 2021/22| Yes| Yes | No
+|Student Loans| 2020/21| Yes | Yes | No
 
 
 ### Business and non-business datasets
