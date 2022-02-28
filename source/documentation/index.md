@@ -44,21 +44,21 @@ Production by **December 2021**
 
 | Function | Must be part of legislated quarterly updates | Can be used in year | Details |
 |---	|---	|---	|---	|
-|As is interest  	| No | Yes  | This will enhance the view of a customer account to include interest being charged on any outstanding liability or late payment.<br><br> New endpoints will be added to the [Self Assessment Accounts API](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/self-assessment-accounts-api/1.0).<br><br> **Target date to Sandbox August 21** |
-|Capital Gains Tax  	|  No 	|  Yes 	|  This will allow a customer to report a Capital gain.<br><br> **Target date to Sandbox August 21** 	|
-|Marriage Allowance	|  No 	|  Yes 	|  This will enable a customer to transfer unused personal allowance to their spouse or partner.<br><br> **Target date to Sandbox August 21** 	|
+|As is interest  	| No | Yes  | This will enhance the view of a customer account to include interest being charged on any outstanding liability or late payment.<br><br> New endpoints will be added to the [Self Assessment Accounts API](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/self-assessment-accounts-api/1.0).<br><br> **Target date in Sandbox August 21** |
+|Capital Gains Tax  	|  No 	|  Yes 	|  This will allow a customer to report a Capital gain.<br><br> **Target date in Sandbox August 21** 	|
+|Marriage Allowance	|  No 	|  Yes 	|  This will enable a customer to transfer unused personal allowance to their spouse or partner.<br><br> **Target date in Sandbox August 21** 	|
 
 ### ITSA Future API Deliverables
 Production by **End of April 2022**
 
 | Function | Must be part of legislated quarterly updates | Can be used in year | Details |
 |---	|---	|---	|---	|
-|Property Income API  	| Yes | Yes  | The property endpoints will be moved out of the Self-Assessment API into a new property specific API for 22/23 tax year onwards.<br><br> This change is required so that both property business types, UK and Foreign can be supported by our systems.<br><br> **Target date to Sandbox January 22** |
-|Capital Allowances	|  No 	|  Yes 	| Enhancement to existing endpoints to include Structure and Building allowances and First year electric charge allowance.<br><br> **Target date to Sandbox January 22**  	|
-|Business Validation Rules 	|  No 	|  Yes 	|  Changes to the business validation rules in the service to support the new income types and functionality that has been delivered.<br><br> **Target date to Sandbox January 22** 	|
-|Tax Calculations Version 3 |  No 	|  Yes 	|  Refining Tax Calc API by adding a tax year data item and reducing the number of endpoints in response to the software market demand.<br><br> **Target date to Sandbox January 22** 	|
-|Changes to the SA API	  	|  Yes 	|  Yes 	|  The remainder of the SA API (Self Employment, Gift Aid and Dividends and Interest) will be moved into our new domain model.<br><br> **Target date to Sandbox March 22** 	|
-|Employment coded out |  No 	|  No 	| This will allow a customer with employment income to request that they do not want their self assessment liability coded out. They can also request a debt from a previous year to be coded out.<br><br>New endpoints have been added to the [Self Assessment Accounts API](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/self-assessment-accounts-api/1.0). <br><br> **Target date to Sandbox January 22**	|
+|Property Income API  	| Yes | Yes  | The property endpoints will be moved out of the Self-Assessment API into a new property specific API for 22/23 tax year onwards.<br><br> This change is required so that both property business types, UK and Foreign can be supported by our systems.<br><br> **Target date in Sandbox January 22** |
+|Capital Allowances	|  No 	|  Yes 	| Enhancement to existing endpoints to include Structure and Building allowances and First year electric charge allowance.<br><br> **Target date in Sandbox January 22**  	|
+|Business Validation Rules 	|  No 	|  Yes 	|  Changes to the business validation rules in the service to support the new income types and functionality that has been delivered.<br><br> **Target date in Sandbox January 22** 	|
+|Tax Calculations Version 3 |  No 	|  Yes 	|  Refining Tax Calc API by adding a tax year data item and reducing the number of endpoints in response to the software market demand.<br><br> **Target date in Sandbox August 22** 	|
+|Changes to the SA API	  	|  Yes 	|  Yes 	|  The remainder of the SA API (Self Employment, Gift Aid and Dividends and Interest) will be moved into our new domain model.<br><br> **Target date in Sandbox August 22** 	|
+|Employment coded out |  No 	|  No 	| This will allow a customer with employment income to request that they do not want their self assessment liability coded out. They can also request a debt from a previous year to be coded out.<br><br>New endpoints have been added to the [Self Assessment Accounts API](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/self-assessment-accounts-api/1.0). <br><br> **Target date in Sandbox August 22**	|
 
 
 ### ITSA Future Deliverables - Delivery dates to be confirmed
