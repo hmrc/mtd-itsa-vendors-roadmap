@@ -49,7 +49,6 @@ Production by **December 2021**
 |Marriage Allowance	|  No 	|  Yes 	|  This will enable a customer to transfer unused personal allowance to their spouse or partner.<br><br> **Target date to Sandbox August 21** 	|
 
 ### ITSA Future API Deliverables
-Production by **End of April 2022**
 
 | Function | Must be part of legislated quarterly updates | Can be used in year | Details |
 |---	|---	|---	|---	|
