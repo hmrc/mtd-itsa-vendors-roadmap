@@ -8,7 +8,13 @@ lazy val microservice = Project(appName, file("."))
     libraryDependencies ++= AppDependencies.compile ++ AppDependencies.test,
     update / evictionWarningOptions := EvictionWarningOptions.default.withWarnScalaVersionEviction(false),
     majorVersion := 0,
-    scalaVersion := "2.12.12"
+    scalaVersion := "2.12.15",
+    scalacOptions ++= Seq(
+      "-Xfatal-warnings",
+      "-Wconf:src=routes/.*:silent",
+      "-feature",
+      "-language:postfixOps"
+    )
   )
   .settings(
     publishingSettings: _*
@@ -16,3 +22,5 @@ lazy val microservice = Project(appName, file("."))
   .settings(
     resolvers += Resolver.jcenterRepo
   )
+
+Global / excludeLintKeys += update / evictionWarningOptions
