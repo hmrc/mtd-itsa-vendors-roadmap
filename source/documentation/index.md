@@ -91,17 +91,18 @@ Note for "Can be used in year":
 
 ### Delivery dates **to be confirmed**
 
-| Function                                      | Must be part of legislated quarterly updates? | Can be used in year? | Detail                                                                                             |
-|-----------------------------------------------|-----------------------------------------------|----------------------|----------------------------------------------------------------------------------------------------|
-| Post crystallisation amendments               | No                                            | No                   | Allows a customer to make a change to their final declaration after they have finalised that year. |
-| Health and Social Care Levy                   | No                                            | Yes                  | Changes to the tax calc to include new data breakdown for the Health and Social Care Levy.         |
-| Residence and remittance basis                | No                                            | Yes                  | To enable software to support overseas customers with UK income.                                   |
-| Trust income                                  | No                                            | Yes                  | To enable software to support customers that have income from a trust.                             |
-| Partner income (SA104)                        | No                                            | Yes                  | To enable software to support customers that have income from partnerships.                        |
-| Carry back of losses                          | No                                            | No                   | To enable customers to claim carry back losses via software.                                       |
-| Allowances: blind persons and married couples | No                                            | Yes                  | To enable submission service to support allowances: blind persons, marriage and married couples.   |
-| Minister of religion                          | No                                            | Yes                  | To enable submission service to support ministers of religion.                                     |
-| Lloyd’s underwriters                          | No                                            | Yes                  | To enable submission service to support Lloyd’s underwriters.                                      |
+| Function                                      | Must be part of legislated quarterly updates? | Can be used in year? | Detail                                                                                                                                    |
+|-----------------------------------------------|-----------------------------------------------|----------------------|-------------------------------------------------------------------------------------------------------------------------------------------|
+| Post crystallisation amendments               | No                                            | No                   | Allows a customer to make a change to their final declaration after they have finalised that year.                                        |
+| Health and Social Care Levy                   | No                                            | Yes                  | Changes to the tax calc to include new data breakdown for the Health and Social Care Levy.                                                |
+| Residence and remittance basis                | No                                            | Yes                  | To enable software to support overseas customers with UK income.                                                                          |
+| Trust income                                  | No                                            | Yes                  | To enable software to support customers that have income from a trust.                                                                    |
+| Partner income (SA104)                        | No                                            | Yes                  | To enable software to support customers that have income from partnerships.                                                               |
+| Carry back of losses                          | No                                            | No                   | To enable customers to claim carry back losses via software.                                                                              |
+| Allowances: blind persons and married couples | No                                            | Yes                  | To enable submission service to support allowances: blind persons, marriage and married couples.                                          |
+| Minister of religion                          | No                                            | Yes                  | To enable submission service to support ministers of religion.                                                                            |
+| Lloyd’s underwriters                          | No                                            | Yes                  | To enable submission service to support Lloyd’s underwriters.                                                                             |
+| Self Assessment Assist (MTD) API              | No                                            | No                   | To enable the retrieval of HMRC Assist reports with a list of warnings and possible errors, and also allow customers and agents to acknowledge the report. |
 
 Note for "Can be used in year":
 
