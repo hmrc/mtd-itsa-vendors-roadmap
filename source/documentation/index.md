@@ -102,7 +102,7 @@ Note for "Can be used in year":
 | Allowances: blind persons and married couples | No                                            | Yes                  | To enable submission service to support allowances: blind persons, marriage and married couples.                                          |
 | Minister of religion                          | No                                            | Yes                  | To enable submission service to support ministers of religion.                                                                            |
 | Lloyd’s underwriters                          | No                                            | Yes                  | To enable submission service to support Lloyd’s underwriters.                                                                             |
-| Self-Assessment Assist (MTD) API              | No                                            | No                   | To enable the retrieval of HMRC Assist report with a list of warnings and possible errors, and allow taxpayers to acknowledge the report. |
+| Self Assessment Assist (MTD) API              | No                                            | No                   | To enable the retrieval of HMRC Assist reports with a list of warnings and possible errors, and also allow customers and agents to acknowledge the report. |
 
 Note for "Can be used in year":
 
