@@ -432,3 +432,31 @@ Mandatory APIs are denoted by X.
   </tr>
 </tbody>
 </table>
+
+## Business and non-business datasets
+
+| Mandated Business Datasets                                                                                 | Non-Mandated Datasets                 |
+|------------------------------------------------------------------------------------------------------------|---------------------------------------|
+| SA103 - Self-employment schedule                                                                           | SA102 - Employment                    |
+| Multiple SA103 self-employment schedules                                                                   | SA102M - Minister of religion         |
+| SA105 - Property income                                                                                    | SA103L - Lloyds underwriter           |
+| Foreign property Income                                                                                    | SA108 - Capital gains                 |
+| Class 2 national insurance contributions (required for business customers but not business income as such) | SA109 - Residence and remittance etc. |
+| Averaging Adjustment (farmers, market gardeners, creators of literary or artistic works)                   | SA101 - Additional information        |
+| Foster carers                                                                                              | SA107 - Trusts                        |
+| Losses                                                                                                     | SA106 - Foreign                       |
+|                                                                                                            | SA104S - Short partnership            |
+|                                                                                                            | SA104F - Full partnership             |
+|                                                                                                            | Gift Aid                              |
+|                                                                                                            | UK Interest                           |
+|                                                                                                            | UK Dividends                          |
+|                                                                                                            | Student loan                          |
+|                                                                                                            | Marriage allowance                    |
+|                                                                                                            | Blind persons allowance               |
+|                                                                                                            | High income child benefit             |
+|                                                                                                            | Pension income                        |
+|                                                                                                            | CIS                                   |
+
+We would welcome your feedback to improve our roadmap further.
+
+Please feel free to contact us: sdsteam@hmrc.gov.uk
