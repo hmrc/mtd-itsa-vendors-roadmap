@@ -5,31 +5,31 @@
 This roadmap sets out our anticipated schedule for future API releases. It also provides details of releases relating to
 the service delivered via other mechanisms, such as a User Interface.
 
-**What is a 'front end API'?**
+**What is a front end API?**
 
-A 'front end API' is an API that will allow integration of various API endpoints into your software.
+A front end API is an API that will allow integration of various API endpoints into your software.
 
 **What can it do?**
 
-In 'sandbox' it will allow you to test the experience a customer would have using this functionality by sending back
+In the 'sandbox' it will allow you to test the experience a customer would have using this functionality by sending back
 test responses that mimic the real customer environment. It will not work for real customers until the API is in
-'production' and HMRC 'back end functionality' is available.
+production and HMRC back end functionality is available.
 
-**What is the 'back end functionality'?**
+**What is the back end functionality?**
 
 This is the functionality developed in HMRC which allows API endpoints to be integrated into your software to call a
-customer's information (or update a customer's record) required to complete certain transactions. This could include verifying a customer's details, in which case a request would be sent to HMRC and our 'back end
-functionality' would check whether the customer information is correct. This would also be the way customers would send
+customer's information (or update a customer's record) required to complete certain transactions. This could include verifying a customer's details, in which case a request would be sent to HMRC and our back end
+functionality would check whether the customer information is correct. This would also be the way customers would send
 HMRC their updates, through the frontend API in your software, to the back end function in HMRC which would update their
 record.
 
-**When will the 'back end functionality' be available?**
+**When will the back end functionality be available?**
 
-The 'back end functionality' is being developed in parallel with the 'front end APIs' and their end points. We show on
-this roadmap when front end APIs will be available in 'sandbox' or 'production' that can connect to back end
+The back end functionality is being developed in parallel with the front end APIs and their end points. We show on
+this roadmap when front end APIs will be available in sandbox or production that can connect to back end
 functionality.
 
-**What is 'controlled go-live'?**
+**What is controlled go-live?**
 
 Before releasing functionality to all our customers we will conduct testing with limited customers. This period is
 referred to as 'controlled go-live' or private beta.
@@ -51,7 +51,7 @@ the [Developer Hub API Documentation](https://developer.service.hmrc.gov.uk/api-
 
 Deployed to Production **April 2022**
 
-|             HMRC Developer Hub API            | Must be part of legislated quarterly updates? | Yes - can be used in year<br/> No – used only after year end |                                                                                             Detail                                                                                            | Deployed to Sandbox |
+|             HMRC Developer Hub API            | Must be part of legislated quarterly updates? | Can be used in year? |                                                                                             Detail                                                                                            | Deployed to Sandbox |
 |:---------------------------------------------:|:---------------------------------------------:|:-------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:-------------------:|
 |        Property Business (MTD) API v2.0       |                      Yes                      |                           Yes                           | UK Property has been added for tax year 22/23 onwards. This change is required so that both property business types, UK and Foreign can be supported by our systems.                          |       Jan 2022      |
 |                                               |                       No                      |                           Yes                           | Enhancement to the endpoints to include structure and building allowances and first year electric charge allowance for 22/23 tax year onwards in relation to Capital Allowances.              |       Jan 2022      |
@@ -59,16 +59,16 @@ Deployed to Production **April 2022**
 |   Business Income Source Summary (MTD) v2.0   |                       No                      |                           Yes                           | New version due to the business ID becoming mandatory.                                                                                                                                        |       Jan 2022      |
 |          Individual Losses (MTD) v3.0         |                       No                      |                           Yes                           | New version due to the business ID becoming mandatory.                                                                                                                                        |       Jan 2022      |
 | Business Source Adjustable Summary (MTD) v3.0 |                       No                      |                           Yes                           | New version due to restructuring and new fields being added.                                                                                                                                  |       Mar 2022      |
-| Self-Employment Business v2.0                 |                       No                      |                           Yes                           | **Health and Social Care Levy**<br/>  New calculation information messages to notify software of temporary increase to self- employed National Insurance Contributions (NICs) for the 22/23 tax year.  |         N/A         |
+| Self-Employment Business v2.0                 |                       No                      |                           Yes                           | **Health and Social Care Levy**<br/>  New calculation information messages to notify software of temporary increase to self-employed National Insurance Contributions (NICs) for the 22/23 tax year.  |         N/A         |
 
 Deployed to Production **December 2022**
 
-|          HMRC Developer Hub API          | Must be part of legislated quarterly updates? | Yes - can be used in year<br/> No – used only after year end |                                                                                                                   Detail                                                                                                                  | Deployed to Sandbox |
+|          HMRC Developer Hub API          | Must be part of legislated quarterly updates? | Can be used in year? |                                                                                                                   Detail                                                                                                                  | Deployed to Sandbox |
 |:----------------------------------------:|:---------------------------------------------:|:-------------------------------------------------------:|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:-------------------:|
-|  Self Assessment Accounts (MTD) API v1.0 |                       No                      |                            No                           | **Amendments in relation to employment coded out**<br/>   This allows a user with employment income to request that they do not want their self-assessment liability coded out for the 21/22 tax year onwards.  New endpoints have also been added. |       Jan 2021      |
+|  Self Assessment Accounts (MTD) API v1.0 |                       No                      |                            No                           | **Amendments in relation to employment coded out**<br/>   This allows a user with employment income to request that they do not want their self assessment liability coded out for the 21/22 tax year onwards.  New endpoints have also been added. |       Jan 2021      |
 |               Various APIs               |                       No                      |                           Yes                           | Refactoring of the API which includes repayment, payment information along with manual financial adjustments.                                                                                                                             |       Oct 2022      |
 | Individual Calculations (MTD) version 3  |                       No                      |                           Yes                           | Refinement of Tax Calculation API by adding a tax year data item and reducing the number of endpoints in response to the software market demand.                                                                                          |       Aug 2022      |
-|  Self Assessment Accounts (MTD) API v2.0 |                      Yes                      |                           Yes                           | The existing Self-Assessment API (Self Employment, Gift Aid and Dividends and Interest) broken down into specific datasets APIs for Self-Employments, Charitable Giving, Interest and Dividends.                                          |       Oct 2022      |
+|  Self Assessment Accounts (MTD) API v2.0 |                      Yes                      |                           Yes                           | The existing Self Assessment API (Self Employment, Gift Aid and Dividends and Interest) broken down into specific datasets APIs for Self-Employments, Charitable Giving, Interest and Dividends.                                          |       Oct 2022      |
 |     Property Business (MTD) API v2.0     |                      Yes                      |                           Yes                           | The existing UK property historic migration to a microservice i.e. Property Business API. Property historic covers data from 2017 to 2021. The UK property periodic endpoint is for the current and future tax year.                      |       Oct 2022      |
 
 
@@ -76,7 +76,7 @@ Deployed to Production **December 2022**
 
 Scheduled to be deployed to Production **April 2023**
 
-|         HMRC Developer Hub API         | Must be part of legislated quarterly updates? | Yes - can be used in year<br/> No – used only after year end |                                                                                                                                                                                                                                           Detail                                                                                                                                                                                                                                           |       Target date for sandbox      |
+|         HMRC Developer Hub API         | Must be part of legislated quarterly updates? | Can be used in year? |                                                                                                                                                                                                                                           Detail                                                                                                                                                                                                                                           |       Target date for sandbox      |
 |:--------------------------------------:|:---------------------------------------------:|:-------------------------------------------------------:|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:----------------------------------:|
 | Individual Calculations (MTD) API v3.0 |                       No                      |                           Yes                           | **Class 2 NICs (Spring Statement)**<br/>  Reduction to Class 2 NICs liabilities to nil on profits between the Small Profits Threshold (SPT) and Lower Profits Threshold (LPT).                                                                                                                                                                                                                                                                                                                       |              Feb 2023              |
 |              Various APIs              |                      N/A                      |                           N/A                           | Tax Year Specific (TYS) API changes involves the movement of the old APIs to new tax year specific APIs which means that software providers and user will need to use the new version of the APIs to report data from 23/24.                                                                                                                                                                                                                                                               | Split deliveries  Nov 2022Jan 2023 |
@@ -88,7 +88,7 @@ Scheduled to be deployed to Production **April 2023**
 Scheduled to be deployed to Production **June 2023**
 
 
-|           HMRC Developer Hub API           | Must be part of legislated quarterly updates? | Yes - can be used in year<br/> No – used only after year end |                                                                                                                                                                                                                                                                                                                                     Detail                                                                                                                                                                                                                                                                                                                                     | Target date for sandbox |
+|           HMRC Developer Hub API           | Must be part of legislated quarterly updates? | Can be used in year? |                                                                                                                                                                                                                                                                                                                                     Detail                                                                                                                                                                                                                                                                                                                                     | Target date for sandbox |
 |:------------------------------------------:|:---------------------------------------------:|:-------------------------------------------------------:|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:-----------------------:|
 | Individuals Income Received (MTD) API v1.0 |                       No                      |                            No                           | **Off Payroll Working (OPW) – new marker**<br/>  OPW marker is set by the employer and indicates that the employee is working off payroll (IR35).  The marker can be present for each employment source, customers can after the end of the tax year add/remove the marker if they disagree as part of their self assessment, if they do this they need to receive a warning message which HMRC will provide. The warning message is being designed for ITSA submission service for April 2024 release. The OPW marker can be viewed in year however the customer can’t remove it until after the year end, HMRC online services will not be displaying the marker in year to customers. |         Feb 2023        |
 |   Individual Calculations (MTD) API v3.0   |                      N/A                      |                           N/A                           | Update of business validation calculation error and addition of new objects to the calculation output                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |         Feb 2023        |
@@ -97,7 +97,7 @@ Scheduled to be deployed to Production **June 2023**
 
 Scheduled to be deployed to Production **September 2023**
 
-|         HMRC Developer Hub API         | Must be part of legislated quarterly updates? | Yes - can be used in year<br/> No – used only after year end |                                                                                               Detail                                                                                               | Target date for sandbox |
+|         HMRC Developer Hub API         | Must be part of legislated quarterly updates? | Can be used in year? |                                                                                               Detail                                                                                               | Target date for sandbox |
 |:--------------------------------------:|:---------------------------------------------:|:-------------------------------------------------------:|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:-----------------------:|
 | Individual Calculations (MTD) API v3.0 |                       No                      |                           Yes                           | **View cease business income sources**<br/>  Allows a user to view ceased business income source data from software                                                                                          |           TBC           |
 |     Business Details (MTD) API v1.0    |                       No                      |                           Yes                           | **GET ITSA status**<br/>  New GET API to source customer ITSA status e.g. MTD Mandated / MTD Voluntary / Annual etc.  This status can be used in software design to determine relevant services and content. |           TBC           |
@@ -105,7 +105,7 @@ Scheduled to be deployed to Production **September 2023**
 
 Scheduled to be deployed to Production **December 2023** (to be confirmed)
 
-|                                HMRC Developer Hub API                               | Must be part of legislated quarterly updates? | Yes - can be used in year No – used only after year end |                                                                                                                                                                                                                                  Detail                                                                                                                                                                                                                                  | Target date for sandbox |
+|                                HMRC Developer Hub API                               | Must be part of legislated quarterly updates? | Can be used in year? |                                                                                                                                                                                                                                  Detail                                                                                                                                                                                                                                  | Target date for sandbox |
 |:-----------------------------------------------------------------------------------:|:---------------------------------------------:|:-------------------------------------------------------:|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:-----------------------:|
 | Business Income Source Summary (MTD) API v2.0 and  Property Business (MTD) API v2.0 |                       No                      |                           Yes                           | **Basis Period Reform**<br/> Customer election for month end ‘calendar quarters’. Customers must elect or withdraw election before any updates have been submitted for the tax year, this will be a new endpoint that all software products must support for all MTD customers                                                                                                                                                                                                     |           TBC           |
 |                           Property Business (MTD) API v2.0                          |                       No                      |                           Yes                           | **Managing Obligations**<br/> This delivery will change the way in which obligations are marked as met by a customer from the request of tax calculation to the submission of data, this requires changes to some end points & BVRs.                                                                                                                                                                                                                                              |           TBC           |
@@ -114,7 +114,7 @@ Scheduled to be deployed to Production **December 2023** (to be confirmed)
 
 Scheduled to be deployed to Production **April 2024** (to be confirmed)
 
-|             HMRC Developer Hub API            | Must be part of legislated quarterly updates? | Yes - can be used in year<br/> No – used only after year end |                                                       Detail                                                       | Target date for sandbox |
+|             HMRC Developer Hub API            | Must be part of legislated quarterly updates? | Can be used in year? |                                                       Detail                                                       | Target date for sandbox |
 |:---------------------------------------------:|:---------------------------------------------:|:-------------------------------------------------------:|:------------------------------------------------------------------------------------------------------------------:|:-----------------------:|
 | Business Income Source Summary (MTD) API v2.0 |                       No                      |                           Yes                           | **Basic Rate Divergence**<br/> View the updated basic rate based on changes made to the basic rate by the devolved nations. |           TBC           |
 |   Individuals Income Received (MTD) API v1.0  |                       No                      |                           TBC                           | **Asset Holding Company (AHC)**<br/>  3 x new data fields on the Capital Gains Tax schedule                                |           TBC           |
@@ -122,7 +122,7 @@ Scheduled to be deployed to Production **April 2024** (to be confirmed)
 Planned future deliveries **2024/25**
 
 
-|               HMRC Developer Hub API              | Must be part of legislated quarterly updates? | Yes - can be used in year<br/> No – used only after year end |                                                                                                                                                             Detail                                                                                                                                                             |   |
+|               HMRC Developer Hub API              | Must be part of legislated quarterly updates? | Can be used in year? |                                                                                                                                                             Detail                                                                                                                                                             |   |
 |:-------------------------------------------------:|:---------------------------------------------:|:-------------------------------------------------------:|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:-:|
 |          Individual Losses (MTD) API v3.0         |                       No                      |                            No                           | **Carry Back of Losses**<br/>  Enables losses incurred in one tax year to be set off against profits made in previous years, subject to rules.                                                                                                                                                                                          |   |
 |                                                   |                       No                      |                           Yes                           | **Claim outside of the amendment window**<br/> Enables amendments to be made outside the amendment window                                                                                                                                                                                                                               |   |
@@ -139,7 +139,7 @@ Planned future deliveries **2024/25**
 Planned future deliveries **2025/26**
 
 
-|           HMRC Developer Hub API          | Must be part of legislated quarterly updates? | Yes - can be used in year<br/> No – used only after year end |                                                                                                                                       Detail                                                                                                                                       |
+|           HMRC Developer Hub API          | Must be part of legislated quarterly updates? | Can be used in year? |                                                                                                                                       Detail                                                                                                                                       |
 |:-----------------------------------------:|:---------------------------------------------:|:-------------------------------------------------------:|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
 |   Individual Calculations (MTD) API v3.0  |                       No                      |                            No                           | **Repayment EOY**<br/> There will be no provision to select an option for repayment in software this will be requested via HMRC online services – discovery will confirm design. Software will have provision to retrieve the repayment status, this will involve creating a new endpoint.  |
 |                                           |                       No                      |                           Yes                           | **Residence and Remittance**<br/> To enable software to support overseas customers with UK income.                                                                                                                                                                                          |
@@ -154,7 +154,7 @@ Planned future deliveries **2025/26**
 Planned future deliveries **2026/27**
 
 
-|           HMRC Developer Hub API          | Must be part of legislated quarterly updates? | Yes - can be used in year<br/> No – used only after year end |                                                                                                                              Detail                                                                                                                             |
+|           HMRC Developer Hub API          | Must be part of legislated quarterly updates? | Can be used in year? |                                                                                                                              Detail                                                                                                                             |
 |:-----------------------------------------:|:---------------------------------------------:|:-------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
 |   Individual Calculations (MTD) API v3.0  |                       No                      |                           Yes                           | **Member of Parliament**<br/> To enable software to support Member of Parliament                                                                                                                                                                                         |
 |                    N/A                    |                      N/A                      |                           N/A                           | **Produce Mortgage Evidence**<br/>  HMRC online services will provide a print service of income evidence for customers to use for loan/mortgage applications.  Discovery will determine if prints from software will be acceptable, we can collaborate on this discovery. |
@@ -167,18 +167,18 @@ Planned future deliveries **2026/27**
 
 ## ITSA Submission Service
 
-This is a new self-assessment service for customers and their authorised agents to update and submit an income tax return, that will be available in HMRC online services.
+This is a new self assessment service for customers and their authorised agents to update and submit an income tax return, that will be available in HMRC online services.
 
 Customers in MTD will use this service to report income that is not supported in their software.
 
 * Customers will *not* be able to use this service to send updates for business and property income with quarterly filing obligations.
-* Non-MTD customers who are not using software will use this service to file their self-assessment tax return once their record has migrated to the new service.
+* Non-MTD customers who are not using software will use this service to file their self assessment tax return once their record has migrated to the new service.
 
 ### Current functionality - Update and submit an income tax return
 
 Currently live
 
-| Functionality to report against income type | Yes - can be used in year<br/> No – used only after year end | Status |                           Detail                           |
+| Functionality to report against income type | Can be used in year? | Status |                           Detail                           |
 |:-------------------------------------------:|:-------------------------------------------------------:|:------:|:----------------------------------------------------------:|
 |                 UK dividends                |                           Yes                           |  Live  | Report UK dividends.                                       |
 |                 UK interest                 |                           Yes                           |  Live  | Report UK interest.                                        |
@@ -192,7 +192,7 @@ Currently live
 
 Planned future deliveries **2023/24**
 
-| Functionality to report against income type | Yes - can be used in year<br/> No – used only after year end |                                          Detail                                          |
+| Functionality to report against income type | Can be used in year? |                                          Detail                                          |
 |:-------------------------------------------:|:-------------------------------------------------------:|:----------------------------------------------------------------------------------------:|
 |              Tailor your Return             |                           Yes                           | Tailor an end of year return to ensure customers submit all income subject to income tax |
 |                     CIS                     |                           Yes                           | Report Construction Industry Scheme                                                      |
@@ -202,7 +202,7 @@ Planned future deliveries **2023/24**
 
 Planned future deliveries **2024/25**
 
-| Functionality to report against income type | Yes - can be used in year<br/> No – used only after year end |                                                                                                Detail                                                                                               |
+| Functionality to report against income type | Can be used in year? |                                                                                                Detail                                                                                               |
 |:-------------------------------------------:|:-------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
 |              Capital Gains Tax              |                           Yes                           | Report Capital Gains Tax                                                                                                                                                                            |
 |               Self-Employment               |                           Yes                           | Report Self Employment                                                                                                                                                                              |
@@ -213,7 +213,7 @@ Planned future deliveries **2024/25**
 
 Planned future deliveries **2025/26**
 
-| Functionality to report against income type | Yes - can be used in year<br/> No – used only after year end |                   Detail                   |
+| Functionality to report against income type | Can be used in year? |                   Detail                   |
 |:-------------------------------------------:|:-------------------------------------------------------:|:------------------------------------------:|
 |       Post Crystallisation Amendments       |                           Yes                           | Amend self assessment tax return           |
 |               Partner Income                |                           Yes                           | Report Partner Income                      |
@@ -224,7 +224,7 @@ Planned future deliveries **2025/26**
 
 Planned future deliveries **2026/27**
 
-|   Functionality to report against income type  | Yes - can be used in year<br/> No – used only after year end |                        Detail                       |
+|   Functionality to report against income type  | Can be used in year? |                        Detail                       |
 |:----------------------------------------------:|:-------------------------------------------------------:|:---------------------------------------------------:|
 |             Members of Parliament              |                           Yes                           | Report MP income                                    |
 |              Ministers of Religion             |                           Yes                           | Report Ministers of Religion Income                 |
@@ -432,30 +432,6 @@ Mandatory APIs are denoted by X.
   </tr>
 </tbody>
 </table>
-
-## Business and non-business datasets
-
-| Mandated Business Datasets                                                                                 | Non-Mandated Datasets                 |
-|------------------------------------------------------------------------------------------------------------|---------------------------------------|
-| SA103 - Self-employment schedule                                                                           | SA102 - Employment                    |
-| Multiple SA103 self-employment schedules                                                                   | SA102M - Minister of religion         |
-| SA105 - Property income                                                                                    | SA103L - Lloyds underwriter           |
-| Foreign property Income                                                                                    | SA108 - Capital gains                 |
-| Class 2 national insurance contributions (required for business customers but not business income as such) | SA109 - Residence and remittance etc. |
-| Averaging Adjustment (farmers, market gardeners, creators of literary or artistic works)                   | SA101 - Additional information        |
-| Foster carers                                                                                              | SA107 - Trusts                        |
-| Losses                                                                                                     | SA106 - Foreign                       |
-|                                                                                                            | SA104S - Short partnership            |
-|                                                                                                            | SA104F - Full partnership             |
-|                                                                                                            | Gift Aid                              |
-|                                                                                                            | UK Interest                           |
-|                                                                                                            | UK Dividends                          |
-|                                                                                                            | Student loan                          |
-|                                                                                                            | Marriage allowance                    |
-|                                                                                                            | Blind persons allowance               |
-|                                                                                                            | High income child benefit             |
-|                                                                                                            | Pension income                        |
-|                                                                                                            | CIS                                   |
 
 We would welcome your feedback to improve our roadmap further.
 
