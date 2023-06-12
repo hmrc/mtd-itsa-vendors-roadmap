@@ -116,7 +116,7 @@ Scheduled to be deployed to Production **December 2023** (to be confirmed)
 | Business Details (MTD) API           												  |     										  |     													| **Retrieve multiple SE sources** <br/> Ability to view multiple business/property sources that are added outside of software.        | TBC |                                                                                                                                                                                      | TBC |
 		
 
-Scheduled to be deployed to Production **April 2024** (to be confirmed)
+Scheduled for future deployment (to be confirmed)
 
 |             HMRC Developer Hub API            | Must be part of legislated quarterly updates? | Can be used in year? |                                                       Detail                                                       | Target date for sandbox |
 |:---------------------------------------------:|:---------------------------------------------:|:-------------------------------------------------------:|:------------------------------------------------------------------------------------------------------------------:|:-----------------------:|
@@ -128,7 +128,8 @@ Planned future deliveries
 
 |               HMRC Developer Hub API              | Must be part of legislated quarterly updates? | Can be used in year? |                                                                                                                                                             Detail                                                                                                                                                             |   |
 |:-------------------------------------------------:|:---------------------------------------------:|:-------------------------------------------------------:|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:-:|
-|          Individual Losses (MTD) API v3.0         |                       No                      |                            No                           | **Carry Back of Losses**<br/>  Enables losses incurred in one tax year to be set off against profits made in previous years, subject to rules.                                                                                                                                                                                          |   |
+| Business Source Adjustable Summary (MTD) API v3.0 | No | Yes | **Error Code update** from 503 to 422 for the wrong income source type in the path parameter                                           |
+| Self Assessment Accounts (MTD) API v2.0           | No | Yes | **Report accounting period start and end dates for self employment** - customers will provide this as part of their end of year return ||          Individual Losses (MTD) API v3.0         |                       No                      |                            No                           | **Carry Back of Losses**<br/>  Enables losses incurred in one tax year to be set off against profits made in previous years, subject to rules.                                                                                                                                                                                          |   |
 |                                                   |                       No                      |                           Yes                           | **Claim outside of the amendment window**<br/> Enables amendments to be made outside the amendment window                                                                                                                                                                                                                               |   |
 |       Individual Calculations (MTD) API v3.0      |                       No                      |                            No                           | **HMRC Corrections (amendments & corrections)**<br/> Ability for HMRC to set correction window following final declaration/crystallisation (typically 12 months)                                                                                                                                                                                          |   |
 | Business Source Adjustable Summary (MTD) API v3.0 |                       No                      |                           Yes                           | **Customer Amendments (amendments & corrections)**<br/> Allows amendments to be made to a customer's declared information after the final declaration has been made with an amendment window                                                                                                                                            |   |
@@ -136,7 +137,7 @@ Planned future deliveries
 |      Self Assessment Accounts (MTD) API v2.0      |                       No                      |                            No                           | **Change accounting method (cash/accruals)**<br/> – customers will provide this as part of their end of year return                                                                                                                                                                                                                     |   |
 |          Property Business (MTD) API v2.0         |                       No                      |                            No                           | **Report accounting period start and end dates for property**<br/> – customers will provide this as part of their end of year return                                                                                                                                                                                                   |   |
 |      Self Assessment Accounts (MTD) API v2.0      |                       No                      |                            No                           | **Report accounting period start and end dates for self employment**<br/> - customers will provide this as part of their end of year return                                                                                                                                                                                             |   |
-|             HMRC Assist				            |                      TBC                      |                           Yes                           | **HMRC Assist (Transactional Risking)**<br/> – providing near real-time feedback to help customers get things right, messages are presented when a tax calculation is called.  |   |
+|             HMRC Assist				            |                      TBC                      |                           Yes                           | **HMRC Assist**<br/> – providing near real-time feedback to help customers get things right, messages are presented when a tax calculation is called.  |   |
 |   Individual Calculations (MTD) API v3.0  |                       No                      |                            No                           | **Repayment EOY**<br/> There will be no provision to select an option for repayment in software this will be requested via HMRC online services – discovery will confirm design. Software will have provision to retrieve the repayment status, this will involve creating a new endpoint.  |
 |                                           |                       No                      |                           Yes                           | **Residence and Remittance**<br/> To enable software to support overseas customers with UK income.                                                                                                                                                                                          |
 |                                           |                       No                      |                           Yes                           | **Partner Income**<br/> To enable software to support customers that have income from partnerships.                                                                                                                                                                                         |
@@ -179,7 +180,7 @@ Currently live
 
 ### Future functionality - Update and submit an income tax return
 
-Planned future deliveries **2023/24**
+Planned future deliveries
 
 | Functionality to report against income type | Can be used in year? |                                          Detail                                          |
 |:-------------------------------------------:|:-------------------------------------------------------:|:----------------------------------------------------------------------------------------:|
@@ -188,33 +189,17 @@ Planned future deliveries **2023/24**
 |                   Pensions                  |                           Yes                           | Report pensions                                                                          |
 |            Additional information           |                           Yes                           | Report Additional Information Part 1                                                     |
 |               State Benefits                |                           Yes                           | Report State Benefits                                                                    |
-
-Planned future deliveries **2024/25**
-
-| Functionality to report against income type | Can be used in year? |                                                                                                Detail                                                                                               |
-|:-------------------------------------------:|:-------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
 |              Capital Gains Tax              |                           Yes                           | Report Capital Gains Tax                                                                                                                                                                            |
 |               Self-Employment               |                           Yes                           | Report Self Employment                                                                                                                                                                              |
 |               Property Income               |                           Yes                           | Report Property Income                                                                                                                                                                              |
 |                Foreign Income               |                           Yes                           | Report Foreign Income                                                                                                                                                                               |
 |             Off Payroll Working             |                           Yes                           | View Off Payroll Working (OPW) marker after year end and offer customer the option to add/remove and submit to HMRC.  A warning message will be displayed to the customer if the marker is amended. |
-
-
-Planned future deliveries **2025/26**
-
-| Functionality to report against income type | Can be used in year? |                   Detail                   |
-|:-------------------------------------------:|:-------------------------------------------------------:|:------------------------------------------:|
 |       Post Final Declaration (Crystallisation) Amendments       |                           Yes                           | Amend self assessment tax return           |
 |               Partner Income                |                           Yes                           | Report Partner Income                      |
 |          High Income Child Benefit          |                           Yes                           | Report High Income Child Benefit           |
 |                 Trust Income                |                           Yes                           | Report income from a Trust                 |
 |            Additional Information           |                           Yes                           | Report Additional Information Part 2       |
 |           Residence and Remittance          |                           Yes                           | Support overseas customers with UK income. |
-
-Planned future deliveries **2026/27**
-
-|   Functionality to report against income type  | Can be used in year? |                        Detail                       |
-|:----------------------------------------------:|:-------------------------------------------------------:|:---------------------------------------------------:|
 |             Members of Parliament              |                           Yes                           | Report MP income                                    |
 |              Ministers of Religion             |                           Yes                           | Report Ministers of Religion Income                 |
 |             Blind Persons Allowance            |                           Yes                           | Claim Blind Persons Allowance                       |
@@ -223,6 +208,10 @@ Planned future deliveries **2026/27**
 |               Marriage Allowance               |                           Yes                           | Claim Marriage Allowance                            |
 | Averaging adjustments and special arrangements |                           Yes                           | Report averaging adjustments & special arrangements |
 |              Carry back of losses              |                           Yes                           | Carry back losses from previous tax years           |
+| Gift Aid budget changes | Yes | Implement any devolved administration gift aid |
+| Insolvency | Yes | Report Insolvency |
+| Cessation of Income | Yes | Report cessation of income |
+| Cash Accounting vs Traditional Accounting | Yes | Report use of cash accounting or traditional accounting |
 
 
 
