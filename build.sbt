@@ -1,5 +1,3 @@
-import uk.gov.hmrc.sbtdistributables.SbtDistributablesPlugin.publishingSettings
-
 val appName = "mtd-itsa-vendors-roadmap"
 
 lazy val microservice = Project(appName, file("."))
@@ -15,9 +13,6 @@ lazy val microservice = Project(appName, file("."))
       "-feature",
       "-language:postfixOps"
     )
-  )
-  .settings(
-    publishingSettings: _*
   )
   .settings(
     resolvers += Resolver.jcenterRepo
