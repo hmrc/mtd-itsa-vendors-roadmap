@@ -38,9 +38,12 @@ referred to as 'controlled go-live' or private beta.
 
 ### Link to changelog for submission APIs
 
-Keep up to date with changes to the APIs in sandbox and production with our new changelog.
+Details of ongoing changes to the APIs in sandbox and production are available at the changelog:
 
 * [ITSA APIs changelog](https://github.com/hmrc/income-tax-mtd-changelog)
+
+Note that the date of changelog entries is the date that the API change was deployed (either to sandbox or production as described in the entry).
+
 
 ### Current endpoint functionality in sandbox and production
 
