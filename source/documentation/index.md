@@ -1,6 +1,6 @@
 # Making Tax Digital ITSA Roadmap 
 
-Last updated: 19 July 2023
+Last updated: 8 September 2023
 
 ## About this roadmap
 
@@ -83,7 +83,7 @@ Deployed to Production **April 2023**
 
 
 
-Scheduled to be deployed to Production **December 2023**
+#### Scheduled to be deployed to Production **December 2023**
 
 |                                API(s) impacted by change                               | Must be part of legislated quarterly updates? | Can be used in year? |                                                                                                                                                                                                                                  Change                                                                                                                                                                                                                                  | Deployed to Sandbox |
 |:-----------------------------------------------------------------------------------:|:---------------------------------------------:|:-------------------------------------------------------:|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:-----------------------:|
@@ -97,7 +97,7 @@ Scheduled to be deployed to Production **December 2023**
 | Individuals Expenses v2.0,<br/>Individuals Income Received v2.0												  | No  										  | TBC 													| **Adding expenses** <br/> Updates to the occupational pension and employment expenses restricting the submission of benefits In Kind, potentially student loan deductions and employment expenses against that employment. | July 2023 |
 
 		
-Scheduled to be deployed to Production **April 2024**
+#### Scheduled to be deployed to Production **April 2024**
 
 |                                HMRC Developer Hub API                               | Must be part of legislated quarterly updates? | Can be used in year? |                                                                                                                                                                                                                                  Change                                                                                                                                                                                                                                  | Target date for Sandbox |
 |:-----------------------------------------------------------------------------------:|:---------------------------------------------:|:-------------------------------------------------------:|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:-----------------------:|
@@ -107,7 +107,7 @@ Scheduled to be deployed to Production **April 2024**
 
 
 
-Planned future deliveries
+#### Planned future deliveries
 
 The below table is not comprehensive and other APIs may be impacted by future deliveries. Version numbers for the APIs will be added once a release date has been scheduled.
 
@@ -115,7 +115,7 @@ The below table is not comprehensive and other APIs may be impacted by future de
 |                              API(s) impacted by change                               | Must be part of legislated quarterly updates? | Can be used in year? |                                                                                                                                       Change                                                                                                                                      | Deployed to Sandbox |
 |:----------------------------------------------------------------------------------:|:---------------------------------------------:|:--------------------:|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:-------------------:|
 |                                     HMRC Assist                                    |                      N/A                      |          Yes         |              **HMRC Assist**<br/> Providing near real-time feedback to help customers get things right, messages are presented when a tax calculation is called. This API has been developed and will be delivered in 24/25 to support vendor testing of feedback messages             |      June 2023      |
-|						Self-Employment Business<br/>Individual Calculations |                       No                      |                           Yes                           | **Update regarding multiple income sources**<br/>  The 'other tax taken off trading income' object will be added to this API. |           July 2023           |					 
+|						Self-Employment Business,<br/>Individual Calculations |                       No                      |                           Yes                           | **Update regarding multiple income sources**<br/>  The 'other tax taken off trading income' object will be added to this API. |           July 2023           |					 
 | Business Details,<br/>Individual Calculations   						 |   No  										  |     Yes									| **Retrieve multiple SE sources** <br/> Ability to view multiple business/property sources that are added outside of software.                                                                                                                                   | August 2023 |
 |                    Business Income Source Summary                    |                       No                      |          Yes         |                                                                               **Basic Rate Divergence**<br/> View the updated basic rate based on changes made to the basic rate by the devolved nations.                                                                              |         TBC         |
 | Business Income Source Summary and Property Business  |                       No                      |          Yes         |     **Basis Period Reform**<br/> Customer election for month end ‘calendar quarters’ Customers must elect or withdraw election before any updates have been submitted for the tax year. This will be a new endpoint that all software products must support for all MTD customers    |         TBC         |
