@@ -1,6 +1,6 @@
 # Making Tax Digital ITSA Roadmap 
 
-Last updated: 11 September 2023
+Last updated: 12 September 2023
 
 ## About this roadmap
 
@@ -98,16 +98,16 @@ Scheduled to be deployed to Production **April 2024** (to be confirmed)
 
 |                                API(s) impacted by change                               | Must be part of legislated quarterly updates? | Can be used in year? |                                                                                                                                                                                                                                  Change                                                                                                                                                                                                                                  | Deployed to Sandbox |
 |:-----------------------------------------------------------------------------------:|:---------------------------------------------:|:-------------------------------------------------------:|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:-----------------------:|
-| Individual Calculations v4.0,<br/> Self Employment Business v3.0                    |    No   | Yes  | **Update regarding multiple income sources**<br/> The ‘other tax taken off trading income’ object will be added to this API. | Jul 2023 |
-| Business Income Source Summary v2.0 and Property Business v2.0 |                       No                      |          Yes         |     **Basis Period Reform**<br/> Customer election for month end ‘calendar quarters’. Customers must elect or withdraw election before any updates have been submitted for the tax year. This will be a new endpoint that all software products must support for all MTD customers.    |         Jan 2024         |
-| Business Income Source Summary,<br/>Individual Reliefs,<br/>Individual Calculations    |                       No                      |          Yes         |                                                                               **Basic Rate Divergence**<br/> View the updated basic rate based on changes made to the basic rate by the devolved nations.                                                                              |         Jan 2024         |
+| Individual Calculations v4.0,<br/> Self Employment Business v3.0                    |    No   | Yes  | **Update regarding multiple income sources**<br/> The ‘other tax taken off trading income’ object will be added to this API. | TBC |
+| Business Income Source Summary v2.0 and Property Business v2.0 |                       No                      |          Yes         |     **Basis Period Reform**<br/> Customer election for month end ‘calendar quarters’. Customers must elect or withdraw election before any updates have been submitted for the tax year. This will be a new endpoint that all software products must support for all MTD customers.    |         TBC        |
+| Business Income Source Summary,<br/>Individual Reliefs,<br/>Individual Calculations    |                       No                      |          Yes         |                                                                               **Basic Rate Divergence**<br/> View the updated basic rate based on changes made to the basic rate by the devolved nations.                                                                              |         TBC         |
 |                 Self Assessment Accounts API  									|					No 							| 			Yes 		| Introducing a change to ensure a nil final declaration can be supported   | TBC |
 
 
 
 #### Planned future deliveries
 
-The below table is not comprehensive and other APIs may be impacted by future deliveries. Version numbers for the APIs will be added once a release date has been scheduled.
+The below table is not comprehensive and other APIs may be impacted by future deliveries. Version numbers for the APIs will be added once a release date has been confirmed.
 
 
 |                              API(s) impacted by change                               | Must be part of legislated quarterly updates? | Can be used in year? |                                                                                                                                       Change                                                                                                                                      | Deployed to Sandbox |
