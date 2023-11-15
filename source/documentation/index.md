@@ -1,6 +1,6 @@
 # Making Tax Digital ITSA Roadmap 
 
-Last updated: 30 October 2023
+Last updated: 16 November 2023
 
 ## About this roadmap
 
@@ -93,7 +93,8 @@ Scheduled to be deployed to Production **December 2023**
 | Property Business v3.0     												  | Yes 										  | Yes 													| **Data item no longer required** <br/> Removal of ‘losses brought forward’ in the annual self-employment/property business API.                                                                                            | Jul 2023 |
 | Individuals Expenses v2.0,<br/>Individuals Income Received v2.0												  | No  										  | Yes 													| **Adding expenses** <br/> Updates to the occupational pension and employment expenses restricting the submission of benefits In Kind, potentially student loan deductions and employment expenses against that employment. | Sep 2023 |
 | Business Details v1.0,<br/>Individual Calculations v5.0 						| No | Yes | **Retrieve multiple SE sources** <br/> Ability to view multiple business/property sources that are added outside of software. | Aug 2023 |
-		
+| Business Source Adjustable Summary v4.0 | No | Yes | **Error update** <br/> Change to the 404 error message to allow vendors to distinguish the reason for the error. | Nov 2023 |  |	
+
 Scheduled to be deployed to Production **April 2024** (to be confirmed)
 
 |                                API(s) impacted by change                               | Must be part of legislated quarterly updates? | Can be used in year? |                                                                                                                                                                                                                                  Change                                                                                                                                                                                                                                  | Deployed to Sandbox |
@@ -102,7 +103,6 @@ Scheduled to be deployed to Production **April 2024** (to be confirmed)
 | Business Income Source Summary and Property Business |                       No                      |          Yes         |     **Basis Period Reform**<br/> Customer election for month end ‘calendar quarters’. Customers must elect or withdraw election before any updates have been submitted for the tax year. This will be a new endpoint that all software products must support for all MTD customers.    |         TBC        |
 | Business Income Source Summary,<br/>Individual Reliefs,<br/>Individual Calculations    |                       No                      |          Yes         |                                                                               **Basic Rate Divergence**<br/> View the updated basic rate based on changes made to the basic rate by the devolved nations.                                                                              |         TBC         |
 |                 Self Assessment Accounts API  									|					No 							| 			Yes 		| Introducing a change to ensure a nil final declaration can be supported   | TBC |
-|                  Business Source Adjustable Summary                   |                       No                      |          Yes         |                                                                                            **Error Code update** from 503 to 422 for the wrong income source type in the path parameter                                                                                           |      TBC                |
 
 
 
