@@ -1,6 +1,6 @@
 # Making Tax Digital ITSA Roadmap 
 
-Last updated: 4 December 2023
+Last updated: 5 December 2023
 
 ## About this roadmap
 
@@ -103,8 +103,8 @@ Scheduled to be deployed to Production **April 2024** (to be confirmed)
 | Individual Calculations,<br/> Self Employment Business                   |    No   | Yes  | **Update regarding multiple income sources**<br/> The ‘other tax taken off trading income’ object will be added to this API. | Sep 2023 |
 | Business Income Source Summary and Property Business |                       No                      |          Yes         |     **Basis Period Reform**<br/> Customer choice of quarterly period dates. Customers must choose or withdraw choice before any updates have been submitted for the tax year. This will be a new endpoint that all software products must support for all MTD customers.    |         Jan 2024        |
 | Individual Calculations    |                       No                      |          Yes         |                                                                               **Basic Rate Divergence**<br/> View the updated basic rate based on changes made to the basic rate by the devolved nations.                                                                              |         Jan 2024         |
-|                 Self Assessment Accounts  									|					No 							| 			Yes 		| **Self Assessment account data**<br/> Document due date optional rather than required when retrieving Self Assessment balance and transactions.   | Dec 2023 |
-| Self Assessment Accounts  | No	| No	| **Coding out**<br/>  Enable customers to opt out of coding out through their software.| TBC |
+| Self Assessment Accounts   |					No 							| 			Yes 		| **Self Assessment account data**<br/> Document due date optional rather than required when retrieving Self Assessment balance and transactions.   | Dec 2023 |
+| Business Details | No	| No	| **Coding out**<br/>  Enable customers to opt out of coding out through their software.| TBC |
 
 Scheduled to be deployed to Production **June 2024**
 
