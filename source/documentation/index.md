@@ -1,6 +1,6 @@
 # Making Tax Digital ITSA Roadmap 
 
-Last updated: 5 December 2023
+Last updated: 14 December 2023
 
 ## About this roadmap
 
@@ -75,7 +75,7 @@ Deployed to Production **April 2023**
 |              Various APIs              |                      N/A                      |                           N/A                           | **Migration of existing RAML documentation to OAS**<br/>   The new documentation platform to serve old and new API documentation with enhanced experience.                                                                                                                                                                                                                                                                                                                                          |             Mar 2023             |
 |              Various APIs              |                      N/A                      |                           N/A                           | **API changelog**<br/> Switched the API changelog in GitHub from a wiki page to a "readme" file in a Markdown format. The readme file can be viewed at this URL: https://github.com/hmrc/income-tax-mtd-changelog Retained existing links and bookmarks on the wiki page. At the top of the wiki page, a link has been added for the new location, along with a note for the vendors. The new page includes step-by-step instructions on how to subscribe to receive notifications when the changelog is updated. |              Feb 2023              |
 
-Scheduled to be deployed to Production **December 2023**
+Deployed to Production **December 2023**
 
 |                                API(s) impacted by change                               | Must be part of legislated quarterly updates? | Can be used in year? |                                                                                                                                                                                                                                  Change                                                                                                                                                                                                                                  | Deployed to Sandbox |
 |:-----------------------------------------------------------------------------------:|:---------------------------------------------:|:-------------------------------------------------------:|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:-----------------------:|
