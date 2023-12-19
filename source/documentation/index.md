@@ -105,6 +105,7 @@ Scheduled to be deployed to Production **April 2024** (to be confirmed)
 | Individual Calculations    |                       No                      |          Yes         |                                                                               **Basic Rate Divergence**<br/> View the updated basic rate based on changes made to the basic rate by the devolved nations.                                                                              |         Jan 2024         |
 | Self Assessment Accounts   |					No 							| 			Yes 		| **Self Assessment account data**<br/> Document due date optional rather than required when retrieving Self Assessment balance and transactions.   | Dec 2023 |
 | Business Details | No	| No	| **Coding out**<br/>  Enable customers to opt out of coding out through their software.| TBC |
+| Individual Business EOPS, Self Assessment BSAS, Business Details | N/A | N/A | **Stop displaying accounting period dates returned by HMRC**<br/> - Software products will need to stop displaying accounting period dates returned by HMRC to the end user.  The dates are presented as the standard tax year which may not be applicable to all customers. The API documentation for the affected endpoints will be updated with a warning that the dates should not be displayed. The accounting period dates will be removed in a future update. | TBC |
 
 Scheduled to be deployed to Production **June 2024**
 
@@ -161,6 +162,8 @@ The below table is not comprehensive and other APIs may be impacted by future de
 | Property Business                                        | Yes | Yes | **Joint property**<br/> Changes to provide an easement for joint property owners in MTD.                                                                                                                           | TBC  |
 | Individual Calculations                                  | No  | Yes | **Overseas customers**<br/> This will allow ITSA UK customers who live abroad to submit their income through MTD.                                                                                                | TBC  |
 | Self Assessment Accounts                                 | No  | Yes | **Accounting visualisation enhancements**<br/> The ability for a customer to view a more intuitive version of their accounting view through their software.                                                          | TBC  |
+| Individual Calculations | No | Yes | **Crypto assets**<br/> The ability for customers with crypto assets to report these as part of their final declaration | TBC |
+
 
 ## ITSA Submission Service
 
@@ -183,7 +186,7 @@ Currently live
 |            Employments (in year)            |                           Yes                           |  Live  | View employment information.                               |
 |              Final Declaration              |                            No                           |  Live  | Finalise a self assessment tax return for a year           |
 |          Employments (End of Year)          |                            No                           |  Live  | Amend and/or add new employment details after the year end |
-|                Student Loans                |                            No                           | Dec 22 | Report Student Loan information                            |
+|                Student Loans                |                            No                           | Live | Report Student Loan information                            |
 
 ### Future functionality - Update and submit an income tax return
 
@@ -219,6 +222,8 @@ Planned future deliveries
 | Insolvency | Yes | Report Insolvency |
 | Cessation of Income | Yes | Report cessation of income |
 | Cash Accounting vs Traditional Accounting | Yes | Report use of cash accounting or traditional accounting |
+| Coding Out  | Yes | Present and transfer an underpayment                  |
+| Autocoding  | Yes | Report and amend non-PAYE income, reliefs or expenses |
 
 
 
