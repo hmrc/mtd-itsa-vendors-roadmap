@@ -105,7 +105,7 @@ Scheduled to be deployed to Production **April 2024** (to be confirmed)
 | Individual Calculations    |                       No                      |          Yes         |                                                                               **Basic Rate Divergence**<br/> View the updated basic rate based on changes made to the basic rate by the devolved nations.                                                                              |         Jan 2024         |
 | Self Assessment Accounts   |					No 							| 			Yes 		| **Self Assessment account data**<br/> Document due date optional rather than required when retrieving Self Assessment balance and transactions.   | Dec 2023 |
 | Business Details | No	| No	| **Coding out**<br/>  Enable customers to opt out of coding out through their software.| TBC |
-| Individual Business EOPS, Self Assessment BSAS, Business Details | N/A | N/A | **Stop displaying accounting period dates returned by HMRC**<br/> - Software products will need to stop displaying accounting period dates returned by HMRC to the end user.  The dates are presented as the standard tax year which may not be applicable to all customers. The API documentation for the affected endpoints will be updated with a warning that the dates should not be displayed. The accounting period dates will be removed in a future update. | TBC |
+| Individual Business EOPS, Self Assessment BSAS, Business Details | N/A | N/A | **Stop displaying accounting period dates returned by HMRC**<br/> Software products will need to stop displaying accounting period dates returned by HMRC to the end user.  The dates are presented as the standard tax year which may not be applicable to all customers. The API documentation for the affected endpoints will be updated with a warning that the dates should not be displayed. The accounting period dates will be removed in a future update. | TBC |
 
 Scheduled to be deployed to Production **June 2024**
 
@@ -222,7 +222,7 @@ Planned future deliveries
 | Insolvency | Yes | Report Insolvency |
 | Cessation of Income | Yes | Report cessation of income |
 | Cash Accounting vs Traditional Accounting | Yes | Report use of cash accounting or traditional accounting |
-| Coding Out  | Yes | Present and transfer an underpayment                  |
+| Coding out  | Yes | Present and transfer an underpayment                  |
 | Autocoding  | Yes | Report and amend non-PAYE income, reliefs or expenses |
 
 
