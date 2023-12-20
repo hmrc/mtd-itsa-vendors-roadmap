@@ -1,6 +1,6 @@
 # Making Tax Digital ITSA Roadmap 
 
-Last updated: 14 December 2023
+Last updated: 19 December 2023
 
 ## About this roadmap
 
@@ -110,7 +110,7 @@ Scheduled to be deployed to Production **April 2024** (to be confirmed)
 Scheduled to be deployed to Production **June 2024**
 
 | API(s) impacted by change           | Must be part of legislated quarterly updates? | Can be used in year? |                                                    Change                                                       | Deployed to Sandbox |
-|:-------------------------------------|---------------------------------------------|---------------------:|:-------------------------------------------------------------------------------------------------------------------------------------:|:---------------------:|
+|:-------------------------------------:|:---------------------------------------------:|:---------------------:|:-------------------------------------------------------------------------------------------------------------------------------------:|:---------------------:|
 | Self Employment Business         | No                                          | Yes                 | **Declare Transitional Profit**<br/> Following basis period reform, allow customers to declare any transitional profit they have. | TBC                 |
 | Property Business              | Yes                                         | Yes                 | **Property Expenses**<br/> Allow customers to submit negative expenses for their property income.                  | TBC                 |
 | Self Assessment Accounts            | No                                          | Yes                 | **Review and Recalculate Adjusted Payments on Account (POA)**<br/> Enable customers to see a history of the changes to their Payments on Account through their software. | TBC                 |
