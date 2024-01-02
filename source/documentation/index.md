@@ -1,6 +1,6 @@
 # Making Tax Digital ITSA Roadmap 
 
-Last updated: 21 December 2023
+Last updated: 2 January 2023
 
 ## About this roadmap
 
