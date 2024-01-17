@@ -1,6 +1,6 @@
 # Making Tax Digital ITSA Roadmap 
 
-Last updated: 2 January 2023
+Last updated: 17 January 2023
 
 ## About this roadmap
 
@@ -104,7 +104,7 @@ Scheduled to be deployed to Production **April 2024** (to be confirmed)
 | Property Business, Self Employment Business, Business Details |                       No                      |          Yes         |     **Basis Period Reform**<br/> Customer choice of quarterly period dates. Customers must choose or withdraw choice before any updates have been submitted for the tax year. This will be a new endpoint that all software products must support for all MTD customers.    |         Jan 2024        |
 | Individual Calculations    |                       No                      |          Yes         |                                                                               **Basic Rate Divergence**<br/> View the updated basic rate based on changes made to the basic rate by the devolved nations.                                                                              |         Jan 2024         |
 | Self Assessment Accounts   |					No 							| 			Yes 		| **Self Assessment account data**<br/> Document due date optional rather than required when retrieving Self Assessment balance and transactions.   | Dec 2023 |
-| Self Assessment Accounts  | No	| No	| **Autocoding opt out**<br/>  Enable customers to opt out of autocoding through their software.| TBC |
+| Self Assessment Accounts  | No	| No	| **Opt out of coding out**<br/>  Enable customers to opt out of coding out through their software.| TBC |
 | Individual Business EOPS, Self Assessment BSAS, Business Details | N/A | N/A | **Stop displaying accounting period dates returned by HMRC**<br/> Software products will need to stop displaying accounting period dates returned by HMRC to the end user.  The dates are presented as the standard tax year which may not be applicable to all customers. The API documentation for the affected endpoints will be updated with a warning that the dates should not be displayed. The accounting period dates will be removed in a future update. | TBC |
 
 Scheduled to be deployed to Production **June 2024**
