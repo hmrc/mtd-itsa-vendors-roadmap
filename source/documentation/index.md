@@ -105,7 +105,12 @@ Scheduled to be deployed to Production **April 2024** (to be confirmed)
 | Individual Calculations    |                       No                      |          Yes         |                                                                               **Basic Rate Divergence**<br/> View the updated basic rate based on changes made to the basic rate by the devolved nations.                                                                              |         Jan 2024         |
 | Self Assessment Accounts   |					No 							| 			Yes 		| **Self Assessment account data**<br/> Document due date optional rather than required when retrieving Self Assessment balance and transactions.   | Dec 2023 |
 | Self Assessment Accounts  | No	| No	| **Opt out of coding out**<br/>  Enable customers to opt out of coding out through their software.| TBC |
+| Self Assessment Accounts | No	| Yes |	The cashOrAccruals field is now mandatory and will return either "true" or "false".	| Dec 2023 |
 | Individual Business EOPS, Self Assessment BSAS, Business Details | N/A | N/A | **Stop displaying accounting period dates returned by HMRC**<br/> Software products will need to stop displaying accounting period dates returned by HMRC to the end user.  The dates are presented as the standard tax year which may not be applicable to all customers. The API documentation for the affected endpoints will be updated with a warning that the dates should not be displayed. The accounting period dates will be removed in a future update. | TBC |
+| Obligations | N/A | Yes | Support for multiple final declarations in the response instead of only one. | May 2023 |
+| Obligations | N/A | Yes | New error for a request that does not match any available Gov-Test scenarios in Sandbox data. | May 2023 |
+| CIS Deductions |	N/A	| Yes |	New error when date range provided exceeds four years before the current year. |	June 2023 |
+| CIS Deductions |	N/A	| Yes |	fromDate and toDate parameters replaced with a taxYear path parameter. |	June 2023 |
 
 Scheduled to be deployed to Production **June 2024**
 
