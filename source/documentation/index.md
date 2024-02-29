@@ -1,10 +1,10 @@
-# Making Tax Digital ITSA Roadmap 
+# Income Tax (Making Tax Digital) Roadmap 
 
 Last updated: 25 January 2023
 
 ## About this roadmap
 
-This roadmap sets out our anticipated schedule for future API releases. It also provides details of releases relating to
+This roadmap sets out our anticipated schedule for future releases for Income Tax (Making Tax Digital) APIs. It also provides details of releases relating to
 the service delivered via other mechanisms, such as a User Interface.
 
 **What is a front end API?**
@@ -40,7 +40,7 @@ referred to as 'controlled go-live' or private beta.
 
 Details of ongoing changes to the APIs in sandbox and production are available at the changelog:
 
-* [ITSA APIs changelog](https://github.com/hmrc/income-tax-mtd-changelog)
+* [Income Tax MTD changelog](https://github.com/hmrc/income-tax-mtd-changelog)
 
 Note that the date of changelog entries is the date that the API change was deployed (either to sandbox or production as described in the entry).
 
@@ -48,11 +48,11 @@ Note that the date of changelog entries is the date that the API change was depl
 ### Current endpoint functionality in sandbox and production
 
 Keep up to date with changes to current endpoint functionality in sandbox and production by reviewing
-the [Developer Hub API Documentation](https://developer.service.hmrc.gov.uk/api-documentation/docs/api).
+the [Developer Hub API Documentation](https://developer.service.hmrc.gov.uk/api-documentation/docs/api?filter=income-tax-mtd).
 
 ## Software Data Submission (third party APIs)
 
-### Current ITSA API functionality
+### Current Income Tax API functionality
 
 
 Deployed to Production **July 2023**
@@ -91,7 +91,7 @@ Deployed to Production **December 2023**
 | Business Source Adjustable Summary v4.0 | No | Yes | **Error update** <br/> Change to the 404 error message to allow vendors to distinguish the reason for the error. | Nov 2023 |  |	
 
 
-### Future ITSA API deliverables
+### Future Income Tax API deliverables
 
 
 
@@ -172,7 +172,7 @@ The below table is not comprehensive and other APIs may be impacted by future de
 
 ## ITSA Submission Service
 
-This is a new self assessment service for customers and their authorised agents to update and submit an income tax return, that will be available in HMRC online services.
+This is a new Income Tax self assessment service for customers and their authorised agents to update and submit an income tax return, that will be available in HMRC online services.
 
 Customers in MTD will use this service to report income that is not supported in their software.
 
