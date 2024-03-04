@@ -1,6 +1,6 @@
 # Income Tax (Making Tax Digital) Roadmap 
 
-Last updated: 25 January 2023
+Last updated: 5 March 2024
 
 ## About this roadmap
 
@@ -96,22 +96,23 @@ Deployed to Production **December 2023**
 
 
 
-Scheduled to be deployed to Production **April 2024** (to be confirmed)
+Scheduled to be deployed to Production **April 2024**
 
 |                                API(s) impacted by change                               | Must be part of legislated quarterly updates? | Can be used in year? |                                                                                                                                                                                                                                  Change                                                                                                                                                                                                                                  | Deployed to Sandbox |
 |:-----------------------------------------------------------------------------------:|:---------------------------------------------:|:-------------------------------------------------------:|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:-----------------------:|
-| Individual Calculations                 |    No   | Yes  | **Update regarding multiple income sources**<br/> The ‘other tax taken off trading income’ object will be added to this API. | Sep 2023 |
-| Property Business, Self Employment Business, Business Details |                       No                      |          Yes         |     **Basis Period Reform**<br/> Customer choice of quarterly period dates. Customers must choose or withdraw choice before any updates have been submitted for the tax year. This will be a new endpoint that all software products must support for all MTD customers.    |         Jan 2024        |
-| Individual Calculations    |                       No                      |          Yes         |                                                                               **Basic Rate Divergence**<br/> View the updated basic rate based on changes made to the basic rate by the devolved nations.                                                                              |         Jan 2024         |
-| Self Assessment Accounts   |					No 							| 			Yes 		| **Self Assessment account data**<br/> Document due date optional rather than required when retrieving Self Assessment balance and transactions.   | Dec 2023 |
-| Self Assessment Accounts  | No	| No	| **Opt out of coding out**<br/>  Enable customers to opt out of coding out through their software.| Feb 2024 |
-| Self Assessment Accounts | No	| Yes |	The cashOrAccruals field is now mandatory and will return either "true" or "false".	| Dec 2023 |
-| Individual Business EOPS, Self Assessment BSAS, Business Details | N/A | N/A | **Stop displaying accounting period dates returned by HMRC**<br/> Software products will need to stop displaying accounting period dates returned by HMRC to the end user.  The dates are presented as the standard tax year which may not be applicable to all customers. The API documentation for the affected endpoints will be updated with a warning that the dates should not be displayed. The accounting period dates will be removed in a future update. | TBC |
-| Obligations | N/A | Yes | Support for multiple final declarations in the response instead of only one. | May 2023 |
-| Obligations | N/A | Yes | New error for a request that does not match any available Gov-Test scenarios in Sandbox data. | May 2023 |
-| CIS Deductions |	N/A	| Yes |	New error when date range provided exceeds four years before the current year. |	June 2023 |
-| CIS Deductions |	N/A	| Yes |	fromDate and toDate parameters replaced with a taxYear path parameter. |	June 2023 |
-
+| Individual Calculations v5.0                |    No   | Yes  | **Update regarding multiple income sources**<br/> The ‘other tax taken off trading income’ object will be added to this API. | Sep 2023 |
+| Property Business v3.0,<br/> Self Employment Business v3.0,<br/> Business Details v1.0|                       No                      |          Yes         |     **Basis Period Reform**<br/> Customer choice of calendar quarterly period dates. Customers must choose or withdraw choice before any updates have been submitted for the tax year. This will be a new endpoint that all software products can support for all MTD customers.    |         Jan 2024        |
+| Individual Calculations v5.0   |                       No                      |          Yes         |                                                                               **Basic Rate Divergence**<br/> View the updated basic rate based on changes made to the basic rate by the devolved nations.                                                                              |         Jan 2024         |
+| Self Assessment Accounts  v3.0 |					No 							| 			Yes 		| **Self Assessment account data**<br/> Document due date optional rather than required when retrieving Self Assessment balance and transactions.   | Dec 2023 |
+| Self Assessment Accounts v3.0  | No	| No	| **Opt out of coding out**<br/>  Enable customers to opt out of coding out through their software.| Feb 2024 |
+| Self Assessment Accounts v3.0 | No	| Yes |	The cashOrAccruals field is now mandatory and will return either "true" or "false".	| Dec 2023 |
+| Individual Business EOPS v3.0, Self Assessment BSAS v4.0, Business Details v1.0 | N/A | N/A | **Stop displaying accounting period dates returned by HMRC**<br/> Software products will need to stop displaying accounting period dates returned by HMRC to the end user.  The dates are presented as the standard tax year which may not be applicable to all customers. The API documentation for the affected endpoints will be updated with a warning that the dates should not be displayed. The accounting period dates will be removed in a future update. | N/A |
+| Obligations v2.0 | N/A | Yes | Support for multiple final declarations in the response instead of only one. | May 2023 |
+| Self Assessment Accounts v3.0 | N/A | Yes | New error for a request that does not match any available Gov-Test scenarios in Sandbox data. | May 2023 |
+| CIS Deductions v2.0 |	N/A	| Yes |	New error when date range provided exceeds four years before the current year. |	June 2023 |
+| CIS Deductions v2.0 |	N/A	| Yes |	fromDate and toDate parameters replaced with a taxYear path parameter. |	June 2023 |
+ 
+                                                                                                                                                                                                                                              
 Scheduled to be deployed to Production **June 2024**
 
 | API(s) impacted by change           | Must be part of legislated quarterly updates? | Can be used in year? |                                                    Change                                                       | Deployed to Sandbox |
@@ -120,6 +121,15 @@ Scheduled to be deployed to Production **June 2024**
 | Property Business              | Yes                                         | Yes                 | **Property Expenses**<br/> Allow customers to submit negative expenses for their property income.                  | TBC                 |
 | Self Assessment Accounts            | No                                          | Yes                 | **Review and Recalculate Adjusted Payments on Account (POA)**<br/> Enable customers to see a history of the changes to their Payments on Account through their software. | TBC                 |
 | Property Business              | Yes                                         | Yes                 | **Property Income Changes** Introduce data fields enabling customers to submit residential finance costs and brought-forward residential finance costs. | TBC                 |
+| Individuals Foreign Income             | No | Yes | These 8 new APIs are the result of splitting the Individuals Income Received API into smaller APIs. The new APIs will also have these improvements: <ul><li>Removal of HATEOAS links</li><li>Update of enum value names for consistency</li><li>Addition of a new generic error</li></ul>   | TBC |
+| Individuals Insurance Policies Income  | No | Yes | As above                                                                                                                                                                                                                                                         | TBC |
+| Individuals Pensions Income            | No | Yes |  As above                                                                                                                                                                                                                                                        | TBC |
+| Individuals Dividends Income           | No | Yes |  As above                                                                                                                                                                                                                                                        | TBC |
+| Individuals Savings Income             | No | Yes | As above                                                                                                                                                                                                                                                         | TBC |
+| Individuals Capital Gains Income       | No | Yes |  As above                                                                                                                                                                                                                                                        | TBC |
+| Individuals Other Income               | No | Yes |  As above                                                                                                                                                                                                                                                        | TBC |
+| Individuals Employments Income         | No | Yes |  As above       | TBC |
+
 
 Scheduled to be deployed to Production **September 2024**
 
