@@ -115,6 +115,8 @@ Scheduled to be deployed to Production **April 2024**
                                                                                                                                                                                                                                               
 Scheduled to be deployed to Production **June 2024**
 
+Version numbers and sandbox deployment dates for the APIs will be added once the associated release date is confirmed.
+
 | API(s) impacted by change           | Must be part of legislated quarterly updates? | Can be used in year? |                                                    Change                                                       | Deployed to Sandbox |
 |:-------------------------------------:|:---------------------------------------------:|:---------------------:|:-------------------------------------------------------------------------------------------------------------------------------------:|:---------------------:|
 | Self Employment Business v3.0, Individual Calculations v5.0        | No                                          | Yes                 | **Declare Transitional Profit**<br/> Following basis period reform, allow customers to declare any transitional profit they have. | TBC                 |
@@ -133,7 +135,9 @@ Scheduled to be deployed to Production **June 2024**
 | Individuals Employments Income         | No | Yes |  As above       | TBC |
 
 
-Scheduled to be deployed to Production **September 2024**
+Scheduled to be deployed to Production **September 2024** (to be confirmed)
+
+Version numbers and sandbox deployment dates for the APIs will be added once the scope for the release and associated release date are confirmed.
 
 | API(s) impacted by change           | Must be part of legislated quarterly updates? | Can be used in year? |   Change  | Deployed to Sandbox |
 |:-------------------------------------:|:---------------------------------------------:|:---------------------:|:-------------------------------------------------------------------------------------------------------------------------------------:|:---------------------:|
