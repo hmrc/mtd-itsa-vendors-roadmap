@@ -1,6 +1,6 @@
 # Income Tax (Making Tax Digital) Roadmap 
 
-Last updated: 7 March 2024
+Last updated: 15 March 2024
 
 ## About this roadmap
 
@@ -119,12 +119,12 @@ Version numbers and sandbox deployment dates for the APIs will be added once the
 
 | API(s) impacted by change           | Must be part of legislated quarterly updates? | Can be used in year? |                                                    Change                                                       | Deployed to Sandbox |
 |:-------------------------------------:|:---------------------------------------------:|:---------------------:|:-------------------------------------------------------------------------------------------------------------------------------------:|:---------------------:|
-| Self Employment Business v3.0, Individual Calculations v5.0        | No                                          | Yes                 | **Declare Transitional Profit**<br/> Following basis period reform, allow customers to declare any transitional profit they have. | TBC                 |
-| Property Business v3.0           | Yes                                         | Yes                 | **Property Expenses**<br/> Allow customers to submit negative expenses for their property income.                  | TBC                 |
-| Self Assessment Accounts v3.0          | No                                          | Yes                 | **Review and Recalculate Adjusted Payments on Account (POA)**<br/> Enable customers to see a history of the changes to their Payments on Account through their software. | TBC                 |
-| Property Business  v3.0            | Yes                                         | Yes                 | **Property Income Changes** Introduce data fields enabling customers to submit residential finance costs and brought-forward residential finance costs. | TBC                 |
-| Self-Assessment Individual Details v2.0 | No  | No  | In the event a customer has opted out of MTD, their customer status will change and this can be identified by software.                                               | TBC |
-| Property Business    v3.0            | Yes | Yes | This change will allow both consolidated expenses and rent a room relief to be submitted at the same time to support the customer journey of one or more properties.  | TBC |
+| Self Employment Business, Individual Calculations       | No                                          | Yes                 | **Declare Transitional Profit**<br/> Following basis period reform, allow customers to declare any transitional profit they have. | TBC                 |
+| Property Business          | Yes                                         | Yes                 | **Property Expenses**<br/> Allow customers to submit negative expenses for their property income.                  | TBC                 |
+| Self Assessment Accounts         | No                                          | Yes                 | **Review and Recalculate Adjusted Payments on Account (POA)**<br/> Enable customers to see a history of the changes to their Payments on Account through their software. | TBC                 |
+| Property Business            | Yes                                         | Yes                 | **Property Income Changes** Introduce data fields enabling customers to submit residential finance costs and brought-forward residential finance costs. | TBC                 |
+| Self-Assessment Individual Details v2.0 | No  | No  | In the event a customer has opted out of MTD, their customer status will change and this can be identified by software.                                               | March 2024 |
+| Property Business              | Yes | Yes | This change will allow both consolidated expenses and rent a room relief to be submitted at the same time to support the customer journey of one or more properties.  | TBC |
 | Individuals Foreign Income             | No | Yes | These 8 new APIs are the result of splitting the Individuals Income Received API into smaller APIs. The new APIs will also have these improvements: <ul><li>Removal of HATEOAS links</li><li>Update of enum value names for consistency</li><li>Addition of a new generic error</li></ul>   | TBC |
 | Individuals Insurance Policies Income  | No | Yes | As above                                                                                                                                                                                                                                                         | TBC |
 | Individuals Pensions Income            | No | Yes |  As above                                                                                                                                                                                                                                                        | TBC |
