@@ -1,6 +1,6 @@
 # Income Tax (Making Tax Digital) Roadmap 
 
-Last updated: 7 March 2024
+Last updated: 15 March 2024
 
 ## About this roadmap
 
@@ -36,67 +36,18 @@ functionality.
 Before releasing functionality to all our customers we will conduct testing with limited customers. This period is
 referred to as 'controlled go-live' or private beta.
 
-### Link to changelog for submission APIs
 
-Details of ongoing changes to the APIs in sandbox and production are available at the changelog:
+## Income Tax MTD APIs
 
-* [Income Tax MTD changelog](https://github.com/hmrc/income-tax-mtd-changelog)
-
-Note that the date of changelog entries is the date that the API change was deployed (either to sandbox or production as described in the entry).
-
-
-### Current endpoint functionality in sandbox and production
-
-Keep up to date with changes to current endpoint functionality in sandbox and production by reviewing
-the [Developer Hub API Documentation](https://developer.service.hmrc.gov.uk/api-documentation/docs/api?filter=income-tax-mtd).
-
-## Software Data Submission (third party APIs)
-
-### Current Income Tax API functionality
-
-
-Deployed to Production **July 2023**
-
-
-|           API(s) impacted by change           | Must be part of legislated quarterly updates? | Can be used in year? |                                                                                                                                                                                                                                                                                                                                     Change                                                                                                                                                                                                                                                                                                                                     | Deployed to Sandbox |
-|:------------------------------------------:|:---------------------------------------------:|:-------------------------------------------------------:|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:-----------------------:|
-| Individuals Income Received  v1.0 |                       No                      |                            No                           | **Off Payroll Working (OPW)**<br/>  This change will allow customers to view an Off Payroll Working marker for each of their employment sources.  It will also allow customers to add or remove the marker where necessary. |         Feb 2023        |
-|   Individual Calculations  v4.0   |                      N/A                      |                           N/A                           | **Calculation output updates**<br/> Update of business validation calculation error and addition of new objects to the calculation output                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |         Feb 2023        |
-|     Individuals Charges  v2.0     |                      N/A                      |                           N/A                           | **Pension charges**<br/>  3 data items - annual allowance reduced, tapered annual allowances and money purchase allowance are to be moved to the pension contributions section that sits in the same API                                                                                                                                                                                                                                                                                                                                                                      |        Mar 2023       |
-
-
-Deployed to Production **April 2023**
-
-|         API(s) impacted by change         | Must be part of legislated quarterly updates? | Can be used in year? |                                                                                                                                                                                                                                           Change                                                                                                                                                                                                                                           |       Deployed to Sandbox      |
-|:--------------------------------------:|:---------------------------------------------:|:-------------------------------------------------------:|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:----------------------------------:|
-| Individual Calculations  v3.0 |                       No                      |                           Yes                           | **Class 2 NICs (Spring Statement)**<br/>  Reduction to Class 2 NICs liabilities to nil on profits between the Small Profits Threshold (SPT) and Lower Profits Threshold (LPT).                                                                                                                                                                                                                                                                                                                       |              Feb 2023              |
-|              Various APIs              |                      N/A                      |                           N/A                           | **Tax Year Specific (TYS) APIs**<br/> Movement of the old APIs to new tax year specific APIs which means that software providers and user will need to use the new version of the APIs to report data from 23/24.                                                                                                                                                                                                                                                               | Nov 2022/Jan 2023 |
-|              Various APIs              |                      N/A                      |                           N/A                           | **Error status updates**<br/> Change of 403 error status to 400 to make it consistent across all the APIs                                                                                                                                                                                                                                                                                                                                                                                                                |              Feb 2023              |
-|              Various APIs              |                      N/A                      |                           N/A                           | **Migration of existing RAML documentation to OAS**<br/>   The new documentation platform to serve old and new API documentation with enhanced experience.                                                                                                                                                                                                                                                                                                                                          |             Mar 2023             |
-|              Various APIs              |                      N/A                      |                           N/A                           | **API changelog**<br/> Switched the API changelog in GitHub from a wiki page to a "readme" file in a Markdown format. The readme file can be viewed at this URL: https://github.com/hmrc/income-tax-mtd-changelog Retained existing links and bookmarks on the wiki page. At the top of the wiki page, a link has been added for the new location, along with a note for the vendors. The new page includes step-by-step instructions on how to subscribe to receive notifications when the changelog is updated. |              Feb 2023              |
-
-Deployed to Production **December 2023**
-
-|                                API(s) impacted by change                               | Must be part of legislated quarterly updates? | Can be used in year? |                                                                                                                                                                                                                                  Change                                                                                                                                                                                                                                  | Deployed to Sandbox |
-|:-----------------------------------------------------------------------------------:|:---------------------------------------------:|:-------------------------------------------------------:|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:-----------------------:|
-|                       Individual Calculations v5.0,<br/>Self Assessment Business v3.0,<br/>Self Employment Business v3.0,<br/>Property Business v3.0|                       No                      |                           Yes                           | **Annual Updates of Business Income (Self Employment and Property)**<br/> This enables customers to make in-year or annual submissions for their self employment and/or property income in specific scenarios.  |           Sep 2023           |
-|						Self-Employment Business v3.0,<br/>Business Source Adjustable Summary v4.0						  |                       No                      |                           Yes                           | **Update regarding self employment periods**<br/>  The data fields within this API will be updated to allow negative values. |           Sep 2023           |
-| 							Individual Calculations v5.0,<br/>Individuals Income Received v2.0				  	  |                       No                      |                           Yes                           | **View cease business income sources**<br/>  These changes will enable the customer to see an updated calculation following the cease of a business being reported and multiple business/property sources being added.  |           Sep 2023           |
-| 							Individual Calculations v5.0 					  |                       No                      |                           Yes                           | **Annuity/royalty payments charges** Annuity/royalty payments charges will be calculated to decimal places to include pence. This will be a change to the calculation rules. |           Sep 2023           |
-| 							Individual Calculations v5.0 					  |                       No                      |                           Yes                           | **State Pensions**<br/> To enable the state pension to be identified within the tax calculation. |           Sep 2023           |
-| Self Assessment Individual Details v1.0											  |                       No                      |                           Yes                           | **Get ITSA status**<br/>  New GET API to source customer ITSA status e.g. MTD Mandated / MTD Voluntary / Annual etc.  This status can be used in software design to determine relevant services and content. |           Sep 2023          |                                                                                                                                                                                                                                                 |           TBC           |
-| Property Business v3.0     												  | Yes 										  | Yes 													| **Data item no longer required** <br/> Removal of ‘losses brought forward’ in the annual self-employment/property business API.                                                                                            | Jul 2023 |
-| Individuals Expenses v2.0,<br/>Individuals Income Received v2.0												  | No  										  | Yes 													| **Adding expenses** <br/> Updates to the occupational pension and employment expenses restricting the submission of benefits In Kind, potentially student loan deductions and employment expenses against that employment. | Sep 2023 |
-| Business Details v1.0,<br/>Individual Calculations v5.0 						| No | Yes | **Retrieve multiple SE sources** <br/> Ability to view multiple business/property sources that are added outside of software. | Aug 2023 |
-| Business Source Adjustable Summary v4.0 | No | Yes | **Error update** <br/> Change to the 404 error message to allow vendors to distinguish the reason for the error. | Nov 2023 |  |	
-
-
-### Future Income Tax API deliverables
+### Future development
 
 
 
 
-Scheduled to be deployed to Production **April 2024**
+#### April 2024
+
+These changes are scheduled to be deployed to production in April 2024.
+
 
 |                                API(s) impacted by change                               | Must be part of legislated quarterly updates? | Can be used in year? |                                                                                                                                                                                                                                  Change                                                                                                                                                                                                                                  | Deployed to Sandbox |
 |:-----------------------------------------------------------------------------------:|:---------------------------------------------:|:-------------------------------------------------------:|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:-----------------------:|
@@ -113,7 +64,9 @@ Scheduled to be deployed to Production **April 2024**
 | CIS Deductions v2.0 |	N/A	| Yes |	fromDate and toDate parameters replaced with a taxYear path parameter. |	June 2023 |
  
                                                                                                                                                                                                                                               
-Scheduled to be deployed to Production **June 2024**
+#### June 2024
+
+These changes are scheduled to be deployed to production in June 2024.
 
 Version numbers and sandbox deployment dates for the APIs will be added once the associated release date is confirmed.
 
@@ -135,7 +88,9 @@ Version numbers and sandbox deployment dates for the APIs will be added once the
 | Individuals Employments Income         | No | Yes |  As above       | TBC |
 
 
-Scheduled to be deployed to Production **September 2024** (to be confirmed)
+#### September 2024 (TBC)
+
+These changes are expected to be deployed in September 2024 (to be confirmed).
 
 Version numbers and sandbox deployment dates for the APIs will be added once the scope for the release and associated release date are confirmed.
 
@@ -191,6 +146,53 @@ The below table is not comprehensive and other APIs may be impacted by future de
 | Individual Calculations | No | Yes | **Crypto assets**<br/> The ability for customers with crypto assets to report these as part of their final declaration | TBC |
 
 
+### Already released
+
+
+#### July 2023
+
+These changes were released in July 2023.
+
+
+|           API(s) impacted by change           | Must be part of legislated quarterly updates? | Can be used in year? |                                                                                                                                                                                                                                                                                                                                     Change                                                                                                                                                                                                                                                                                                                                     | Deployed to Sandbox |
+|:------------------------------------------:|:---------------------------------------------:|:-------------------------------------------------------:|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:-----------------------:|
+| Individuals Income Received  v1.0 |                       No                      |                            No                           | **Off Payroll Working (OPW)**<br/>  This change will allow customers to view an Off Payroll Working marker for each of their employment sources.  It will also allow customers to add or remove the marker where necessary. |         Feb 2023        |
+|   Individual Calculations  v4.0   |                      N/A                      |                           N/A                           | **Calculation output updates**<br/> Update of business validation calculation error and addition of new objects to the calculation output                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |         Feb 2023        |
+|     Individuals Charges  v2.0     |                      N/A                      |                           N/A                           | **Pension charges**<br/>  3 data items - annual allowance reduced, tapered annual allowances and money purchase allowance are to be moved to the pension contributions section that sits in the same API                                                                                                                                                                                                                                                                                                                                                                      |        Mar 2023       |
+
+
+#### April 2023
+
+These changes were released in April 2023.
+
+|         API(s) impacted by change         | Must be part of legislated quarterly updates? | Can be used in year? |                                                                                                                                                                                                                                           Change                                                                                                                                                                                                                                           |       Deployed to Sandbox      |
+|:--------------------------------------:|:---------------------------------------------:|:-------------------------------------------------------:|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:----------------------------------:|
+| Individual Calculations  v3.0 |                       No                      |                           Yes                           | **Class 2 NICs (Spring Statement)**<br/>  Reduction to Class 2 NICs liabilities to nil on profits between the Small Profits Threshold (SPT) and Lower Profits Threshold (LPT).                                                                                                                                                                                                                                                                                                                       |              Feb 2023              |
+|              Various APIs              |                      N/A                      |                           N/A                           | **Tax Year Specific (TYS) APIs**<br/> Movement of the old APIs to new tax year specific APIs which means that software providers and user will need to use the new version of the APIs to report data from 23/24.                                                                                                                                                                                                                                                               | Nov 2022/Jan 2023 |
+|              Various APIs              |                      N/A                      |                           N/A                           | **Error status updates**<br/> Change of 403 error status to 400 to make it consistent across all the APIs                                                                                                                                                                                                                                                                                                                                                                                                                |              Feb 2023              |
+|              Various APIs              |                      N/A                      |                           N/A                           | **Migration of existing RAML documentation to OAS**<br/>   The new documentation platform to serve old and new API documentation with enhanced experience.                                                                                                                                                                                                                                                                                                                                          |             Mar 2023             |
+|              Various APIs              |                      N/A                      |                           N/A                           | **API changelog**<br/> Switched the API changelog in GitHub from a wiki page to a "readme" file in a Markdown format. The readme file can be viewed at this URL: https://github.com/hmrc/income-tax-mtd-changelog Retained existing links and bookmarks on the wiki page. At the top of the wiki page, a link has been added for the new location, along with a note for the vendors. The new page includes step-by-step instructions on how to subscribe to receive notifications when the changelog is updated. |              Feb 2023              |
+
+#### December 2023
+
+These changes were released in December 2023.
+
+|                                API(s) impacted by change                               | Must be part of legislated quarterly updates? | Can be used in year? |                                                                                                                                                                                                                                  Change                                                                                                                                                                                                                                  | Deployed to Sandbox |
+|:-----------------------------------------------------------------------------------:|:---------------------------------------------:|:-------------------------------------------------------:|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:-----------------------:|
+|                       Individual Calculations v5.0,<br/>Self Assessment Business v3.0,<br/>Self Employment Business v3.0,<br/>Property Business v3.0|                       No                      |                           Yes                           | **Annual Updates of Business Income (Self Employment and Property)**<br/> This enables customers to make in-year or annual submissions for their self employment and/or property income in specific scenarios.  |           Sep 2023           |
+|						Self-Employment Business v3.0,<br/>Business Source Adjustable Summary v4.0						  |                       No                      |                           Yes                           | **Update regarding self employment periods**<br/>  The data fields within this API will be updated to allow negative values. |           Sep 2023           |
+| 							Individual Calculations v5.0,<br/>Individuals Income Received v2.0				  	  |                       No                      |                           Yes                           | **View cease business income sources**<br/>  These changes will enable the customer to see an updated calculation following the cease of a business being reported and multiple business/property sources being added.  |           Sep 2023           |
+| 							Individual Calculations v5.0 					  |                       No                      |                           Yes                           | **Annuity/royalty payments charges** Annuity/royalty payments charges will be calculated to decimal places to include pence. This will be a change to the calculation rules. |           Sep 2023           |
+| 							Individual Calculations v5.0 					  |                       No                      |                           Yes                           | **State Pensions**<br/> To enable the state pension to be identified within the tax calculation. |           Sep 2023           |
+| Self Assessment Individual Details v1.0											  |                       No                      |                           Yes                           | **Get ITSA status**<br/>  New GET API to source customer ITSA status e.g. MTD Mandated / MTD Voluntary / Annual etc.  This status can be used in software design to determine relevant services and content. |           Sep 2023          |                                                                                                                                                                                                                                                 |           TBC           |
+| Property Business v3.0     												  | Yes 										  | Yes 													| **Data item no longer required** <br/> Removal of ‘losses brought forward’ in the annual self-employment/property business API.                                                                                            | Jul 2023 |
+| Individuals Expenses v2.0,<br/>Individuals Income Received v2.0												  | No  										  | Yes 													| **Adding expenses** <br/> Updates to the occupational pension and employment expenses restricting the submission of benefits In Kind, potentially student loan deductions and employment expenses against that employment. | Sep 2023 |
+| Business Details v1.0,<br/>Individual Calculations v5.0 						| No | Yes | **Retrieve multiple SE sources** <br/> Ability to view multiple business/property sources that are added outside of software. | Aug 2023 |
+| Business Source Adjustable Summary v4.0 | No | Yes | **Error update** <br/> Change to the 404 error message to allow vendors to distinguish the reason for the error. | Nov 2023 |  |	
+
+
+
+
 ## ITSA Submission Service
 
 This is a new Income Tax self assessment service for customers and their authorised agents to update and submit an income tax return, that will be available in HMRC online services.
@@ -200,9 +202,7 @@ Customers in MTD will use this service to report income that is not supported in
 * Customers will *not* be able to use this service to send updates for business and property income with quarterly filing obligations.
 * Non-MTD customers who are not using software will use this service to file their self assessment tax return once their record has migrated to the new service.
 
-### Current functionality - Update and submit an income tax return
-
-Currently live
+### Current functionality 
 
 | Functionality to report against income type | Can be used in year? | Status |                           Change                           |
 |:-------------------------------------------:|:-------------------------------------------------------:|:------:|:----------------------------------------------------------:|
@@ -214,9 +214,9 @@ Currently live
 |          Employments (End of Year)          |                            No                           |  Live  | Amend and/or add new employment details after the year end |
 |                Student Loans                |                            No                           | Live | Report Student Loan information                            |
 
-### Future functionality - Update and submit an income tax return
+### Future functionality
 
-Planned future deliveries
+Planned future deliveries.
 
 | Functionality to report against income type | Can be used in year? |                                          Change                                          |
 |:-------------------------------------------:|:-------------------------------------------------------:|:----------------------------------------------------------------------------------------:|
@@ -253,7 +253,9 @@ Planned future deliveries
 
 
 
-## APIs required for each stage of development of a Minimum Functionality Standard (MFS) product
+## Minimum Functionality Standard
+
+APIs required for each stage of development of a Minimum Functionality Standard (MFS) product.
 
 Mandatory APIs are denoted by X.
 
