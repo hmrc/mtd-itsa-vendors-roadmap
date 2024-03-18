@@ -5,7 +5,7 @@ Last updated: 15 March 2024
 ## About this roadmap
 
 This roadmap sets out our anticipated schedule for future releases for Income Tax (Making Tax Digital) APIs. It also provides details of releases relating to
-the service delivered via other mechanisms, such as a User Interface.
+the service delivered via other mechanisms, such as a user interface.
 
 **What is a front end API?**
 
