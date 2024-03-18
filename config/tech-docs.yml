@@ -4,7 +4,7 @@ host: docs.developer.service.hmrc.gov.uk
 # Header-related options
 show_govuk_logo: true
 service_name: Income Tax (Making Tax Digital) roadmap
-service_link: /roadmaps/mtd-itsa-vendors-roadmap/
+service_link: https://developer.service.hmrc.gov.uk/roadmaps/mtd-itsa-vendors-roadmap/
 
 # Links to show on right-hand-side of header
 header_links:
