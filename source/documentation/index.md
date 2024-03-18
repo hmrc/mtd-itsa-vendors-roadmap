@@ -37,9 +37,6 @@ functionality.
 Before releasing functionality to all our customers we will conduct testing with limited customers. This period is
 referred to as 'controlled go-live' or private beta.
 
-
-
-
 ----
 
 We would welcome your feedback to improve our roadmap further.
