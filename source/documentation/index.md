@@ -5,7 +5,7 @@ Last updated: 15 March 2024
 ## About this roadmap
 
 This roadmap sets out our anticipated schedule for future releases for Income Tax (Making Tax Digital) APIs. It also provides details of releases relating to
-the service delivered via other mechanisms, such as a User Interface.
+the service delivered via other mechanisms, such as a user interface.
 
 **What is a front end API?**
 
@@ -40,8 +40,6 @@ referred to as 'controlled go-live' or private beta.
 ## Income Tax MTD APIs
 
 ### Future development
-
-
 
 
 #### April 2024
@@ -149,7 +147,7 @@ The below table is not comprehensive and other APIs may be impacted by future de
 ### Already released
 
 
-#### July 2023
+**July 2023**
 
 These changes were released in July 2023.
 
@@ -161,7 +159,7 @@ These changes were released in July 2023.
 |     Individuals Charges  v2.0     |                      N/A                      |                           N/A                           | **Pension charges**<br/>  3 data items - annual allowance reduced, tapered annual allowances and money purchase allowance are to be moved to the pension contributions section that sits in the same API                                                                                                                                                                                                                                                                                                                                                                      |        Mar 2023       |
 
 
-#### April 2023
+**April 2023**
 
 These changes were released in April 2023.
 
@@ -173,7 +171,7 @@ These changes were released in April 2023.
 |              Various APIs              |                      N/A                      |                           N/A                           | **Migration of existing RAML documentation to OAS**<br/>   The new documentation platform to serve old and new API documentation with enhanced experience.                                                                                                                                                                                                                                                                                                                                          |             Mar 2023             |
 |              Various APIs              |                      N/A                      |                           N/A                           | **API changelog**<br/> Switched the API changelog in GitHub from a wiki page to a "readme" file in a Markdown format. The readme file can be viewed at this URL: https://github.com/hmrc/income-tax-mtd-changelog Retained existing links and bookmarks on the wiki page. At the top of the wiki page, a link has been added for the new location, along with a note for the vendors. The new page includes step-by-step instructions on how to subscribe to receive notifications when the changelog is updated. |              Feb 2023              |
 
-#### December 2023
+**December 2023**
 
 These changes were released in December 2023.
 
