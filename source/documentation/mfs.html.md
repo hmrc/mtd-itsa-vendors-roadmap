@@ -3,9 +3,9 @@ title: Minimum Functionality Standard | Income Tax (MTD) Roadmap
 weight: 5
 ---
 
-# Minimum Functionality Standard
+# Minimum functionality standard
 
-APIs required for each stage of development of a Minimum Functionality Standard (MFS) product.
+APIs required for each stage of development of a [minimum functionality standard](https://developer.service.hmrc.gov.uk/guides/income-tax-mtd-end-to-end-service-guide/#minimum-functionality-standards) product.
 
 Mandatory APIs are denoted by X.
 
