@@ -38,7 +38,7 @@ Version numbers and sandbox deployment dates for the APIs will be added once the
 |     Individual Calculations                      |                       No                      |          No          |                                                   **High Income Child Benefit**<br/> Enable self-employed customers with income over £50k to record a HICB liability, so the liability can be included in their tax calculation.                                                   |      TBC                |
 |     Obligations |                    Yes                      |          Yes         |                         **Managing Obligations**<br/> This delivery will change the way in which obligations are marked as met by a customer from the request of tax calculation to the submission of data. This requires changes to some end points and BVRs. Allows customers to submit their quarterly update information up to 10 days in advance of the quarter end date.   |        TBC              |
 | Self Assessment Individual Details |	No	| No | Enables customers to opt back in to MTD digitally	| TBC |
-| Self Assessment Accounts         | No                                          | Yes                 | **Review and Recalculate Adjusted Payments on Account (POA)**<br/> Enable customers to see a history of the changes to their Payments on Account through their software. | TBC |
+| Self Assessment Accounts         | No                                          | Yes                 | **Payments on Account (POA) history**<br/> Enable customers to see a history of the changes to their Payments on Account through their software. | TBC |
  
 ## Planned future deliveries
 
