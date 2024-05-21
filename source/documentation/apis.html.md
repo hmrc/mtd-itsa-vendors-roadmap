@@ -7,6 +7,8 @@ weight: 2
 
 This section details planned changes to the Income Tax (Making Tax Digital) APIs.
 
+For details of recently deployed changes, see the [API changelog](https://github.com/hmrc/income-tax-mtd-changelog) (GitHub).
+
 ## What we're working on now
 
 
