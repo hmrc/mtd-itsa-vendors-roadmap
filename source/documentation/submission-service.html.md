@@ -14,7 +14,7 @@ Customers in MTD will use this service to report income that is not supported in
 
 ## Current functionality 
 
-| Functionality to report against income type | Can be used in year? | Status |                           Change                           |
+| Functionality to report against income type | [Usable in year?](#def_uiy) | Status |                           Change                           |
 |:-------------------------------------------:|:-------------------------------------------------------:|:------:|:----------------------------------------------------------:|
 |                 UK dividends                |                           Yes                           |  Live  | Report UK dividends.                                       |
 |                 UK interest                 |                           Yes                           |  Live  | Report UK interest.                                        |
@@ -28,7 +28,7 @@ Customers in MTD will use this service to report income that is not supported in
 
 Planned future deliveries.
 
-| Functionality to report against income type | Can be used in year? |                                          Change                                          |
+| Functionality to report against income type | [Usable in year?](#def_uiy) |                                          Change                                          |
 |:-------------------------------------------:|:-------------------------------------------------------:|:----------------------------------------------------------------------------------------:|
 |              Tailor your Return             |                           Yes                           | Tailor an end of year return to ensure customers submit all income subject to income tax |
 |                     CIS                     |                           Yes                           | Report Construction Industry Scheme                                                      |
@@ -60,3 +60,14 @@ Planned future deliveries.
 | Cash Accounting vs Traditional Accounting | Yes | Report use of cash accounting or traditional accounting |
 | Coding out  | Yes | Present and transfer an underpayment                  |
 | Autocoding  | Yes | Report and amend non-PAYE income, reliefs or expenses |
+
+
+**Usable in year**
+
+<a name="def_uiy"></a>
+
+This means that the functionality is available during the active tax year to report against. 
+For example, transitional profit can be reported during the active tax year.
+
+If "Usable in year?" is "No", the functionality is not available until after the tax year has ended. 
+For example, High Income Child Benefit liability cannot be reported until after the tax year has ended.
