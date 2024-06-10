@@ -5,7 +5,7 @@ weight: 5
 
 # Minimum functionality standard
 
-APIs required for each stage of development of a [minimum functionality standard](https://developer.service.hmrc.gov.uk/guides/income-tax-mtd-end-to-end-service-guide/#minimum-functionality-standards) product.
+APIs required for each stage of development of a [minimum functionality standard](https://developer.service.hmrc.gov.uk/guides/income-tax-mtd-end-to-end-service-guide/documentation/how-to-integrate.html#minimum-functionality-standards) product.
 
 Mandatory APIs are denoted by X.
 
