@@ -25,7 +25,7 @@ These changes are scheduled to be deployed to production in June 2024.
 | [Property Business](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/property-business-api/4.0) v4.0                                                              | This change will allow both consolidated expenses and rent a room relief to be submitted at the same time to support the customer journey of one or more properties.                                                                                                                                                                                                                                                                                                   | Yes                                             | Yes             | Apr 2024                      |
 | [Individuals Foreign Income](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-foreign-income-api/1.0) v1.0,<br/>[Individuals Insurance Policies Income](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-insurance-policies-income-api/1.0) v1.0,<br/>[Individuals Pensions Income](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-pensions-income-api/1.0) v1.0,<br/>[Individuals Dividends Income](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-dividends-income-api/1.0) v1.0,<br/>[Individuals Savings Income](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-savings-income-api/1.0) v1.0,<br/>[Individuals Capital Gains Income](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-capital-gains-income-api/1.0) v1.0,<br/>[Individuals Other Income](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-other-income-api/1.0) v1.0,<br/>[Individuals Employments Income](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-employments-income-api/1.0) v1.0  | These 8 new APIs are the result of splitting the Individuals Income Received API into smaller APIs. The new APIs will also have these improvements: <ul><li>Removal of HATEOAS links</li><li>Update of enum value names for consistency</li><li>Addition of a new generic error</li></ul> | No  | Yes  | Apr 2024  |
 
-### September 2024 (TBC)
+### September 2024
 
 These changes are expected to be deployed in September 2024 (to be confirmed).
 
@@ -38,12 +38,11 @@ Version numbers and sandbox deployment dates for the APIs will be added once the
 | [Obligations](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/obligations-api/) | **Managing obligations**<br/> This delivery will change the way in which obligations are marked as met by a customer from the request of tax calculation to the submission of data. This requires changes to some end points and BVRs. Allows customers to submit their quarterly update information up to 10 days in advance of the quarter end date. | Yes | Yes | TBC |
 | [Self Assessment Individual Details](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/self-assessment-individual-details-api/) | Enables customers to opt back in to MTD digitally. | No | No | TBC |
 | [Self Assessment Accounts](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/self-assessment-accounts-api/) | **Payments on account history**<br/> Enable customers to see a history of the changes to their payments on account through their software. | No | Yes | TBC |
-| [Self Assessment Accounts](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/self-assessment-accounts-api/) v4.0 | CL 413 | TBC | TCB | TBC |
-| [Self Assessment Accounts](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/self-assessment-accounts-api/) v4.0 | CL 401 | TBC | TCB | TBC |
-| [Self Assessment Accounts](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/self-assessment-accounts-api/) v4.0 | CL 183 | TBC | TCB | TBC |
+| [Self Assessment Accounts](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/self-assessment-accounts-api/) v4.0 | CL 413 | TBC | TBC | TBC |
+| [Self Assessment Accounts](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/self-assessment-accounts-api/) v4.0 | CL 401 | TBC | TBC | TBC |
+| [Self Assessment Accounts](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/self-assessment-accounts-api/) v4.0 | CL 183 | TBC | TBC | TBC |
 
-### December 2024 (TBC)
-
+### December 2024
 These changes are expected to be deployed in December 2024 (to be confirmed).
 
 | API(s)                                                    | Change               | [Affects quarterly updates?](#def_aqu) | [Usable in year?](#def_uiy) | Deployed to Sandbox |
@@ -54,7 +53,7 @@ These changes are expected to be deployed in December 2024 (to be confirmed).
 | [Individuals Savings Income](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-savings-income-api) v1.0                           | CL 370               | TBC                                     | TBC                         | Oct 2024             |
 | [Self Assessment Individual Details](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/self-assessment-individual-details-api) v3.0                   | Opt In back in MTD   | TBC                                     | TBC                         | Oct 2024             |
 
-### April 2025 (TBC)
+### April 2025
 
 These changes are expected to be deployed in April 2025 (to be confirmed).
 
@@ -80,49 +79,47 @@ These changes are expected to be deployed in April 2025 (to be confirmed).
 | [Self-Employment Business](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/self-employment-business-api) v4.0                        | Electric Vehicle        | TBC                                     | TBC                         | Dec 2024             |
 | [Self-Employment Business](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/self-employment-business-api) v5.0                        | PFA                     | TBC                                     | TBC                         | Jan 2025             |
 
-### May 2025 (TBC)
+### May 2025
 
 These changes are expected to be deployed in May 2025 (to be confirmed).
 
 | API(s)                                               | Change                  | [Affects quarterly updates?](#def_aqu) | [Usable in year?](#def_uiy) | Deployed to Sandbox |
 |:-----------------------------------------------------|:------------------------|:---------------------------------------:|:---------------------------:|:--------------------:|
-| Business Source Adjustable Summary v7.0              | PFA                     | TBC                                     | TBC                         | Jan 2024             |
-| Individual Calculations v8.0                         | PFA                     | TBC                                     | TBC                         | Jan 2025             |
-| Individual Losses v6.0                               | PFA                     | TBC                                     | TBC                         | Jan 2024             |
-| Property Business v6.0                               | PFA                     | TBC                                     | TBC                         | Jan 2025             |
+| [Business Source Adjustable Summary](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/self-assessment-bsas-api) v7.0              | PFA                     | TBC                                     | TBC                         | Jan 2024             |
+| [Individual Calculations](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individual-calculations-api) v8.0                         | PFA                     | TBC                                     | TBC                         | Jan 2025             |
+| [Individual Losses](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individual-losses-api) v6.0                               | PFA                     | TBC                                     | TBC                         | Jan 2024             |
+| [Property Business](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/property-business-api) v6.0                               | PFA                     | TBC                                     | TBC                         | Jan 2025             |
 
-### June 2025 (TBC)
+### June 2025
 
 These changes are expected to be deployed in June 2025 (to be confirmed).
 
 | API(s)                                               | Change                  | [Affects quarterly updates?](#def_aqu) | [Usable in year?](#def_uiy) | Deployed to Sandbox |
 |:-----------------------------------------------------|:------------------------|:---------------------------------------:|:---------------------------:|:--------------------:|
-| CIS Deductions v3.0                                  | PFA                     | TBC                                     | TBC                         | Mar 2025             |
-| Individuals Reliefs v2.0                              | PFA                     | TBC                                     | TBC                         | Mar 2025             |
-| Individuals Capital Gains Income v2.0                | PFA                     | TBC                                     | TBC                         | Mar 2025             |
-| Individuals Disclosures v2.0                          | PFA                     | TBC                                     | TBC                         | Mar 2025             |
-| Individuals Dividends Income v2.0                    | PFA                     | TBC                                     | TBC                         | Mar 2025             |
-| Individuals Capital Gains Income v2.0                | PFA                     | TBC                                     | TBC                         | Mar 2025             |
-| Individuals Disclosures v2.0                          | PFA                     | TBC                                     | TBC                         | Mar 2025             |
-| Individuals Dividends Income v2.0                    | PFA                     | TBC                                     | TBC                         | Mar 2025             |
-| Property Business v6.0                               | PFA                     | TBC                                     | TBC                         | Jan 2025             |
+| [CIS Deductions](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/cis-deductions-api) v3.0                                  | PFA                     | TBC                                     | TBC                         | Mar 2025             |
+| [Individuals Reliefs](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-reliefs-api) v2.0                              | PFA                     | TBC                                     | TBC                         | Mar 2025             |
+| [Individuals Capital Gains Income](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-capital-gains-income-api) v2.0                | PFA                     | TBC                                     | TBC                         | Mar 2025             |
+| [Individuals Disclosures](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-disclosures-api) v2.0                          | PFA                     | TBC                                     | TBC                         | Mar 2025             |
+| [Individuals Dividends Income](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-dividends-income-api) v2.0                    | PFA                     | TBC                                     | TBC                         | Mar 2025             |
+| [Individuals Capital Gains Income](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-capital-gains-income-api) v2.0                | PFA                     | TBC                                     | TBC                         | Mar 2025             |
+| [Individuals Disclosures](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-disclosures-api) v2.0                          | PFA                     | TBC                                     | TBC                         | Mar 2025             |
+| [Individuals Dividends Income](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-dividends-income-api) v2.0                    | PFA                     | TBC                                     | TBC                         | Mar 2025             |
+| [Property Business](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/property-business-api) v6.0                               | PFA                     | TBC                                     | TBC                         | Jan 2025             |
 
-### September 2025 (TBC)
+### September 2025
 
 These changes are expected to be deployed in September 2025 (to be confirmed).
 
-
 | API(s)                                               | Change                  | [Affects quarterly updates?](#def_aqu) | [Usable in year?](#def_uiy) | Deployed to Sandbox |
 |:-----------------------------------------------------|:------------------------|:---------------------------------------:|:---------------------------:|:--------------------:|
-| Individuals Employments Income v2.0                  | PFA                     | TBC                                     | TBC                         | Jun 2025             |
-| Individuals Expenses v3.0                            | PFA                     | TBC                                     | TBC                         | Jun 2025             |
-| Individuals Foreign Income v2.0                      | PFA                     | TBC                                     | TBC                         | Jun 2025             |
-| Individuals Insurance Policies Income v2.0           | PFA                     | TBC                                     | TBC                         | Jun 2025             |
-| Individuals Other Income v2.0                        | PFA                     | TBC                                     | TBC                         | Jun 2025             |
-| Individuals Pensions Income v2.0                     | PFA                     | TBC                                     | TBC                         | Jun 2025             |
-| Individuals State Benefits v2.0                      | PFA                     | TBC                                     | TBC                         | Jun 2025             |
-| Other Deductions v2.0                                | PFA                     | TBC                                     | TBC                         | Jun 2025             |
-
+| [Individuals Employments Income](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-employments-income-api) v2.0                  | PFA                     | TBC                                     | TBC                         | Jun 2025             |
+| [Individuals Expenses](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-expenses-api) v3.0                            | PFA                     | TBC                                     | TBC                         | Jun 2025             |
+| [Individuals Foreign Income](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-foreign-income-api) v2.0                      | PFA                     | TBC                                     | TBC                         | Jun 2025             |
+| [Individuals Insurance Policies Income](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-insurance-policies-income-api) v2.0           | PFA                     | TBC                                     | TBC                         | Jun 2025             |
+| [Individuals Other Income](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-other-income-api) v2.0                        | PFA                     | TBC                                     | TBC                         | Jun 2025             |
+| [Individuals Pensions Income](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-pensions-income-api) v2.0                     | PFA                     | TBC                                     | TBC                         | Jun 2025             |
+| [Individuals State Benefits](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-state-benefits-api) v2.0                      | PFA                     | TBC                                     | TBC                         | Jun 2025             |
+| [Other Deductions](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/other-deductions-api) v2.0                                | PFA                     | TBC                                     | TBC                         | Jun 2025             |
 
 ## Planned future deliveries
 
