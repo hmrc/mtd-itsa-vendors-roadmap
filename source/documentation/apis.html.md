@@ -38,9 +38,9 @@ Version numbers and sandbox deployment dates for the APIs will be added once the
 | [Obligations](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/obligations-api/) | **Managing obligations**<br/> This delivery will change the way in which obligations are marked as met by a customer from the request of tax calculation to the submission of data. This requires changes to some end points and BVRs. Allows customers to submit their quarterly update information up to 10 days in advance of the quarter end date. | Yes | Yes | TBC |
 | [Self Assessment Individual Details](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/self-assessment-individual-details-api/) | Enables customers to opt back in to MTD digitally. | No | No | TBC |
 | [Self Assessment Accounts](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/self-assessment-accounts-api/) | **Payments on account history**<br/> Enable customers to see a history of the changes to their payments on account through their software. | No | Yes | TBC |
-| [Self Assessment Accounts](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/self-assessment-accounts-api/) v4.0 | CL 413 | TBC | TBC | TBC |
-| [Self Assessment Accounts](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/self-assessment-accounts-api/) v4.0 | CL 401 | TBC | TBC | TBC |
-| [Self Assessment Accounts](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/self-assessment-accounts-api/) v4.0 | CL 183 | TBC | TBC | TBC |
+| [Self Assessment Accounts](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/self-assessment-accounts-api/) v4.0 | CL 413 | TBC | TBC | Jul 2024 |
+| [Self Assessment Accounts](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/self-assessment-accounts-api/) v4.0 | CL 401 | TBC | TBC | Jul 2024 |
+| [Self Assessment Accounts](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/self-assessment-accounts-api/) v4.0 | CL 183 | TBC | TBC | Jul 2024 |
 
 ### December 2024
 These changes are expected to be deployed in December 2024 (to be confirmed).
@@ -85,9 +85,9 @@ These changes are expected to be deployed in May 2025 (to be confirmed).
 
 | API(s)                                               | Change                  | [Affects quarterly updates?](#def_aqu) | [Usable in year?](#def_uiy) | Deployed to Sandbox |
 |:-----------------------------------------------------|:------------------------|:---------------------------------------:|:---------------------------:|:--------------------:|
-| [Business Source Adjustable Summary](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/self-assessment-bsas-api) v7.0              | PFA                     | TBC                                     | TBC                         | Jan 2024             |
+| [Business Source Adjustable Summary](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/self-assessment-bsas-api) v7.0              | PFA                     | TBC                                     | TBC                         | Jan 2025             |
 | [Individual Calculations](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individual-calculations-api) v8.0                         | PFA                     | TBC                                     | TBC                         | Jan 2025             |
-| [Individual Losses](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individual-losses-api) v6.0                               | PFA                     | TBC                                     | TBC                         | Jan 2024             |
+| [Individual Losses](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individual-losses-api) v6.0                               | PFA                     | TBC                                     | TBC                         | Jan 2025             |
 | [Property Business](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/property-business-api) v6.0                               | PFA                     | TBC                                     | TBC                         | Jan 2025             |
 
 ### June 2025
