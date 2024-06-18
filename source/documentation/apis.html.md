@@ -11,7 +11,6 @@ For details of recently deployed changes, see the [API changelog](https://github
 
 ## What we're working on now
 
-
 ### June 2024
 
 These changes are scheduled to be deployed to production in June 2024.
@@ -43,15 +42,17 @@ Version numbers and sandbox deployment dates for the APIs will be added once the
 | [Self Assessment Accounts](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/self-assessment-accounts-api/) v4.0 | CL 183 | N/A | N/A | Jul 2024 |
 
 ### December 2024
+
 These changes are expected to be deployed in December 2024 (to be confirmed).
 
 | API(s)                                                    | Change               | [Affects quarterly updates?](#def_aqu) | [Usable in year?](#def_uiy) | Deployed to Sandbox |
 |:----------------------------------------------------------|:---------------------|:---------------------------------------:|:---------------------------:|:--------------------:|
-| [Individual Calculations](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individual-calculations-api) v6.0                              | Pension Lifetime     | No                                     | Yes                         | Sep 2024             |
-| [Individual Calculations](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individual-calculations-api) v6.0                              | Scottish Rate        | No                                    | Yes                         | Oct 2024             |
-| [Individuals Charges](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-charges-api) v3.0                                  | Pension Lifetime     | No                                     | Yes                         | Sep 2024             |
 | [Individuals Savings Income](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-savings-income-api) v1.0                           | CL 370               | TBC                                     | TBC                         | Oct 2024             |
 | [Self Assessment Individual Details](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/self-assessment-individual-details-api) v3.0                   | Opt In back in MTD   | No                                     | Yes                         | Oct 2024             |
+| [Individual Calculations](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individual-calculations-api) v6.0                              | Pension Lifetime     | No                                     | Yes                         | Sep 2024             |
+| [Individuals Charges](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-charges-api) v3.0                                  | Pension Lifetime     | No                                     | Yes                         | Sep 2024             |
+| [Individual Calculations](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individual-calculations-api) v6.0                              | Scottish Rate        | No                                    | Yes                         | Oct 2024             |
+
 
 ### April 2025
 
@@ -59,25 +60,26 @@ These changes are expected to be deployed in April 2025 (to be confirmed).
 
 | API(s)                                               | Change                  | [Affects quarterly updates?](#def_aqu) | [Usable in year?](#def_uiy) | Deployed to Sandbox |
 |:-----------------------------------------------------|:------------------------|:---------------------------------------:|:---------------------------:|:--------------------:|
-| [Business Income Source Summary](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/self-assessment-biss-api/) v3.0                  | FHL Removal             | Yes                                    | Yes                          | Sep 2024             |
-| [Business Source Adjustable Summary](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/self-assessment-bsas-api) v6.0              | FHL Removal             | Yes                                     | Yes                          | Dec 2024             |
-| [Business Source Adjustable Summary](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/self-assessment-bsas-api) v6.0              | Electric Vehicle        | Yes                                    | Yes                          | Dec 2024             |
 | [Individual Calculations](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individual-calculations-api) v7.0                         | Cumulative Submissions  | Yes                                    | Yes                          | Dec 2024             |
-| [Individual Calculations](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individual-calculations-api) v7.0                         | FHL Removal             | Yes                                     | Yes                          | Dec 2024             |
-| [Individual Calculations](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individual-calculations-api) v7.0                         | Pension Tax Relief      | No                                    | Yes                          | Dec 2024             |
+| [Property Business](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/property-business-api) v5.0                               | Cumulative Submissions  | Yes                                    | Yes                          | Dec 2024             |
+| [Self-Employment Business](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/self-employment-business-api) v4.0                        | Cumulative Submissions  | Yes                                    | Yes                          | Dec 2024             |
+| [Property Business](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/property-business-api) v5.0                               | Electric Vehicle        | Yes                                    | Yes                          | Dec 2024             |
+| [Business Source Adjustable Summary](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/self-assessment-bsas-api) v6.0              | Electric Vehicle        | Yes                                    | Yes                          | Dec 2024             |
+| [Self-Employment Business](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/self-employment-business-api) v4.0                        | Electric Vehicle        | Yes                                    | Yes                          | Dec 2024             |
 | [Individual Calculations](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individual-calculations-api) v7.0                         | EOPS Removal            | No                                     | No                          | Dec 2024             |
-| [Individuals Charges](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-charges-api) v4.0                             | Pension Tax Relief      | No                                   | Yes                          | Dec 2024             |
-| [Individuals Charges](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-charges-api) v4.0                             | PFA                     | No                                     | No                          | Jan 2025             |
-| [Individual Losses](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individual-losses-api) v5.0                               | FHL Removal             | Yes                                     | Yes                          | Dec 2024             |
 | [Individuals Business EOPS](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-business-eops-api)                            | EOPS Removal            | No                                     | No                          | Dec 2024             |
 | [Obligations](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/obligations-api)                                          | EOPS Removal            | No                                     | No                          | Sep 2024             |
-| [Property Business](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/property-business-api) v5.0                               | Cumulative Submissions  | Yes                                    | Yes                          | Dec 2024             |
+| [Business Income Source Summary](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/self-assessment-biss-api/) v3.0                  | FHL Removal             | Yes                                    | Yes                          | Sep 2024             |
+| [Business Source Adjustable Summary](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/self-assessment-bsas-api) v6.0              | FHL Removal             | Yes                                     | Yes                          | Dec 2024             |
+| [Individual Calculations](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individual-calculations-api) v7.0                         | FHL Removal             | Yes                                     | Yes                          | Dec 2024             |
+| [Individual Losses](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individual-losses-api) v5.0                               | FHL Removal             | Yes                                     | Yes                          | Dec 2024             |
 | [Property Business](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/property-business-api) v5.0                               | FHL Removal             | Yes                                     | Yes                         | Dec 2024             |
-| [Property Business](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/property-business-api) v5.0                               | Electric Vehicle        | Yes                                    | Yes                          | Dec 2024             |
+| [Individuals Charges](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-charges-api) v4.0                             | PFA                     | No                                     | No                          | Jan 2025             |
 | [Self Assessment Accounts](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/self-assessment-accounts-api) v5.0                        | PFA                     | No                                     | No                          | Dec 2024             |
-| [Self-Employment Business](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/self-employment-business-api) v4.0                        | Cumulative Submissions  | Yes                                    | Yes                          | Dec 2024             |
-| [Self-Employment Business](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/self-employment-business-api) v4.0                        | Electric Vehicle        | Yes                                    | Yes                          | Dec 2024             |
 | [Self-Employment Business](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/self-employment-business-api) v5.0                        | PFA                     | No                                     | No                          | Jan 2025             |
+| [Individuals Charges](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-charges-api) v4.0                             | Pension Tax Relief      | No                                   | Yes                          | Dec 2024             |
+| [Individual Calculations](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individual-calculations-api) v7.0                         | Pension Tax Relief      | No                                    | Yes                          | Dec 2024             |
+
 
 ### May 2025
 
