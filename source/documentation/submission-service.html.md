@@ -14,52 +14,53 @@ Customers in MTD will use this service to report income that is not supported in
 
 ## Current functionality 
 
-| Functionality to report against income type | [Usable in year?](#def_uiy) | Status |                           Change                           |
-|:-------------------------------------------:|:-------------------------------------------------------:|:------:|:----------------------------------------------------------:|
-|                 UK dividends                |                           Yes                           |  Live  | Report UK dividends                                       |
-|                 UK interest                 |                           Yes                           |  Live  | Report UK interest                                        |
-|              Charitable giving              |                           Yes                           |  Live  | Report charitable donations                                |
-|            Employments (in year)            |                           Yes                           |  Live  | View employment information                               |
-|              Final declaration              |                            No                           |  Live  | Finalise a self assessment tax return for a year           |
-|          Employments (end of year)          |                            No                           |  Live  | Amend and/or add new employment details after the year end |
-|                Student loans                |                            No                           | Live | Report student loan information                            |
+| Functionality to report against income type  |                           Change                           | [Usable in year?](#def_uiy) | Status|
+|:-------------------------------------------|:----------------------------------------------------------|:-------------------------------------------------------:|:------:|
+|                 UK dividends                | Report UK dividends                                       |                           Yes                           | Live |
+|                 UK interest                 | Report UK interest                                        |                           Yes                           | Live |
+|              Charitable giving              | Report charitable donations                                |                           Yes                          | Live |
+|            Employments (in year)            | View employment information                               |                           Yes                           | Live |
+|              Final declaration              | Finalise a self assessment tax return for a year           |                            No                          | Live |
+|          Employments (end of year)          | Amend and/or add new employment details after the year end |                            No                          | Live |
+|                Student loans                | Report student loan information                            |                            No                          | Live |
+|                     CIS                     | Report Construction Industry Scheme                                                      |    Yes                   | Live |
+|            Additional information           | Report Additional Information Part 1                                                     |    Yes                   | Live |
+|               State benefits                | Report Jobseeker's and Employment and Support Allowance                    |                           Yes          | Live |
+|             Off-payroll working             |View off-payroll working (OPW) marker after year end and offer customer the option to add/remove and submit to HMRC.  A warning message will be displayed to the customer if the marker is amended. |                           Yes                           | Live |
 
 ## Future functionality
 
 Planned future deliveries.
 
-| Functionality to report against income type | [Usable in year?](#def_uiy) |                                          Change                                          |
-|:-------------------------------------------:|:-------------------------------------------------------:|:----------------------------------------------------------------------------------------:|
-|              Tailor your return             |                           Yes                           | Tailor an end of year return to ensure customers submit all income subject to income tax |
-|                     CIS                     |                           Yes                           | Report Construction Industry Scheme                                                      |
-|                   Pensions                  |                           Yes                           | Report pensions                                                                          |
-|            Additional information           |                           Yes                           | Report Additional Information Part 1                                                     |
-|               State benefits                |                           Yes                           | Report state benefits                                                                    |
-|              Capital Gains Tax              |                           Yes                           | Report Capital Gains Tax                                                                                                                                                                            |
-|               Self-employment               |                           Yes                           | Report self-employment                                                                                                                                                                              |
-|               Property income               |                           Yes                           | Report property income                                                                                                                                                                              |
-|                Foreign income               |                           Yes                           | Report foreign income                                                                                                                                                                               |
-|             Off-payroll working             |                           Yes                           | View off-payroll working (OPW) marker after year end and offer customer the option to add/remove and submit to HMRC.  A warning message will be displayed to the customer if the marker is amended. |
-|       Post final declaration amendments       |                           Yes                           | Amend self assessment tax return           |
-|               Partner income                |                           Yes                           | Report partner income                      |
-|          High Income Child Benefit          |                           Yes                           | Report High Income Child Benefit           |
-|                 Trust income                |                           Yes                           | Report income from a trust                 |
-|            Additional information           |                           Yes                           | Report Additional Information Part 2       |
-|           Residence and remittance          |                           Yes                           | Support overseas customers with UK income |
-|             Members of Parliament              |                           Yes                           | Report MP income                                    |
-|              Ministers of religion             |                           Yes                           | Report ministers of religion income                 |
-|             Blind Person's Allowance            |                           Yes                           | Claim Blind Person's Allowance                       |
-|               Lloyd's underwriters              |                           Yes                           | Report income from funds at Lloyd's                 |
-|           Married Couple's Allowance            |                           Yes                           | Claim Married Couple's Allowance                     |
-|               Marriage Allowance               |                           Yes                           | Claim Marriage Allowance                            |
-| Averaging adjustments and special arrangements |                           Yes                           | Report averaging adjustments & special arrangements |
-|              Carry back of losses              |                           Yes                           | Carry back losses from previous tax years           |
-| Gift Aid budget changes | Yes | Implement any devolved administration gift aid threshold changes into UI|
-| Insolvency | Yes | Report insolvency |
-| Cessation of income | Yes | Report cessation of income |
-| Cash accounting vs traditional accounting | Yes | Report use of cash accounting or traditional accounting |
-| Coding out  | Yes | Present and transfer an underpayment                  |
-| Autocoding  | Yes | Report and amend non-PAYE income, reliefs or expenses |
+| Functionality to report against income type  |                           Change                           | [Usable in year?](#def_uiy) |
+|:-------------------------------------------|:----------------------------------------------------------|:-------------------------------------------------------:|
+|              Tailor your return             | Tailor an end of year return to ensure customers submit all income subject to income tax |                           Yes                           |
+|                   Pensions                  | Report pensions                                                                          |                           Yes                           |
+|              Capital Gains Tax              | Report Capital Gains Tax                                                                                                                                                                            |                           Yes                           |
+|               Self-employment               | Report self-employment                                                                                                                                                                              |                           Yes                           |
+|               Property income               | Report property income                                                                                                                                                                              |                           Yes                           |
+|                Foreign income               | Report foreign income                                                                                                                                                                               |                           Yes                           |
+|       Post final declaration amendments       | Amend self assessment tax return           |                           Yes                           |
+|               Partner income                | Report partner income                      |                           Yes                           |
+|          High Income Child Benefit          | Report High Income Child Benefit           |                           Yes                           |
+|                 Trust income                | Report income from a trust                 |                           Yes                           |
+|            Additional information           | Report Additional Information Part 2       |                           Yes                           |
+|           Residence and remittance          | Support overseas customers with UK income |                           Yes                           |
+|             Members of Parliament              | Report MP income                                    |                           Yes                           |
+|              Ministers of religion             | Report ministers of religion income                 |                           Yes                           |
+|             Blind Person's Allowance            | Claim Blind Person's Allowance                       |                           Yes                           |
+|               Lloyd's underwriters              | Report income from funds at Lloyd's                 |                           Yes                           |
+|           Married Couple's Allowance            | Claim Married Couple's Allowance                     |                           Yes                           |
+|               Marriage Allowance               | Claim Marriage Allowance                            |                           Yes                           |
+| Averaging adjustments and special arrangements | Report averaging adjustments & special arrangements |                           Yes                           |
+|              Carry back of losses              | Carry back losses from previous tax years           |                           Yes                           |
+| Gift Aid budget changes | Implement any devolved administration gift aid threshold changes into UI|                           Yes                           |
+| Insolvency | Report insolvency |                           Yes                           |
+| Cessation of income | Report cessation of income |                           Yes                           |
+| Cash accounting vs traditional accounting | Report use of cash accounting or traditional accounting |                           Yes                           |
+| Coding out  | Present and transfer an underpayment                  |                           Yes                           |
+| Autocoding  | Report and amend non-PAYE income, reliefs or expenses |                           Yes                           |
+| Other state benefits | Report other state benefits |                           Yes                           |
 
 
 **Usable in year**

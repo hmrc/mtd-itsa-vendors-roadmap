@@ -1,7 +1,7 @@
 
 # Income Tax (Making Tax Digital) roadmap 
 
-Last updated: 19 June 2024
+Last updated: 8 July 2024 (see [changelog](#document-changelog))
 
 ## About this roadmap
 
@@ -36,6 +36,20 @@ functionality.
 
 Before releasing functionality to all our customers we will conduct testing with limited customers. This period is
 referred to as 'controlled go-live' or private beta.
+
+## Document changelog
+
+8 July 2024
+
+- Update APIs roadmap
+	- September 2024 table update
+	- Add expected changes for December 2024 and April 2025
+	- Add "Post-finalisation amendment" to **Planned future deliveries**
+	- Add indication of breaking/non-breaking changes
+
+- Update HMRC online services roadmap
+	- Add reporting of Construction Industry Scheme, additional information and off-payroll working to **Current functionality**
+	- Updated state benefits entries to show that Jobseeker’s Allowance and Employment and Support Allowance can now be reported
 
 ----
 
