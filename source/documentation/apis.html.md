@@ -17,44 +17,34 @@ For details of deployed changes, see the [API changelog](https://github.com/hmrc
 
 These changes are expected to be deployed in September 2024 (to be confirmed).
 
-When a change has been deployed to Sandbox, the deploy date will be marked with an asterisk, for example "Jul 2024*".
+Version numbers will be added once the scope for the release and the associated release date are confirmed.
 
-| API(s) | Change | [Affects quarterly updates?](#def_aqu) | [Usable in year?](#def_uiy) | Deploy&nbsp;to Sandbox |
-|:-------|:-------|:-------------------------:|:---------------:|:-----------------:|
-| [Self Assessment Accounts](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/self-assessment-accounts-api/)<br/>(non-breaking) | **Payments on account history**<br/> Enable customers to see a history of the changes to their payments on account through their software. | No | Yes | Jul 2024 |
-| [Self Assessment Accounts](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/self-assessment-accounts-api/)<br/>(non-breaking) | **API fixes**<br/><ul><li> New URL query parameter to pass charge reference number.</li><li> Reduce the length of `documentId` in response from 30 characters to 12 for consistency across APIs.</li><li> New error message introduced to cater for charges (excluding statistical charges) without any charge history available.</li></ul> | No | Yes | Jul 2024 |
+When a change has been deployed to Sandbox, the deploy date will be marked with \*, for example "Jul 2024*".
 
 | API(s) | Change | [Breaking?](#def_br) | [Affects quarterly updates?](#def_aqu) | [Usable in year?](#def_uiy) | Deploy&nbsp;to Sandbox |
 |:-------|:-------|:---------:|:---------------------------------------:|:---------------------------:|:--------------------:|
 | [Self Assessment Accounts](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/self-assessment-accounts-api/) | **Payments on account history**<br/> Enable customers to see a history of the changes to their payments on account through their software. | No | No | Yes | Jul 2024 |
-| [Self Assessment Accounts](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/self-assessment-accounts-api/) | **API fixes**<br/><ul><li> New URL query parameter to pass charge reference number.</li><li> Reduce the length of `documentId` in response from 30 characters to 12 for consistency across APIs.</li><li> New error message introduced to cater for charges (excluding statistical charges) without any charge history available.</li></ul> | No | No | Yes | Jul 2024 |
+| [Self Assessment Accounts](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/self-assessment-accounts-api/) v2.0, v3.0 | **API fixes**<br/><ul><li> New URL query parameter to pass charge reference number.</li><li> Reduce the length of `transactionId` in response from 30 characters to 12 for consistency across APIs.</li><li> New error message introduced to cater for charges (excluding statistical charges) without any charge history available.</li></ul> | No | No | Yes | Jun 2024* |
 
 ### December 2024
 
 These changes are expected to be deployed in December 2024 (to be confirmed).
 
-| API(s)                                                    | Change               | [Affects quarterly updates?](#def_aqu) | [Usable in year?](#def_uiy) | Deploy&nbsp;to Sandbox |
-|:----------------------------------------------------------|:---------------------|:---------------------------------------:|:---------------------------:|:--------------------:|
-| [Self Assessment Individual Details](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/self-assessment-individual-details-api)<br/>(breaking)  | **Opt back in to MTD**<br/> Enable an annual customer who has previously signed up to MTD, then opted out of periodic filing, to opt back in on a voluntary basis.  | No                                     | Yes                         | Sep 2024             |
-| [Individual Calculations](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individual-calculations-api) (breaking),<br/>[Individuals Charges](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-charges-api) (breaking)                             | **Pension lifetime allowance**<br/>  Remove the ability for customers to claim pension lifetime allowance  | No                                     | Yes                         | Sep 2024             |
-| [Individual Calculations](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individual-calculations-api) (non-breaking)                             | **Scottish Rate**<br/> Add a new enum value within tax bands field to accommodate the Scottish Advanced Rate.        | No                                    | Yes                         | Oct 2024             |
+Version numbers will be added once the scope for the release and the associated release date are confirmed.
+
 
 | API(s)                                                    | Change               | [Breaking?](#def_br) | [Affects quarterly updates?](#def_aqu) | [Usable in year?](#def_uiy) | Deploy&nbsp;to Sandbox |
 |:----------------------------------------------------------|:---------------------|:---------:|:---------------------------------------:|:---------------------------:|:--------------------:|
 | [Self Assessment Individual Details](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/self-assessment-individual-details-api)  | **Opt back in to MTD**<br/> Enable an annual customer who has previously signed up to MTD, then opted out of periodic filing, to opt back in on a voluntary basis.  | Yes | No | Yes | Sep 2024 |
 | [Individual Calculations](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individual-calculations-api),<br/>[Individuals Charges](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-charges-api) | **Pension lifetime allowance**<br/>  Remove the ability for customers to claim pension lifetime allowance  | Yes | No | Yes | Sep 2024 |
-| [Individual Calculations](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individual-calculations-api) | **Scottish Rate**<br/> Add a new enum value within tax bands field to accommodate the Scottish Advanced Rate. | No | No | Yes | Oct 2024 |
+| [Individual Calculations](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individual-calculations-api) | **Scottish Rate**<br/> Add a new enum value within tax bands field to accommodate the Scottish Advanced Rate. | Yes | No | Yes | Oct 2024 |
 
 ### April 2025
 
 These changes are expected to be deployed in April 2025 (to be confirmed).
 
-| API(s)                                               | Change                  | [Affects quarterly updates?](#def_aqu) | [Usable in year?](#def_uiy) | Deploy&nbsp;to Sandbox |
-|:-----------------------------------------------------|:------------------------|:---------------------------------------:|:---------------------------:|:--------------------:|
-| [Individual Calculations](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individual-calculations-api) (breaking),<br/> [Property Business](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/property-business-api) (breaking),<br/> [Self-Employment Business](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/self-employment-business-api) (breaking), [Obligations](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/obligations-api) (breaking) | **Cumulative submissions**<br/>The quarterly update process will be replaced to allow customers to submit data cumulatively. This change will be effective from April 2025. | Yes | Yes | Dec 2024 |
-| [Property Business](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/property-business-api) (breaking),<br/> [Business Source Adjustable Summary](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/self-assessment-bsas-api) (breaking),<br/> [Self-Employment Business](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/self-employment-business-api) (breaking) | **Electric vehicles**<br/>Removal of support for claiming first-year allowance for electric vehicle charge-points. | Yes | Yes | Dec 2024 |
-| [Individual Calculations](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individual-calculations-api/) (breaking),<br/>[Individuals Business EOPS](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-business-eops-api/) (breaking),<br/>[Obligations](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/obligations-api/) (breaking) | **EOPS removal**<br/>Removal of the ability for a customer to submit EOPS via software. | No | No | Dec 2024 |
-| [Business Source Adjustable Summary](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/self-assessment-bsas-api/) (breaking),<br/>[Individual Calculations](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individual-calculations-api/) (breaking),<br/>[Individual Losses](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individual-losses-api/) (breaking),<br/>[Property Business](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/property-business-api/) (breaking),<br/>[Business Income Source Summary](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/self-assessment-biss-api/) (breaking) | **FHL removal**<br/>Removal of support for furnished holiday lettings tax rules. | Yes | Yes | Dec 2024 |
+Version numbers will be added once the scope for the release and the associated release date are confirmed.
+
 
 | API(s)                                               | Change                  | [Breaking?](#def_br) | [Affects quarterly updates?](#def_aqu) | [Usable in year?](#def_uiy) | Deploy&nbsp;to Sandbox |
 |:-----------------------------------------------------|:------------------------|:---------:|:---------------------------------------:|:---------------------------:|:--------------------:|
