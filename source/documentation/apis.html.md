@@ -19,12 +19,12 @@ These changes are expected to be deployed in September 2024 (to be confirmed).
 
 Version numbers will be added once the scope for the release and the associated release date are confirmed.
 
-When a change has been deployed to Sandbox, the deploy date will be marked with \*, for example "Jul 2024*".
+When a change has been deployed to Sandbox, the deploy date will be marked with \*, for example "Jun 2024*".
 
 | API(s) | Change | [Breaking?](#def_br) | [Affects quarterly updates?](#def_aqu) | [Usable in year?](#def_uiy) | Deploy&nbsp;to Sandbox |
 |:-------|:-------|:---------:|:---------------------------------------:|:---------------------------:|:--------------------:|
-| [Self Assessment Accounts](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/self-assessment-accounts-api/) | **Payments on account history**<br/> Enable customers to see a history of the changes to their payments on account through their software. | No | No | Yes | Jul 2024 |
-| [Self Assessment Accounts](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/self-assessment-accounts-api/) v2.0, v3.0 | **API fixes**<br/><ul><li> New URL query parameter to pass charge reference number.</li><li> Reduce the length of `transactionId` in response from 30 characters to 12 for consistency across APIs.</li><li> New error message introduced to cater for charges (excluding statistical charges) without any charge history available.</li></ul> | No | No | Yes | Jun 2024* |
+| [Self Assessment Accounts](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/self-assessment-accounts-api/) v3.0 | **Payments on account history**<br/> Enable customers to see a history of the changes to their payments on account through their software. | No | No | Yes | Jun 2024* |
+
 
 ### December 2024
 
