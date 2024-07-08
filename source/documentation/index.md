@@ -44,6 +44,7 @@ Before releasing functionality to all our customers we will conduct testing with
 	- September 2024 table update
 	- Add expected changes for December 2024 and April 2025
 	- Add "Post-finalisation amendment" and "Opt back in to MTD" to **Planned future deliveries**
+	- Move "High Income Child Benefit" to **Planned future deliveries**
 	- Add indication of breaking/non-breaking changes
 
 - Update HMRC online services roadmap
