@@ -34,8 +34,7 @@ functionality.
 
 **What is controlled go-live?**
 
-Before releasing functionality to all our customers we will conduct testing with limited customers. This period is
-referred to as 'controlled go-live' or private beta.
+Before releasing functionality to all our customers we will conduct testing with limited customers. This period is referred to as 'controlled go-live' or private beta.
 
 ## Document changelog
 
@@ -44,7 +43,8 @@ referred to as 'controlled go-live' or private beta.
 - Update APIs roadmap
 	- September 2024 table update
 	- Add expected changes for December 2024 and April 2025
-	- Add "Post-finalisation amendment" to **Planned future deliveries**
+	- Add "Post-finalisation amendment" and "Opt back in to MTD" to **Planned future deliveries**
+	- Move "High Income Child Benefit" to **Planned future deliveries**
 	- Add indication of breaking/non-breaking changes
 
 - Update HMRC online services roadmap
