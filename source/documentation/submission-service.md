@@ -1,8 +1,3 @@
----
-title: Online Service Roadmap | Income Tax (MTD) Roadmap
-weight: 3
----
-
 # HMRC online services
 
 A new Income Tax Self Assessment service for customers and their authorised agents to update and submit an income tax return is being made available in HMRC online services.

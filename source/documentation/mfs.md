@@ -1,8 +1,3 @@
----
-title: Minimum Functionality Standards | Income Tax (MTD) Roadmap
-weight: 5
----
-
 # Minimum functionality standards
 
 To gain Production access to the Income Tax (Making Tax Digital) APIs, your software needs to meet the minimum functionality standards.
