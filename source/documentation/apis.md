@@ -1,8 +1,3 @@
----
-title: Income Tax API Roadmap | Income Tax (MTD) Roadmap
-weight: 2
----
-
 # APIs
 
 This section details planned changes to the Income Tax (Making Tax Digital) APIs.
