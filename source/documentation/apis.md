@@ -18,7 +18,7 @@ When a change has been deployed to Sandbox, the deploy date is marked with \*, f
 
 | API(s) | Change | [Breaking?](#def_br) | [Affects quarterly updates?](#def_aqu) | [Usable in year?](#def_uiy) | Deploy&nbsp;to Sandbox |
 |:-------|:-------|:---------:|:---------------------------------------:|:---------------------------:|:--------------------:|
-| [Self Assessment Accounts](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/self-assessment-accounts-api/) v3.0 | **Payments on account history**<br/> Enable customers to see a history of the changes to their payments on account through their software. | No | No | Yes | Jun 2024* |
+| [Self Assessment Accounts](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/self-assessment-accounts-api/) v3.0 | **Payments on account history**<br/> Enable customers to see a history of the charges to their payments on account through their software. | No | No | Yes | Jun 2024* |
 
 
 ### December 2024
