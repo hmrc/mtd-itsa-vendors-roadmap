@@ -3,6 +3,8 @@
 
 Last updated: July 2024 (see [changelog](#document-changelog))
 
+> **Help us improve this roadmap**: [leave your feedback here](https://docs.google.com/forms/d/e/1FAIpQLSe9jb0WCXWO9yt6zLBTKZLSK2oiTQcGPD96CTiwnQF0QxH5Tw/viewform).
+
 ## About this roadmap
 
 This roadmap sets out our anticipated schedule for future releases for Making Tax Digital for Income Tax APIs. It also provides details of releases relating to
@@ -54,9 +56,3 @@ July 2024
 - Update HMRC online services roadmap
 	- Add reporting of Construction Industry Scheme, additional information and off-payroll working to **Current functionality**
 	- Updated state benefits entries to show that Jobseeker’s Allowance and Employment and Support Allowance can now be reported
-
-----
-
-We would welcome your feedback to improve our roadmap further.
-
-Please feel free to contact us: sdsteam@hmrc.gov.uk
