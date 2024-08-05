@@ -1,6 +1,6 @@
 # APIs
 
-This section details planned changes to the Income Tax (Making Tax Digital) APIs.
+This section details planned changes to the Making Tax Digital for Income Tax APIs.
 
 For details of deployed changes, see the [API changelog](https://github.com/hmrc/income-tax-mtd-changelog) (GitHub).
 
@@ -175,8 +175,6 @@ These changes were released in April 2023.
 
 If "Breaking?" is "Yes", the change will break software which relies on the API, and will therefore be introduced in a new API version. 
 
-If "Breaking?" is "No", the change will not break existing software and does not require the API version to be incremented. 
-
 For more details, see the section on [breaking changes](https://developer.service.hmrc.gov.uk/guides/income-tax-mtd-end-to-end-service-guide/documentation/how-to-integrate.html#breaking-changes) in the service guide.
 
 
@@ -186,9 +184,10 @@ For more details, see the section on [breaking changes](https://developer.servic
 
 This means that the change directly impacts MTD mandated customers and their submissions of periodic updates.
 
-**Usable in year**
 
 <a name="def_uiy"></a>
+
+**Usable in year**
 
 This means that the functionality is available during the active tax year to report against. 
 For example, transitional profit can be reported during the active tax year.

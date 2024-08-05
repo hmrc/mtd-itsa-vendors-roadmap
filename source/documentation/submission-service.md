@@ -1,6 +1,6 @@
 # HMRC online services
 
-A new Income Tax Self Assessment service for customers and their authorised agents to update and submit an income tax return is being made available in HMRC online services.
+A new service for customers and their authorised agents to update and submit an Income Tax return is being made available in HMRC online services.
 
 Customers in MTD will use this service to report income that is not supported in their software.
 
