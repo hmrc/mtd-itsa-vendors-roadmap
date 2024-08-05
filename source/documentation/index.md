@@ -1,7 +1,7 @@
 
 # Making Tax Digital for Income Tax roadmap 
 
-Last updated: July 2024 (see [changelog](#document-changelog))
+Last updated: 5 August 2024 (see [changelog](#document-changelog))
 
 > **Help us improve this roadmap**: [leave your feedback here](https://docs.google.com/forms/d/e/1FAIpQLSe9jb0WCXWO9yt6zLBTKZLSK2oiTQcGPD96CTiwnQF0QxH5Tw/viewform).
 
@@ -40,7 +40,7 @@ Before releasing functionality to all our customers we will conduct testing with
 
 ## Document changelog
 
-July 2024
+5 August 2024
 
 - Update name of service to 'Making Tax Digital for Income Tax'
 
