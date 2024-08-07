@@ -180,7 +180,7 @@ For more details, see the section on [breaking changes](https://developer.servic
 
 **Tax years**
 
-"Tax years" means the tax years which are affected by the change. "YY-YY+"" indicates that the change applies to tax year YY-YY and all later years.
+"Tax years" means the tax years which are affected by the change. "YY-YY+"" indicates that the change affects tax year YY-YY and all later years.
 
 <a name="def_aqu"></a>
 
