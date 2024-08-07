@@ -42,7 +42,7 @@ Before releasing functionality to all our customers we will conduct testing with
 
 8 August 2024
 
-- Update Sandbox deployment date for 'Multiple agents' to October 2024
+- Update expected Sandbox deployment date for 'Multiple agents' to October 2024
 
 5 August 2024
 
