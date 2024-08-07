@@ -40,15 +40,16 @@ Before releasing functionality to all our customers we will conduct testing with
 
 ## Document changelog
 
-8 August 2024
+**8 August 2024**
 
-- Update expected Sandbox deployment date for 'Multiple agents' to October 2024
+- Add details of affected tax years to API roadmap
+- Update Sandbox deployment date for 'Multiple agents' to October 2024
 
-5 August 2024
+**5 August 2024**
 
 - Update name of service to 'Making Tax Digital for Income Tax'
 
-8 July 2024
+**8 July 2024**
 
 - Update APIs roadmap
 	- September 2024 table update
