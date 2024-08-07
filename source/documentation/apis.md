@@ -16,9 +16,10 @@ Version numbers will be added once the scope for the release and the associated 
 
 When a change has been deployed to Sandbox, the deploy date is marked with \*, for example "Jun 2024*".
 
-| API(s) | Change | [Breaking?](#def_br) | [Affects quarterly updates?](#def_aqu) | [Usable in year?](#def_uiy) | Deploy&nbsp;to Sandbox |
-|:-------|:-------|:---------:|:---------------------------------------:|:---------------------------:|:--------------------:|
-| [Self Assessment Accounts](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/self-assessment-accounts-api/) v3.0 | **Payments on account history**<br/> Enable customers to see a history of the charges to their payments on account through their software. | No | No | Yes | Jun 2024* |
+
+| API(s) | Change | [Breaking?](#def_br) | [Tax years](#def_ty) | [Affects quarterly updates?](#def_aqu) | [Usable in year?](#def_uiy) | Deploy&nbsp;to Sandbox |
+|:-------|:-------|:---------:|:--------:|:---------------------------------------:|:---------------------------:|:--------------------:|
+| [Self Assessment Accounts](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/self-assessment-accounts-api/) v3.0 | **Payments on account history**<br/> Enable customers to see a history of the charges to their payments on account through their software. | No | All | No | Yes | Jun 2024* |
 
 
 ### December 2024
@@ -27,11 +28,10 @@ These changes are expected to be deployed in December 2024 (to be confirmed).
 
 Version numbers will be added once the scope for the release and the associated release date are confirmed.
 
-
-| API(s)                                                    | Change               | [Breaking?](#def_br) | [Affects quarterly updates?](#def_aqu) | [Usable in year?](#def_uiy) | Deploy&nbsp;to Sandbox |
-|:----------------------------------------------------------|:---------------------|:---------:|:---------------------------------------:|:---------------------------:|:--------------------:|
-| [Individual Calculations](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individual-calculations-api),<br/>[Individuals Charges](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-charges-api) | **Pension lifetime allowance**<br/>  Remove the ability for customers to claim pension lifetime allowance  | Yes | No | Yes | Sep 2024 |
-| [Individual Calculations](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individual-calculations-api) | **Scottish Rate**<br/> Add a new enum value within tax bands field to accommodate the Scottish Advanced Rate. | Yes | No | Yes | Oct 2024 |
+| API(s)                                                    | Change               | [Breaking?](#def_br) | [Tax years](#def_ty) | [Affects quarterly updates?](#def_aqu) | [Usable in year?](#def_uiy) | Deploy&nbsp;to Sandbox |
+|:----------------------------------------------------------|:---------------------|:---------:|:--------:|:---------------------------------------:|:---------------------------:|:--------------------:|
+| [Individual Calculations](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individual-calculations-api),<br/>[Individuals Charges](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-charges-api) | **Pension lifetime allowance**<br/>  Remove the ability for customers to claim pension lifetime allowance  | Yes | 24&#8209;25+ | No | Yes | Sep 2024 |
+| [Individual Calculations](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individual-calculations-api) | **Scottish Rate**<br/> Add a new enum value within tax bands field to accommodate the Scottish Advanced Rate. | Yes | 24&#8209;25+ | No | Yes | Oct 2024 |
 
 ### April 2025
 
@@ -39,15 +39,14 @@ These changes are expected to be deployed in April 2025 (to be confirmed).
 
 Version numbers will be added once the scope for the release and the associated release date are confirmed.
 
-| API(s)                                               | Change                  | [Breaking?](#def_br) | [Affects quarterly updates?](#def_aqu) | [Usable in year?](#def_uiy) | Deploy&nbsp;to Sandbox |
-|:-----------------------------------------------------|:------------------------|:---------:|:---------------------------------------:|:---------------------------:|:--------------------:|
-| All | **Multiple agents**<br/>Enable a customer's MTD account to be managed by multiple agents (primary and secondary). | TBC | TBC | TBC | Oct 2024 |
-| [Individual Calculations](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individual-calculations-api),<br/> [Property Business](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/property-business-api),<br/> [Self-Employment Business](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/self-employment-business-api), [Obligations](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/obligations-api) | **Cumulative updates**<br/>The quarterly update process will be replaced to allow customers to submit data cumulatively. This change will be effective from April 2025. | Yes | Yes | Yes | Dec 2024 |
-| [Property Business](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/property-business-api),<br/> [Business Source Adjustable Summary](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/self-assessment-bsas-api),<br/> [Self-Employment Business](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/self-employment-business-api) | **Electric vehicles**<br/>Removal of support for claiming first-year allowance for electric vehicle charge-points. | Yes | Yes | Yes | Dec 2024 |
-| [Individual Calculations](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individual-calculations-api/),<br/>[Individuals Business EOPS](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-business-eops-api/),<br/>[Obligations](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/obligations-api/) | **EOPS removal**<br/>Removal of the ability for a customer to submit EOPS via software. | Yes | No | No | Dec 2024 |
-| [Business Source Adjustable Summary](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/self-assessment-bsas-api/),<br/>[Individual Calculations](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individual-calculations-api/),<br/>[Individual Losses](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individual-losses-api/),<br/>[Property Business](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/property-business-api/),<br/>[Business Income Source Summary](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/self-assessment-biss-api/) | **FHL removal**<br/>Removal of support for furnished holiday lettings tax rules. | Yes | Yes | Yes | Dec 2024 |
-| [Obligations](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/obligations-api/) | **Managing obligations**<br/> Change the way in which periodic obligations are marked as met by a customer from the request of a tax calculation to the submission of cumulative update data. This does not affect the annual obligation which will still be managed by making a final declaration. | TBC | Yes | Yes | Dec 2024 |
-
+| API(s)                                               | Change                  | [Breaking?](#def_br) | [Tax years](#def_ty) | [Affects quarterly updates?](#def_aqu) | [Usable in year?](#def_uiy) | Deploy&nbsp;to Sandbox |
+|:-----------------------------------------------------|:------------------------|:---------:|:--------:|:---------------------------------------:|:---------------------------:|:--------------------:|
+| All | **Multiple agents**<br/>Enable a customer's MTD account to be managed by multiple agents (primary and secondary). | TBC | All | TBC | TBC | Oct 2024 |
+| [Individual Calculations](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individual-calculations-api),<br/> [Property Business](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/property-business-api),<br/> [Self-Employment Business](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/self-employment-business-api), [Obligations](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/obligations-api) | **Cumulative updates**<br/>The quarterly update process will be replaced to allow customers to submit data cumulatively. This change will be effective from April 2025. | Yes | 25&#8209;26+ | Yes | Yes | Dec 2024 |
+| [Property Business](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/property-business-api),<br/> [Business Source Adjustable Summary](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/self-assessment-bsas-api),<br/> [Self-Employment Business](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/self-employment-business-api) | **Electric vehicles**<br/>Removal of support for claiming first-year allowance for electric vehicle charge-points. | Yes | 25&#8209;26+ | Yes | Yes | Dec 2024 |
+| [Individual Calculations](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individual-calculations-api/),<br/>[Individuals Business EOPS](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-business-eops-api/),<br/>[Obligations](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/obligations-api/) | **EOPS removal**<br/>Removal of the ability for a customer to submit EOPS via software. | Yes | 23&#8209;24+ | No | No | Dec 2024 |
+| [Business Source Adjustable Summary](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/self-assessment-bsas-api/),<br/>[Individual Calculations](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individual-calculations-api/),<br/>[Individual Losses](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individual-losses-api/),<br/>[Property Business](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/property-business-api/),<br/>[Business Income Source Summary](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/self-assessment-biss-api/) | **FHL removal**<br/>Removal of support for furnished holiday lettings tax rules. | Yes | 25&#8209;26+ | Yes | Yes | Dec 2024 |
+| [Obligations](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/obligations-api/) | **Managing obligations**<br/> Change the way in which periodic obligations are marked as met by a customer from the request of a tax calculation to the submission of cumulative update data. This does not affect the annual obligation which will still be managed by making a final declaration. | TBC | 25&#8209;26+ | Yes | Yes | Dec 2024 |
 
 ## Planned future deliveries
 
@@ -177,6 +176,11 @@ If "Breaking?" is "Yes", the change will break software which relies on the API,
 
 For more details, see the section on [breaking changes](https://developer.service.hmrc.gov.uk/guides/income-tax-mtd-end-to-end-service-guide/documentation/how-to-integrate.html#breaking-changes) in the service guide.
 
+<a name="def_ty"></a>
+
+**Tax years**
+
+"Tax years" means the tax years which are affected by the change. "YY-YY+"" indicates that the change applies to tax year YY-YY and all later years.
 
 <a name="def_aqu"></a>
 

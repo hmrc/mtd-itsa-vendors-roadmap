@@ -42,6 +42,7 @@ Before releasing functionality to all our customers we will conduct testing with
 
 8 August 2024
 
+- Add details of affected tax years to API roadmap
 - Update Sandbox deployment date for 'Multiple agents' to October 2024
 
 5 August 2024
