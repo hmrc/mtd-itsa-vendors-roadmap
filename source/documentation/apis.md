@@ -83,7 +83,7 @@ The below table is not comprehensive and other APIs may be impacted by future de
 
 **September 2024**
 
-These changes were release in September 2024.
+These changes were released in September 2024.
 
 | API(s) | Change | [Breaking?](#def_br) | [Tax years](#def_ty) | [Affects quarterly updates?](#def_aqu) | [Usable in year?](#def_uiy) | Deployed to Sandbox |
 |:-------|:-------|:---------:|:--------:|:---------------------------------------:|:---------------------------:|:--------------------:|

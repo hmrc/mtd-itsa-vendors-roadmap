@@ -1,7 +1,7 @@
 
 # Making Tax Digital for Income Tax roadmap 
 
-Last updated: 8 August 2024 (see [changelog](#document-changelog))
+Last updated: 19 September 2024 (see [changelog](#document-changelog))
 
 > **Help us improve this roadmap**: [leave your feedback here](https://docs.google.com/forms/d/e/1FAIpQLSe9jb0WCXWO9yt6zLBTKZLSK2oiTQcGPD96CTiwnQF0QxH5Tw/viewform).
 
@@ -39,6 +39,12 @@ functionality.
 Before releasing functionality to all our customers we will conduct testing with limited customers. This period is referred to as 'controlled go-live' or private beta.
 
 ## Document changelog
+
+**19 September 2024**
+
+- Update APIs roadmap
+	- Payments on account history released
+	- Make "Deploy to Sandbox" column clearer
 
 **8 August 2024**
 
