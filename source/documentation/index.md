@@ -40,6 +40,10 @@ Before releasing functionality to all our customers we will conduct testing with
 
 ## Document changelog
 
+**24 September 2024**
+
+- Update 'EOPS removal' entry in APIs roadmap to make clear that it applies to all tax years
+
 **19 September 2024**
 
 - Update APIs roadmap
