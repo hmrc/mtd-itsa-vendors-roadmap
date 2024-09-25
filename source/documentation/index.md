@@ -1,7 +1,7 @@
 
 # Making Tax Digital for Income Tax roadmap 
 
-Last updated: 24 September 2024 (see [changelog](#document-changelog))
+Last updated: 25 September 2024 (see [changelog](#document-changelog))
 
 > **Help us improve this roadmap**: [leave your feedback here](https://docs.google.com/forms/d/e/1FAIpQLSe9jb0WCXWO9yt6zLBTKZLSK2oiTQcGPD96CTiwnQF0QxH5Tw/viewform).
 
@@ -40,6 +40,10 @@ Before releasing functionality to all our customers we will conduct testing with
 
 ## Document changelog
 
+**25 September 2024**
+
+- Update 'Pension lifetime allowance' and 'Scottish Rate' in APIs roadmap to reflect that they are now deployed to Sandbox
+
 **24 September 2024**
 
 - Update 'EOPS removal' entry in APIs roadmap to make clear that it applies to all tax years
@@ -52,7 +56,7 @@ Before releasing functionality to all our customers we will conduct testing with
 
 **8 August 2024**
 
-- Add details of affected tax years to API roadmap
+- Add details of affected tax years to APIs roadmap
 - Update Sandbox deployment date for 'Multiple agents' to October 2024
 
 **5 August 2024**
