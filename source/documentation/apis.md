@@ -16,8 +16,8 @@ Version numbers will be added once the scope for the release and the associated 
 
 | API(s)                                                    | Change               | [Breaking?](#def_br) | [Tax years](#def_ty) | [Affects quarterly updates?](#def_aqu) | [Usable in year?](#def_uiy) | [Deploy&nbsp;to Sandbox](#def_dep) |
 |:----------------------------------------------------------|:---------------------|:---------:|:--------:|:---------------------------------------:|:---------------------------:|:--------------------:|
-| [Individual Calculations](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individual-calculations-api),<br/>[Individuals Charges](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-charges-api) | **Pension lifetime allowance**<br/>  Remove the ability for customers to claim pension lifetime allowance  | Yes | 24&#8209;25+ | No | Yes | Sep 2024<br/>(pending) |
-| [Individual Calculations](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individual-calculations-api) | **Scottish Rate**<br/> Add a new enum value within tax bands field to accommodate the Scottish Advanced Rate. | Yes | 24&#8209;25+ | No | Yes | Oct 2024<br/>(pending) |
+| [Individual Calculations](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individual-calculations-api),<br/>[Individuals Charges](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-charges-api) | **Pension lifetime allowance**<br/>  Remove the ability for customers to claim pension lifetime allowance  | Yes | 24&#8209;25+ | No | Yes | Sep 2024<br/>(deployed) |
+| [Individual Calculations](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individual-calculations-api) | **Scottish Rate**<br/> Add a new enum value within tax bands field to accommodate the Scottish Advanced Rate. | Yes | 24&#8209;25+ | No | Yes | Sep 2024<br/>(deployed) |
 
 ### April 2025
 
