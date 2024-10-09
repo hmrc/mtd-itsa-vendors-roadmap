@@ -1,7 +1,7 @@
 
 # Making Tax Digital for Income Tax roadmap 
 
-Last updated: 8 October 2024 (see [changelog](#document-changelog))
+Last updated: 9 October 2024 (see [changelog](#document-changelog))
 
 > **Help us improve this roadmap**: [leave your feedback here](https://docs.google.com/forms/d/e/1FAIpQLSe9jb0WCXWO9yt6zLBTKZLSK2oiTQcGPD96CTiwnQF0QxH5Tw/viewform).
 
@@ -13,7 +13,7 @@ New features are first released into the Sandbox, which enables you to test the 
 
 ## Document changelog
 
-**8 October 2024**
+**9 October 2024**
 
 - Edit 'About this roadmap' (above) to make it clearer and more relevant
 
