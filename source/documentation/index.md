@@ -1,7 +1,7 @@
 
 # Making Tax Digital for Income Tax roadmap 
 
-Last updated: 9 October 2024 (see [changelog](#document-changelog))
+Last updated: 10 October 2024 (see [changelog](#document-changelog))
 
 > **Help us improve this roadmap**: [leave your feedback here](https://docs.google.com/forms/d/e/1FAIpQLSe9jb0WCXWO9yt6zLBTKZLSK2oiTQcGPD96CTiwnQF0QxH5Tw/viewform).
 
@@ -12,6 +12,10 @@ This roadmap sets out our anticipated schedule for future releases for Making Ta
 New features are first released into the Sandbox, which enables you to test the experience a customer would have and sends back example responses. New features do not work for real customers until the change is in Production.
 
 ## Document changelog
+
+**10 October 2024**
+
+- Update 'Multiple agents' in APIs roadmap: now deployed in Sandbox
 
 **9 October 2024**
 
