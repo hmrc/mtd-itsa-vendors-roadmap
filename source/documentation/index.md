@@ -3,8 +3,6 @@
 
 Last updated: 10 October 2024 (see [changelog](#document-changelog))
 
-> **Help us improve this roadmap**: [leave your feedback here](https://docs.google.com/forms/d/e/1FAIpQLSe9jb0WCXWO9yt6zLBTKZLSK2oiTQcGPD96CTiwnQF0QxH5Tw/viewform).
-
 ## About this roadmap
 
 This roadmap sets out our anticipated schedule for future releases for Making Tax Digital for Income Tax APIs. It also provides details of releases relating to the service delivered via other mechanisms, such as HMRC online services.
