@@ -74,7 +74,7 @@ The below table is not comprehensive and other APIs may be impacted by future de
 
 ## Already released
 
-### December 2024
+**December 2024**
 
 These changes were released in December 2024.
 
