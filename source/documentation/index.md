@@ -11,7 +11,7 @@ New features are first released into the Sandbox, which enables you to test the 
 
 ## Document changelog
 
-**13 December**
+**13 December 2024**
 
 - Update APIs roadmap
     - 'Pension lifetime allowance' and 'Scottish Rate' moved to 'Already released'
