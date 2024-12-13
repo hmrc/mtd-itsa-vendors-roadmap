@@ -1,7 +1,7 @@
 
 # Making Tax Digital for Income Tax roadmap 
 
-Last updated: 10 October 2024 (see [changelog](#document-changelog))
+Last updated: 13 December 2024 (see [changelog](#document-changelog))
 
 ## About this roadmap
 
@@ -10,6 +10,19 @@ This roadmap sets out our anticipated schedule for future releases for Making Ta
 New features are first released into the Sandbox, which enables you to test the experience a customer would have and sends back example responses. New features do not work for real customers until the change is in Production.
 
 ## Document changelog
+
+**13 December**
+
+- Update APIs roadmap
+    - 'Pension lifetime allowance' and 'Scottish Rate' moved to 'Already released'
+    - 'Cumulative Updates', 'Electric Vehicles', 'EOPS removal', 'FHL Removal' and 'Managing Obligations' deployed in Sandbox
+    - 'HMRC Assist' moved to 'April 2025'
+    - 'June 2025' table created
+    - 'Post-finalisation amendment' added to 'June 2025'
+    - 'EOPS removal', 'Customer amendments' and 'HMRC corrections' deleted
+    - 'April 2023' and 'June 2023' sections deleted from 'Already released'
+
+- HMRC Online Services section removed
 
 **10 October 2024**
 
