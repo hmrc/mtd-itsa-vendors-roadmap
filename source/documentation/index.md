@@ -1,7 +1,7 @@
 
 # Making Tax Digital for Income Tax roadmap 
 
-Last updated: 16 December 2024 (see [changelog](#document-changelog))
+Last updated: 17 December 2024 (see [changelog](#document-changelog))
 
 ## About this roadmap
 
@@ -11,7 +11,7 @@ New features are first released into the Sandbox, which enables you to test the 
 
 ## Document changelog
 
-**16 December 2024**
+**17 December 2024**
 
 - Update APIs roadmap
     - 'Pension lifetime allowance' and 'Scottish Rate' moved to 'Already released'
