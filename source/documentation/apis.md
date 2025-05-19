@@ -28,7 +28,7 @@ Version numbers will be added once the scope for the release and the associated 
 |---	|---	|---	|---	|---	|---	|---	|
 | [Individual Calculations](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individual-calculations-api/) (V7 & V8),<br>[Individuals Charges](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individual-charges-api/) (V3) 	| High Income Child Benefit - enable self-employed customers with income over £60k to record a HICB liability, so the liability can be included in their tax calculation. 	| No 	| 25-26 	| No 	| No 	| June 2025 	|
 |  	| Capture and change accounting method – ability for a user to submit their accounting method (Cash or Accruals) and make amendments to it at the end of the year, following this change we will also be removing the data item accounting type will be removed from business details API. 	| No 	| 25/26+ 	| No 	| Yes 	| June 2025 	|
-|  	| Capturing Period of Account – ability for the user to submit their period of account at the end of the year 	| No 	|  	|  	|  	| September 2025 	|
+|  	| Capturing Period of Account – ability for the user to submit their period of account at the end of the year 	| No 	| TBC  	|  TBC 	| TBC | September 2025 	|
 |  	| Non-Aligned Tax payers – this will ensure that users have the ability to report their taxable profits if their period of account is not aligned. 	| No 	| TBC 	| No 	| No 	| June 2025 	|
 | [Individuals Dividends Income](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-dividends-income-api/) (V2) 	| Additional Dividend Data – following introduction of new legislation to collect additional dividend data a change will be made to allow the submission of the information.  	| Yes 	| 25-26+ 	| No 	| Yes 	| June 2025 	|
 | [Individual Savings Account](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individual-savings-account-api/) (V2) 	| Amend Savings Account – allowing the functionality for the name of a Savings Account to be amended once created 	| TBC |  TBC | TBC | TBC | June 2025 	|
@@ -42,16 +42,16 @@ Version numbers will be added once the scope for the release and the associated 
 
 | API(s) 	| Change 	| [Breaking?](#def_br) 	| [Tax years](#def_ty)	| [Affects quarterly updates?](#def_aqu) 	| [Usable in year?](#def_uiy) 	| [Deploy&nbsp;to Sandbox](#def_dep) 	|
 |---	|---	|---	|---	|---	|---	|---	|
-|  	| Student Loan BIK – a change to ensure the payrolled BIK are excluded from student loan calculations  	| MTD-11883 	| TBC 	| TBC 	| TBC 	| October  2025 	|
-| Individual Calculations 	| ITSA status – renaming of non-digital status to Digitally Exempt  	|  	|  	|  	|  	|  	|
-|  	| Withdrawal of social investment tax relief (SITR)Removal of SITR data items. 	| MTD-1945 	|  	|  	|  	| October 2025 	|
+|  	| Student Loan BIK – a change to ensure the payrolled BIK are excluded from student loan calculations  	| TBC  	| TBC 	| TBC 	| TBC 	| October  2025 	|
+| Individual Calculations 	| ITSA status – renaming of non-digital status to Digitally Exempt  	| TBC  	| TBC  	| TBC  	|  TBC 	| TBC  	|
+|  	| Withdrawal of social investment tax relief (SITR)Removal of SITR data items. 	|  TBC 	| TBC  	|  TBC 	|  TBC 	| October 2025 	|
 | Individual Calculations 	| Crypto assets - enabling customers with crypto assets to report these as part of their final declaration. 	| TBC 	| 26-27+ 	| No 	| No 	| October 2025 	|
 | Individual Calculations 	| Capital Gains Tax – new additions being added to the CGT journey to include Unlisted Shares and Securities - missing data items<br>Losses and Adjustments - missing data items<br>Business Asset Disposal Relief (BADR) - supporting detailed data capture around asset types<br>Qualifying Asset Holding Company (QAHC) - New Data items  	| TBC 	| 26-27+ 	| No 	| No 	| October  2025 	|
 | Individual Calculations 	| Capital Gains Tax – two additional data items (claim or election codes and Rtt Tax Paid) to be added to create and amend other capital gains and disposals  	| TBC 	| 26-27+ 	| No 	| No 	| October  2025 	|
 | Property API 	| Foreign Property API – changes required to enhance the journey for multiple foreign properties in the same country. 	| TBC 	| TBC 	| TBC 	| TBC 	| October  2025 	|
 | Business Details	| Basis Period Reform – ability to review and disapply Late Accounting Date Rules.  	| No 	| 25/26 	| TBC 	| TBC 	| October 2025 	|
-| Individual Calculations 	| Write offs and remissions - The ability to present to the customer any charge that has been remitted or written off. 	| 	|  	|  	|  	| October  2025 	|
-|  	| Penalty Reform Notifications ability for a user to view the penalty position through their software. 	| 	|  	|  	|  	| October  2025 	|
+| Individual Calculations 	| Write offs and remissions - The ability to present to the customer any charge that has been remitted or written off. 	| TBC 	| TBC  	| TBC  	| TBC  	| October  2025 	|
+|  	| Penalty Reform Notifications ability for a user to view the penalty position through their software. 	| TBC 	| TBC  	|  TBC 	| TBC  	| October  2025 	|
 
 ### April 2026
 
