@@ -1,7 +1,7 @@
 
 # Making Tax Digital for Income Tax roadmap 
 
-Last updated: 17 December 2024 (see [changelog](#document-changelog))
+Last updated: 05 June 2025 (see [changelog](#document-changelog))
 
 ## About this roadmap
 
@@ -10,6 +10,10 @@ This roadmap sets out our anticipated schedule for future releases for Making Ta
 New features are first released into the Sandbox, which enables you to test the experience a customer would have and sends back example responses. New features do not work for real customers until the change is in Production.
 
 ## Document changelog
+
+**05 June 2025**
+
+- Roadmap updated based on April 2025 release
 
 **17 December 2024**
 

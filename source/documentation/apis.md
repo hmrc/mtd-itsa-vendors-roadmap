@@ -18,7 +18,6 @@ Version numbers will be added once the scope for the release and the associated 
 | [Business Source Adjustable Summary](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/self-assessment-bsas-api/) (V6 & V7),<br>[Individual Calculations](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individual-calculations-api/) (V7),<br>[Individual Losses](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individual-losses-api/) (V6),[Property Business](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/property-business-api/) (V6),<br>[CIS Deductions](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/cis-deductions-api/) (V3),<br>[Individuals Reliefs](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-reliefs-api/) (V2),<br>[Individuals Capital Gains Income](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-capital-gains-income-api/) (V2),<br>[Individuals Disclosures](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-disclosures-api/) (V2),<br>[Individuals Dividends Income](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-dividends-income-api/) (V2),<br>[Self-Employment Business](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/self-employment-business-api/) (V5),<br>[Individual Charges](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individual-charges-api/) (V3),<br>[Individual Savings Income](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individual-savings-income) (V2),<br>[Individuals Foreign Income](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-foreign-income-api/) (V2),<br>[Individuals Pensions Income](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-pensions-income-api/) (V2),<br>[Individuals Insurance Policies Income](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-insurance-policies-income-api/) (V2),<br>[Individuals Employments Income](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-employments-income-api/) (V2),<br>[Individuals Other Income](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-other-income-api/) (V2),<br>[Individuals Expenses](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-expenses-api/) (V3),<br>[Other Deductions](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/other-deductions-api/) (V2),<br>[Individuals State Benefits](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-state-benefits-api/) (V2),<br>[Self Assessment Accounts](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/self-assessment-accounts-api/) (V4), 	| **Post-finalisation amendment** - enable a customer/agent to make an amendment via software after making their final declaration.A new error message will be returned if a customer attempts to make an amendment outside of the allowed amendment window.Customers will be able to opt out of coding out at the same time as making an amendment. 	| Yes 	| 25/26+ 	| No 	| No 	| March 2025 	|
 | [Business Source Adjustable Summary](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/self-assessment-bsas-api/) (V3) 	| **Nil Fields** – the ability for a user to indicate if a nil submission is relevant in the BSAS 	| No 	| 24-25+ 	| No 	| No 	| March 2025 	|
 
-
 ### September 2025
 
 These changes are expected to be deployed in September 2025 (to be confirmed).
@@ -42,7 +41,7 @@ These changes are expected to be deployed in December 2025 (to be confirmed).
 Version numbers will be added once the scope for the release and the associated release date are confirmed.
 
 | API(s) 	| Change 	| [Breaking?](#def_br) 	| [Tax years](#def_ty)	| [Affects quarterly updates?](#def_aqu) 	| [Usable in year?](#def_uiy) 	| [Deploy to Sandbox](#def_dep) 	|
-|---	|---	|---	|--	|---	|---	|---	|
+|---	|---	|---	|---	|---	|---	|---	|
 | TBC - 3 new API/endpoints 	| **Student Loan Benefits In Kind** – a change to ensure the payrolled BIK are excluded from student loan calculations 	| No 	| 25/26+ 	| No 	| No  	| September  2025 	|
 | Individuals Calculations, Individuals Reliefs 	| **Withdrawal of social investment tax relief (SITR)** - removal of SITR data items. 	| Yes 	| 23/24+ 	| No 	| No 	| September 2025 	|
 | Individual Capital Gains Income API 	| **Crypto assets** - enabling customers with crypto assets to report these as part of their final declaration. 	| Yes 	| 25/26+ 	| No 	| No 	| September 2025 	|
@@ -52,7 +51,6 @@ Version numbers will be added once the scope for the release and the associated 
 | Business Details <br> Self Assessment Individual Details<br> Individual Calculations<br> Individuals Savings Income 	| **Basis Period Reform** – ability to review and display Late Accounting Date Rules. 	| No 	| 25/26 	| No 	| Yes 	| September 2025 	|
 | Self Assessment Accounts API 	| **Write offs and remissions** - the ability to present to the customer any charge that has been remitted or written off. 	| TBC 	| TBC 	| No 	| TBC 	| September 2025 	|
 | TBC 	| **Penalty Reform Notifications** - ability for a user to view the penalty position through their software. 	| TBC 	| TBC 	| No 	| TBC 	| September 2025 	|
-
 
 ### April 2026
 
@@ -87,7 +85,6 @@ The below table is not comprehensive and other APIs may be impacted by future de
 | [Individuals State Benefits](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-state-benefits-api) 	| **Blind Person’s Allowance** - enabling software to support Blind Person’s Allowance. 	| No 	| Yes 	| TBC 	|
 | [Individuals State Benefits](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-state-benefits-api)	| **Married Couple’s Allowance** - enabling software to support Married Couple’s Allowance. 	| No 	| Yes 	| TBC 	|
 
-
 ## Already released
 
 ### April 2025
@@ -95,7 +92,6 @@ The below table is not comprehensive and other APIs may be impacted by future de
 These changes were deployed in April 2025.
 
 For customers eligible to claim the Electric Charge Point Allowance for the 25/26 tax year, they should use the “Other Capital Allowance” data item to report this. These are:
-
  - Create/Amend Self-Employment Annual Submission Period and use data item `enhancedCapitalAllowance`
  - Create/Update Property(Annual) Submission and use data item `otherCapitalAllowance`
 
