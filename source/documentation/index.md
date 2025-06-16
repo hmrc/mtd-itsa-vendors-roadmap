@@ -1,7 +1,7 @@
 
 # Making Tax Digital for Income Tax roadmap 
 
-Last updated: 05 June 2025 (see [changelog](#document-changelog))
+Last updated: 16 June 2025 (see [changelog](#document-changelog))
 
 ## About this roadmap
 
@@ -10,6 +10,12 @@ This roadmap sets out our anticipated schedule for future releases for Making Ta
 New features are first released into the Sandbox, which enables you to test the experience a customer would have and sends back example responses. New features do not work for real customers until the change is in Production.
 
 ## Document changelog
+
+**16 June 2025**
+
+- Move 'June 2025' table to 'Already released'
+- Broken links fixed
+- 'High Income Child Benefit' and 'Capture and change accounting method' deployed in Sandbox
 
 **05 June 2025**
 
