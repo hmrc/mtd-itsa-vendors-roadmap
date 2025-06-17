@@ -23,6 +23,7 @@ Version numbers will be added once the scope for the release and the associated 
 | [Individual Savings Account](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individual-savings-account-api/) (V2) 	| **Amend Savings Account** – allowing the functionality for the name of a Savings Account to be amended once created 	| TBC |  TBC | TBC | TBC | June 2025 (deployed)	|
 | [Individual Calculations](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individual-calculations-api/) 	| **Negative value** – update to ensure the individual calculations API can retrieve negative values for the data item "Total Income Tax and Nics due" field. 	| No 	| 25-26+ 	| TBC	| TBC | June 2025 (deployed) 	|
 
+
 ### December 2025
 
 These changes are expected to be deployed in December 2025 (to be confirmed).
