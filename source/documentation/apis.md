@@ -21,7 +21,7 @@ Version numbers will be added once the scope for the release and the associated 
 |  	| **Non-Aligned Tax payers** – this will ensure that users have the ability to report their taxable profits if their period of account is not aligned. 	| No 	| TBC 	| No 	| No 	| June 2025 (deployed)	|
 | [Individuals Dividends Income](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-dividends-income-api/) (V2) 	| **Additional Dividend Data** – following introduction of new legislation to collect additional dividend data a change will be made to allow the submission of the information.  	| Yes 	| 25-26+ 	| No 	| Yes 	| June 2025 (deployed) 	|
 | [Individual Savings Account](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individual-savings-account-api/) (V2) 	| **Amend Savings Account** – allowing the functionality for the name of a Savings Account to be amended once created 	| TBC |  TBC | TBC | TBC | June 2025 (deployed)	|
-| [Individual Calculations](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individual-calculations-api/) 	| **Negative value** – update to ensure the individual calculations API can retrieve negative values for the data item "Total Income Tax and Nics due" field. 	| No 	| 25-26+ 	| TBC	| TBC | June 2025 (deployed) 	|
+| [Individual Calculations](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individual-calculations-api/) (V8)	| **Negative value** – update to ensure the individual calculations API can retrieve negative values for the data item "Total Income Tax and Nics due" field. 	| No 	| 25-26+ 	| TBC	| TBC | June 2025 (deployed) 	|
 
 
 ### December 2025
