@@ -11,6 +11,10 @@ New features are first released into the Sandbox, which enables you to test the 
 
 ## Document changelog
 
+**29 August 2025**
+
+- Minor fixes made to September 2025 table
+
 **16 June 2025**
 
 - Move 'June 2025' table to 'Already released'
