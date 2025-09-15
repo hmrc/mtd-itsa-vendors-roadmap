@@ -16,7 +16,6 @@ Version numbers will be added once the scope for the release and the associated 
 | API(s) | Change | [Breaking?](#def_br) | [Tax years](#def_ty) | [Affects quarterly updates?](#def_aqu) | [Usable in year?](#def_uiy) | [Deploy to Sandbox](#def_dep) |
 | --- | --- | --- | --- | --- | --- | --- |
 | Individuals Employment Income | Student Loan BIK – a change to ensure the payrolled BIK are excluded from student loan calculations | No  | 25-26+ | Yes | No  | October 2025 |
-| Self Assessment Individual Details (MTD)<br><br>  <br>[Individual Calculations](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individual-calculations-api/) | ITSA status – renaming of non-digital status to Digitally Exempt | Yes | 26-27+ | Yes | Yes | October 2025 |
 | [Individual Relief Api](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-reliefs-api/2.0) | Withdrawal of social investment tax relief (SITR)  <br>Removal of SITR data items. | Yes | 25-26+ | No  | No  | October 2025 |
 | [Business Details (MTD)](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/business-details-api/1.0)<br><br>(V2) | Basis Period Reform – ability to review and disapply Late Accounting Date Rules. | No  | 25/26 + | Yes | Yes | October 2025 |
 
@@ -41,6 +40,7 @@ Version numbers will be added once the scope for the release and the associated 
 | API(s) | Change | [Breaking?](#def_br) | [Tax years](#def_ty) | [Affects quarterly updates?](#def_aqu) | [Usable in year?](#def_uiy) | [Deploy to Sandbox](#def_dep) |
 | --- | --- | --- | --- | --- | --- | --- |
 | Obligations API (V3) | Align quarterly deadlines – to bring the due date of quarterly updates in line with VAT – 7<sup>th</sup> of each month | No  | 26/27 + | Yes | No  | December 2025 |
+| Self Assessment Individual Details (MTD)<br>[Individual Calculations](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individual-calculations-api/) | ITSA status – renaming of non-digital status to Digitally Exempt | Yes | 26-27+ | Yes | Yes | December 2025 |
 | [Property Business](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/property-business-api/) | Reassert number of rental properties  <br>Expand the property income submission API to allow a customer to reassert their number of rental properties and if they jointly let any of their rental properties for each tax year. | Yes | 25/26+ | No  |     | December 2025 |
 |     | Mortgage evidence  <br>HMRC online services will provide a print service of income evidence for customers to use for loan/mortgage applications. It is unclear yet if this will be available through software. | N/A | 25-26+ | N/A | N/A | December 2025 |
 | Property API | Foreign Property API – changes required to enhance the journey for multiple foreign properties in the same country. | TBC | 26-27 + | TBC | Yes | December 2025 |
@@ -52,9 +52,9 @@ The below table is not comprehensive and other APIs may be impacted by future de
 
 | [Individual Calculations](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individual-calculations-api/) | Write offs and remissions - The ability to present to the customer any charge that has been remitted or written off. | TBC | TBC | TBC | TBC | December 2025 |
 | --- | --- | --- | --- | --- | --- | --- |
-|     | Penalty Reform Notifications ability for a user to view the penalty position through their software. | No  | TBC | TBC | TBC | December 2025 |
+|     | Penalty Reform Notifications - The ability for a user to view the penalty position through their software. | No  | TBC | TBC | TBC | December 2025 |
 | --- | --- | --- | --- | --- | --- | --- |
-|     | Calendar quarter enhancement – to align the first quarterly update to starts from 1<sup>st</sup> April. | TBC | TBC | TBC | TBC | December 2025 |
+|     | Calendar quarter enhancement – To align the first quarterly update to starts from 1<sup>st</sup> April. | TBC | TBC | TBC | TBC | December 2025 |
 | --- | --- | --- | --- | --- | --- | --- |
 
 ## Already released
