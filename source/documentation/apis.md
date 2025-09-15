@@ -50,12 +50,10 @@ Version numbers will be added once the scope for the release and the associated 
 
 The below table is not comprehensive and other APIs may be impacted by future deliveries.
 
-| [Individual Calculations](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individual-calculations-api/) | Write offs and remissions - The ability to present to the customer any charge that has been remitted or written off. | TBC | TBC | TBC | TBC | October 2025 |
+| [Individual Calculations](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individual-calculations-api/) | Write offs and remissions - The ability to present to the customer any charge that has been remitted or written off. | TBC | TBC | TBC | TBC | December 2025 |
 | --- | --- | --- | --- | --- | --- | --- |
-|     | Penalty Reform Notifications ability for a user to view the penalty position through their software. | No  | TBC | TBC | TBC | October 2025 |
-| --- | --- | --- | --- | --- | --- | --- |
+|     | Penalty Reform Notifications ability for a user to view the penalty position through their software. | No  | TBC | TBC | TBC | December 2025 |
 |     | Calendar quarter enhancement – to align the first quarterly update to starts from 1<sup>st</sup> April. | TBC | TBC | TBC | TBC | December 2025 |
-| --- | --- | --- | --- | --- | --- | --- |
 
 ## Already released
 
