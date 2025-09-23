@@ -22,6 +22,7 @@ Version numbers will be added once the scope for the release and the associated 
 | [Self Assessment Accounts](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/self-assessment-accounts-api/) (V4) 	| Ability to view a complete history of charges and reversal records with clear dates and times 	| No 	| Non-TYS 	| No 	| Yes 	| September 2025 (deployed) 	|
 | [Individual Calculations](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individual-calculations-api/) (V8),<br>[Self Assessment BSAS](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/self-assessment-bsas-api/) (V7),<br>[Self Assessment BISS](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/self-assessment-biss-api/) (V3), 	| Correction in handling of 'Outstanding Business Income' (SA103F Box 75) in the Annual Self Employment API to ensure it is added after applying brought forward losses to adjusted profit  	| No 	| 23-24+ | Yes 	| No 	| September 2025 (deployed) 	|
 | [Individual Reliefs](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-reliefs-api/) (V3)| Unique Investment Reference (UIR) field altered to Optional. With amendments to Venture Capital Trust Shares, Enterprise Investment Scheme Shares and Seed Enterprise Investment Scheme Shares with changes to both Optional and Mandatory Fields 	| Yes 	| 25-26 | No 	| Yes 	| September 2025 (deployed) 	|
+| [Property Business](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/property-business-api/) (V6) | Guidance only product to allow software to provide an SA302 output | N/A | 25-26+ | N/A | Yes | N/A |
 
 ### January 2026
 
@@ -45,13 +46,14 @@ Version numbers will be added once the scope for the release and the associated 
 | --- | --- | --- | --- | --- | --- | --- |
 | [Obligations](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/obligations-api/) | Align quarterly deadlines – to bring the due date of quarterly updates in line with VAT – 7<sup>th</sup> of each month | No  | 26/27 + | Yes | No  | December 2025 |
 | [Property Business](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/property-business-api/) | Reassert number of rental properties  <br>Expand the property income submission API to allow a customer to reassert their number of rental properties and if they jointly let any of their rental properties for each tax year. | Yes | 25/26+ | No  |     | December 2025 |
-|     | Guidance only product to allow software to provide an SA302 output | N/A | 25-26+ | N/A | N/A | December 2025 |
 | [Property Business](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/property-business-api/) | Foreign Property – changes required to enhance the journey for multiple foreign properties in the same country. | TBC | 26-27 + | TBC | Yes | December 2025 |
-| [Individual Dividends Income](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-dividends-income-api/)	| Restricting charitable reliefs to UK charities 	| TBC 	| TBC 	| No 	| No 	|  	|
+| [Individual Dividends Income](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-dividends-income-api/)	| Restricting charitable reliefs to UK charities 	| TBC 	| TBC 	| No | No | December 2025 |
 | [Self Assessment Individual Details](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/self-assessment-individual-details-api/)<br>[Individual Calculations](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individual-calculations-api/)	| ITSA status – renaming of non-digital status to Digitally Exempt  	| Yes 	| 26-27+ 	| Yes 	| Yes 	| December 2025 	|
-| [Individuals State Benefits](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-state-benefits-api/) 	| New business validation rule to reject state benefit submissions where `taxPaid` is populated in the request body and the benefit type (held on ISS) is one of  `statePension`, `bereavementAllowance` or `otherStateBenefits`. 	| Yes 	| 24-25+ 	| No 	| Yes 	| December 2025 	|
+| [Individuals State Benefits](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-state-benefits-api/) 	| New business validation rule to be added to reject state benefit submissions where `taxPaid` is populated in the request body and the benefit type (held on ISS) is one of  `statePension`, `bereavementAllowance` or `otherStateBenefits`. 	| Yes 	| 24-25+ 	| No 	| Yes 	| December 2025 	|
 
 ## Planned future deliveries
+
+> This section is still under development
 
 The below table is not comprehensive and other APIs may be impacted by future deliveries.
 
