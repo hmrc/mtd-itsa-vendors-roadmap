@@ -45,7 +45,6 @@ Version numbers will be added once the scope for the release and the associated 
 | API(s) | Change | [Breaking?](#def_br) | [Tax years](#def_ty) | [Affects quarterly updates?](#def_aqu) | [Usable in year?](#def_uiy) | [Deploy to Sandbox](#def_dep) |
 | --- | --- | --- | --- | --- | --- | --- |
 | [Obligations](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/obligations-api/) | Align quarterly deadlines – to bring the due date of quarterly updates in line with VAT – 7<sup>th</sup> of each month | No  | 26/27 + | Yes | No  | December 2025 |
-| [Property Business](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/property-business-api/) | Reassert number of rental properties  <br>Expand the property income submission API to allow a customer to reassert their number of rental properties and if they jointly let any of their rental properties for each tax year. | Yes | 25/26+ | No  |     | December 2025 |
 | [Property Business](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/property-business-api/) | Foreign Property – changes required to enhance the journey for multiple foreign properties in the same country. | TBC | 26-27 + | TBC | Yes | December 2025 |
 | [Individual Dividends Income](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-dividends-income-api/)	| Restricting charitable reliefs to UK charities 	| TBC 	| TBC 	| No | No | December 2025 |
 | [Self Assessment Individual Details](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/self-assessment-individual-details-api/)<br>[Individual Calculations](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individual-calculations-api/)	| ITSA status – renaming of non-digital status to Digitally Exempt  	| Yes 	| 26-27+ 	| Yes 	| Yes 	| December 2025 	|
@@ -61,6 +60,8 @@ The below table is not comprehensive and other APIs may be impacted by future de
 | --- | --- | --- | --- | --- | --- | --- |
 |     | Penalty Reform Notifications ability for a user to view the penalty position through their software. | TBC | TBC | TBC | TBC | TBC |
 |     | Calendar quarter enhancement – to align the first quarterly update to starts from 1<sup>st</sup> April. | TBC | TBC | TBC | TBC | TBC |
+| [Property Business](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/property-business-api/) | Reassert number of rental properties  <br>Expand the property income submission API to allow a customer to reassert their number of rental properties and if they jointly let any of their rental properties for each tax year. | TBC | TBC | TBC  |  TBC   | TBC |
+
 
 ## Already released
 
