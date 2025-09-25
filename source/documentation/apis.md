@@ -56,11 +56,11 @@ Version numbers will be added once the scope for the release and the associated 
 
 The below table is not comprehensive and other APIs may be impacted by future deliveries.
 
-| API(s) | Change | [Breaking?](#def_br) | [Tax years](#def_ty) | [Affects quarterly updates?](#def_aqu) | [Usable in year?](#def_uiy) | [Deploy to Sandbox](#def_dep) |
+| API(s) | Change |  [Affects quarterly updates?](#def_aqu) | [Usable in year?](#def_uiy) | [Deploy to Sandbox](#def_dep) |
 | --- | --- | --- | --- | --- | --- | --- |
-|     | Penalty Reform Notifications ability for a user to view the penalty position through their software. | TBC | TBC | TBC | TBC | TBC |
-|     | Calendar quarter enhancement – to align the first quarterly update to starts from 1<sup>st</sup> April. | TBC | TBC | TBC | TBC | TBC |
-| [Property Business](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/property-business-api/) | Reassert number of rental properties  <br>Expand the property income submission API to allow a customer to reassert their number of rental properties and if they jointly let any of their rental properties for each tax year. | TBC | TBC | TBC  |  TBC   | TBC |
+|     | Penalty Reform Notifications ability for a user to view the penalty position through their software.  | TBC | TBC | TBC |
+|     | Calendar quarter enhancement – to align the first quarterly update to starts from 1<sup>st</sup> April. | TBC | TBC | TBC |
+| [Property Business](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/property-business-api/) | Reassert number of rental properties  <br>Expand the property income submission API to allow a customer to reassert their number of rental properties and if they jointly let any of their rental properties for each tax year. | TBC  |  TBC   | TBC |
 | [Individual Calculations](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individual-calculations-api) 	| Claim outside of the amendment window - <br>enabling amendments to be made outside the amendment window, this is not likely to be actioned through software. 	| No 	| Yes 	| TBC  |
 | [Individual Losses](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individual-losses-api) 	| Carry back of losses - <br>enabling losses incurred in one tax year to be set off against profits made in previous years, subject to rules. 	| No 	| No 	| TBC 	|
 | [Individual Calculations](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individual-calculations-api) 	| Residence and remittance - <br>enabling software to support overseas customers with UK income. 	| No 	| Yes 	| TBC 	|
