@@ -74,7 +74,6 @@ The below table is not comprehensive and other APIs may be impacted by future de
 | [Individuals State Benefits](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-state-benefits-api) 	| Blind Person’s Allowance - <br>enabling software to support Blind Person’s Allowance. 	|  TBC  	|  TBC  	| TBC 	|
 | [Individuals State Benefits](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-state-benefits-api)	| Married Couple’s Allowance - <br>enabling software to support Married Couple’s Allowance. 	|  TBC  	|  TBC  	| TBC 	|
 
-
 ## Already released
 
 ### September 2025
