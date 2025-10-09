@@ -14,8 +14,3 @@ lazy val microservice = Project(appName, file("."))
       "-language:postfixOps"
     )
   )
-  .settings(
-    resolvers += Resolver.jcenterRepo
-  )
-
-Global / excludeLintKeys += update / evictionWarningOptions
