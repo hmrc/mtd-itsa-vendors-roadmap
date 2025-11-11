@@ -11,6 +11,11 @@ New features are first released into the Sandbox, which enables you to test the 
 
 ## Document changelog
 
+**11 November 2025**
+
+- Roadmap updated based on November Sandbox release
+- Release details added for June 2026, September 2026, December 2026, April 2027
+
 **15 September 2025**
 
 - Roadmap updated based on September 2025 release
