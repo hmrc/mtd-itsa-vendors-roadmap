@@ -8,20 +8,20 @@ For details of deployed changes, see the [API changelog](https://github.com/hmrc
 
 ### December 2025
 
-These changes are expected to be deployed in December 2025 (to be confirmed).
+These changes are expected to be deployed in December 2025.
 
 Version numbers will be added once the scope for the release and the associated release date are confirmed.
 
 | API(s) | Change | [Breaking?](#def_br) | [Tax years](#def_ty) | [Affects quarterly updates?](#def_aqu) | [Usable in year?](#def_uiy) | [Deploy to Sandbox](#def_dep) |
-| --- | --- | --- | --- | --- | --- | --- |
-| [Individuals Employments Income](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-employments-income-api/) (V2)  | Student Loan BIK – a change to ensure the payrolled BIK are excluded from student loan calculations | No  | 25-26+ | No | Yes  | September 2025 (deployed) |
-| [Individual Relief Api](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-reliefs-api/) (V3) | Withdrawal of social investment tax relief (SITR)  <br>Removal of SITR data items. | Yes | 25-26+ | No  | No  | September 2025 (deployed) |
-| [Business Details (MTD)](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/business-details-api/) (V2) | Basis Period Reform – ability to review and disapply Late Accounting Date Rules. | No  | 25-26+ | No | No | September 2025 (deployed) |
+| :---- | :---- | :---- | :---- | :---- | :---- | :---- |
+| [Individuals Employments Income](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-employments-income-api/) (V2)  | Student Loan BIK –<br> a change to ensure the payrolled BIK are excluded from student loan calculations | No  | 25-26+ | No | Yes  | September 2025 (deployed) |
+| [Individual Relief Api](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-reliefs-api/) (V3),<br> [Individual Calculations](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individual-calculations-api/) (V8) | Withdrawal of social investment tax relief (SITR) –<br>Removal of Social Enterprise Investment array. | Yes | 25-26+ | No  | No  | September 2025 (deployed) |
+| [Business Details (MTD)](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/business-details-api/) (V2) | Basis Period Reform –<br> The ability to review and disapply Late Accounting Date Rules. | No  | 25-26+ | No | No | September 2025 (deployed) |
 | [Individual Calculations](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individual-calculations-api/) (V8),<br>[CIS Deductions](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/cis-deductions-api/) (V3) 	| CIS Validation Failure on contractors name/changes in regex for CIS `contractorName` | No 	| 23-24+ 	| No 	| No 	| September 2025 (deployed)	|
-| [Self Assessment Accounts](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/self-assessment-accounts-api/) (V4) | A new field named `codedOutStatus` was added  to expose additional financial status data 	| No 	| Non-TYS 	| No 	| No 	| September 2025 (deployed) 	|
-| [Self Assessment Accounts](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/self-assessment-accounts-api/) (V4) 	| Ability to view a complete history of charges and reversal records with clear dates and times 	| No 	| Non-TYS 	| No 	| Yes 	| September 2025 (deployed) 	|
+| [Self Assessment Accounts](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/self-assessment-accounts-api/) (V4) | A new field named `codedOutStatus`  added to expose additional financial status data 	| No 	| Non-TYS 	| No 	| No 	| September 2025 (deployed) 	|
+| [Self Assessment Accounts](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/self-assessment-accounts-api/) (V4) 	| The ability to view a complete history of charges and reversal records with clear dates and times 	| No 	| Non-TYS 	| No 	| Yes 	| September 2025 (deployed) 	|
 | [Individual Calculations](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individual-calculations-api/) (V8),<br>[Self Assessment BSAS](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/self-assessment-bsas-api/) (V7),<br>[Self Assessment BISS](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/self-assessment-biss-api/) (V3), 	| Correction in handling of 'Outstanding Business Income' (SA103F Box 75) in the Annual Self Employment API to ensure it is added after applying brought forward losses to adjusted profit  	| No 	| 23-24+ | Yes 	| No 	| September 2025 (deployed) 	|
-| [Individual Reliefs](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-reliefs-api/) (V3)| Unique Investment Reference (UIR) field altered to Optional. With amendments to Venture Capital Trust Shares, Enterprise Investment Scheme Shares and Seed Enterprise Investment Scheme Shares with changes to both Optional and Mandatory Fields 	| Yes 	| 25-26 | No 	| Yes 	| September 2025 (deployed) 	|
+| [Individual Reliefs](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-reliefs-api/) (V3)| Unique Investment Reference (UIR) field altered to Optional –<br>With amendments to Venture Capital Trust Shares, Enterprise Investment Scheme Shares and Seed Enterprise Investment Scheme Shares with changes to both Optional and Mandatory Fields 	| Yes 	| 25-26 | No 	| Yes 	| September 2025 (deployed) 	|
 |  | Mortgage evidence - Guidance only product to allow software to provide an SA302 output | N/A | 25-26+ | N/A | No | N/A |
 
 ### March 2026
@@ -31,39 +31,82 @@ These changes are expected to be deployed in March 2026 (to be confirmed).
 Version numbers will be added once the scope for the release and the associated release date are confirmed.
 
 | API(s) | Change | [Breaking?](#def_br) | [Tax years](#def_ty) | [Affects quarterly updates?](#def_aqu) | [Usable in year?](#def_uiy) | [Deploy to Sandbox](#def_dep) |
-| --- | --- | --- | --- | --- | --- | --- |
-| [Obligations](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/obligations-api/) | Align quarterly deadlines – to bring the due date of quarterly updates in line with VAT – 7<sup>th</sup> of each month | No  | 26/27 + | Yes | No  | December 2025 |
-| [Property Business](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/property-business-api/) | Foreign Property – changes required to enhance the journey for multiple foreign properties in the same country. | TBC | 26-27 + | TBC | Yes | December 2025 |
-| [Individual Dividends Income](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-dividends-income-api/)	| Restricting charitable reliefs to UK charities 	| TBC 	| TBC 	| No | No | December 2025 |
-| [Self Assessment Individual Details](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/self-assessment-individual-details-api/),<br>[Individual Calculations](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individual-calculations-api/)	| ITSA status – renaming of non-digital status to Digitally Exempt  	| Yes 	| 26-27+ 	| Yes 	| Yes 	| December 2025 	|
-| [Individuals State Benefits](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-state-benefits-api/) 	| New business validation rule to be added to reject state benefit submissions where `taxPaid` is populated in the request body and the benefit type (held on ISS) is one of  `statePension`, `bereavementAllowance` or `otherStateBenefits`. 	| Yes 	| 24-25+ 	| No 	| Yes 	| December 2025 	|
-| [Individuals Capital Gains Income](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-capital-gains-income-api/), <br> [Individual Calculations](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individual-calculations-api/) | Crypto assets  <br>The ability for customers with crypto assets to report these as part of their final declaration. | Yes | 25-26+ | No  | No  | November 2025 |
-| [Individuals Capital Gains Income](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-capital-gains-income-api/), <br> [Individual Calculations](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individual-calculations-api/)  | Capital Gains Tax – new additions being added to the CGT journey to include Unlisted Shares and Securities - missing data items<br><br>Losses and Adjustments - missing data items<br><br>Business Asset Disposal Relief (BADR) - Detailed data capture support around asset types<br><br>Qualifying Asset Holding Company (QAHC) - New Data items | Yes | 25-26+ | No  | No  | November 2025 |
-| [Individual Calculations](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individual-calculations-api/), <br>[Individuals Capital Gains Income](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-capital-gains-income-api/)  | Capital Gains Tax – 2 additional data items (claim or election codes, and Rtt Tax Paid) to be added to the 'Create and amend other capital gains and disposals' endpoint | Yes | 25-26+ | No  | No  | November 2025 |
+| :---- | :---- | :---- | :---- | :---- | :---- | :---- |
+| [Obligations](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/obligations-api/) | Align quarterly deadlines –<br> Bringing the due date of quarterly updates in line with VAT – 7<sup>th</sup> of each month | No  | 26-27 + | Yes | Yes  | December 2025 |
+| [Property Business](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/property-business-api/) | Foreign Property –<br> Enhancing the journey for multiple foreign properties in the same country. | TBC | 26-27 + | Yes | Yes | December 2025 |
+| [Individuals Reliefs](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-reliefs-api/)	| Removal of data items for non-UK charitable giving in line with Autumn statement 2022 announcement 	| TBC 	| TBC 	| No | No | December 2025 |
+| [Self Assessment Individual Details](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/self-assessment-individual-details-api/)	| ITSA status –<br>Renaming of Non-digital status to Digitally Exempt  	| TBC 	| 26-27+ 	| No 	| No 	| December 2025 	|
+| [Individuals State Benefits](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-state-benefits-api/) 	| New business validation rule to be added to reject state benefit submissions where `taxPaid` is populated in the request body and the benefit type (held on ISS) is one of  `statePension`, `bereavementAllowance` or `otherStateBenefits`. 	| TBC 	| 24-25+ 	| No 	| No 	| December 2025 	|
+| [Individuals Capital Gains Income](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-capital-gains-income-api/), <br> [Individual Calculations](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individual-calculations-api/) | Crypto assets –<br>The ability for customers with crypto assets to report these as part of their final declaration. | TBC | 25-26+ | No  | No  | November 2025 |
+| [Individuals Capital Gains Income](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-capital-gains-income-api/), <br> [Individual Calculations](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individual-calculations-api/)  | Capital Gains Tax – new additions being added to the CGT journey to include Unlisted Shares and Securities - missing data items<br><br>Losses and Adjustments - missing data items<br><br>Business Asset Disposal Relief (BADR) - Detailed data capture support around asset types<br><br>Qualifying Asset Holding Company (QAHC) - New Data items | TBC | 25-26+ | No  | No  | November 2025 |
+| [Individual Calculations](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individual-calculations-api/), <br>[Individuals Capital Gains Income](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-capital-gains-income-api/)  | Capital Gains Tax –<br> 2 additional data items (claim or election codes, and Rtt Tax Paid) to be added to the 'Create and amend other capital gains and disposals' endpoint | TBC | 25-26+ | No  | No  | November 2025 |
+| Guidance Only | Member of Parliament Submissions –<br>Guidance only to enable software to support Members of Parliament – submission through Employment Income API | No | 26-27+ | No | No | NA |
+| Transition Profits | Exposure of transitionProfit fields | No | 24-25+ | Yes | Yes | NA |
+
+### June 2026
+
+These changes are expected to be deployed in June 2026 (to be confirmed).
+
+Version numbers will be added once the scope for the release and the associated release date are confirmed.
+
+| API(s) | Change | [Breaking?](#def_br) | [Tax years](#def_ty) | [Affects quarterly updates?](#def_aqu) | [Usable in year?](#def_uiy) | [Deploy to Sandbox](#def_dep) |
+| :---- | :---- | :---- | :---- | :---- | :---- | :---- |
+| [Property](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/obligations-api/) Business | Reassert number of rental properties –<br> Expanding the property income submission API to allow a customer to reassert their number of rental properties and if they jointly let any of their rental properties for each tax year. | TBC | 26-27 \+ | Yes | Yes | March 2026 |
+|  | Carry back of losses –<br> Enabling losses incurred in one tax year to be set off against profits made in previous years, subject to rules. | TBC | 26-27 \+ | Yes | Yes | March 2026 |
+| New API | Partner income –<br> Enabling software to support customers that have income from partnerships. | TBC | TBC | No | No | March 2026 |
+| Individual Calculations | Enhancements within the calculation results to display Student Loan Plan Type 5 | TBC | 26-27+ | No | Yes | March 2026 |
+| Self Employment business  | Providing all users who report consolidated expenses that if they reach the threshold they will need to provide consolidated expenses | TBC | 24-25+ | No | No | December 2025 |
+
+### September 2026
+
+These changes are expected to be deployed in September 2026 (to be confirmed).
+
+Version numbers will be added once the scope for the release and the associated release date are confirmed.
+
+| API(s) | Change | [Breaking?](#def_br) | [Tax years](#def_ty) | [Affects quarterly updates?](#def_aqu) | [Usable in year?](#def_uiy) | [Deploy to Sandbox](#def_dep) |
+| :---- | :---- | :---- | :---- | :---- | :---- | :---- |
+| [Individual Calculations](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individual-calculations-api),<br>  TBC | Averaging adjustments and special arrangements –<br> Enabling software to support averaging adjustments. | TBC | 26/27+ | No | TBC | June 2026 |
+| [Individual Calculations](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individual-calculations-api),<br>  TBC | Enabling software to support customers that have income from Trusts. | TBC | 26/27+ | No | TBC | June 2026 |
+| TBC | Appeals – <br> The making of an appeal will not be through software. Discovery is taking place to see what information will be available through software. | TBC |  | No | NA | June 2026 |
+| [Individual Calculations](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individual-calculations-api),<br>  TBC | Revenue Amendments –<br> Enabling users to see the result of a revenue amendment through their software | TBC |  | No | NA | June 2026 |
+| [Individual Calculations](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individual-calculations-api),<br>  TBC | Winter Fuel Payment –<br> Enabling users to include the winter fuel payment amounts within the calculation results. | TBC |  | No | TBC | June 2026 |
+| [Individual Calculations](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individual-calculations-api),<br>  TBC | HMRC Corrections –<br> Enabling HMRC to make corrections to a tax return filed through MTD software and users to see the results of those changes in their software. | TBC |  | No | NA | June 2026 |
+
+### December 2026
+
+These changes are expected to be deployed in December 2026 (to be confirmed).
+
+Version numbers will be added once the scope for the release and the associated release date are confirmed.
+
+| API(s) | Change | [Breaking?](#def_br) | [Tax years](#def_ty) | [Affects quarterly updates?](#def_aqu) | [Usable in year?](#def_uiy) | [Deploy to Sandbox](#def_dep) |
+| :---- | :---- | :---- | :---- | :---- | :---- | :---- |
+| TBC | Penalty Reform Notifications –<br>The ability for a user to view the penalty position through their software. | TBC | TBC | No | NA | September 2026 |
+| TBC | Whitespace –<br>The ability for users to provide additional information through their software to be submitted with their return | TBC | TBC | No | TBC | September 2026 |
+| [Individual Calculations](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individual-calculations-api) | ITSA upload facility (end of year processing) –<br>Enabling software to provide supporting attachments for ITSA submissions. | TBC | TBC | No | TBC | September 2026 |
+| TBC | Provisional figures –<br>The ability for users to inform HMRC when they have used provisional figures, through their software, | TBC | TBC | No | TBC | September 2026 |
+| Business Details, TBC | Removal of Accounting Period –<br>The removal of accounting period in the design before new endpoints were created | TBC | TBC | No | NA | September 2026 |
+|  | Foster Carers –<br>The ability for users to inform HMRC that they have been foster carers during the tax year | TBC | TBC | No | TBC | September 2026 |
+
+### April 2027
+
+These changes are expected to be deployed in April 2027 (to be confirmed).
+
+Version numbers will be added once the scope for the release and the associated release date are confirmed.
+
+| API(s) | Change | [Breaking?](#def_br) | [Tax years](#def_ty) | [Affects quarterly updates?](#def_aqu) | [Usable in year?](#def_uiy) | [Deploy to Sandbox](#def_dep) |
+| :---- | :---- | :---- | :---- | :---- | :---- | :---- |
+| TBC | Revenue Assessments –<br>The ability for a revenue assessment to be made by a HMRC user.  Discovery will determine if information is required to be available to the user through their software. | TBC | TBC | No | TBC | TBC |
 
 ## Planned future deliveries
 
-> This section is still under development
+This section is still under development
 
 The below table is not comprehensive and other APIs may be impacted by future deliveries.
 
-| API(s) | Change |  [Affects quarterly updates?](#def_aqu) | [Usable in year?](#def_uiy) | [Deploy to Sandbox](#def_dep) |
-| --- | --- | --- | --- | --- |
-|     | Penalty Reform Notifications ability for a user to view the penalty position through their software.  | TBC | TBC | TBC |
-|     | Calendar quarter enhancement – to align the first quarterly update to starts from 1<sup>st</sup> April. | TBC | TBC | TBC |
-| [Property Business](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/property-business-api/) | Reassert number of rental properties  <br>Expand the property income submission API to allow a customer to reassert their number of rental properties and if they jointly let any of their rental properties for each tax year. | TBC  |  TBC   | TBC |
-| [Individual Calculations](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individual-calculations-api) 	| Claim outside of the amendment window - <br>enabling amendments to be made outside the amendment window, this is not likely to be actioned through software. 	|  TBC  	|  TBC  	| TBC  |
-| [Individual Losses](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individual-losses-api) 	| Carry back of losses - <br>enabling losses incurred in one tax year to be set off against profits made in previous years, subject to rules. 	|  TBC  	|  TBC  	| TBC 	|
-| [Individual Calculations](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individual-calculations-api) 	| Residence and remittance - <br>enabling software to support overseas customers with UK income. 	|  TBC  	|  TBC  	| TBC 	|
-| [Individual Calculations](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individual-calculations-api) 	| Partner income - <br>enabling software to support customers that have income from partnerships. 	|  TBC  	|  TBC  	| TBC 	|
-| [Individual Calculations](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individual-calculations-api)	| ITSA upload facility (end of year processing) - <br>enabling software to provide supporting attachments for ITSA submissions. 	|  TBC  	|  TBC  	| TBC 	|
-| [Individual Calculations](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individual-calculations-api) 	| Lloyd’s underwriters - <br>enabling software to support Lloyd’s underwriters. 	|  TBC  	|  TBC  	| TBC 	|
-| [Individual Calculations](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individual-calculations-api) 	| Averaging adjustments and special arrangements - <br>enabling software to support averaging adjustments. 	|  TBC  	|  TBC  	| TBC 	|
-| [Individual Calculations](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individual-calculations-api) 	| Ministers of religion - <br>enabling software to support ministers of religion. 	|  TBC  	|  TBC  	| TBC 	|
-| [Self-Employment Business](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/self-employment-business-api) 	| White space - <br>Support for submitting any other information as per SA return via software and ITSA submission service. 	|  TBC  	|  TBC  	| TBC 	|
-| [Individuals State Benefits](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-state-benefits-api) 	| Blind Person’s Allowance - <br>enabling software to support Blind Person’s Allowance. 	|  TBC  	|  TBC  	| TBC 	|
-| [Individuals State Benefits](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-state-benefits-api)	| Married Couple’s Allowance - <br>enabling software to support Married Couple’s Allowance. 	|  TBC  	|  TBC  	| TBC 	|
-| [Individuals Employments Income](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-employments-income-api/) | Member of Parliament Submissions - <br>Guidance only to enable software to support Members of Parliament |  TBC  	|  TBC  	| TBC 	|
+| API(s) | Change | [Breaking?](#def_br) | [Tax years](#def_ty) | [Affects quarterly updates?](#def_aqu) | [Usable in year?](#def_uiy) | [Deploy to Sandbox](#def_dep) |
+| :---- | :---- | :---- | :---- | :---- | :---- | :---- |
+| [Individual Calculations](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individual-calculations-api) | Claim outside of the amendment window –<br>Enabling amendments to be made outside the amendment window, this is not likely to be actioned through software. | TBC | TBC | TBC |
+| [Individual Calculations](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individual-calculations-api) | Residence and remittance –<br>Enabling software to support overseas customers with UK income. | TBC | TBC | TBC |
 
 ## Already released
 
