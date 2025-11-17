@@ -10,8 +10,6 @@ For details of deployed changes, see the [API changelog](https://github.com/hmrc
 
 These changes are expected to be deployed in December 2025.
 
-Version numbers will be added once the scope for the release and the associated release date are confirmed.
-
 | API(s) | Change | [Breaking?](#def_br) | [Tax years](#def_ty) | [Affects quarterly updates?](#def_aqu) | [Usable in year?](#def_uiy) | [Deploy to Sandbox](#def_dep) |
 | :---- | :---- | :---- | :---- |:---------------------------------------| :---- | :---- |
 | [Individuals Employments Income](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-employments-income-api/) (V2)  | Student Loan BIK –<br> a change to ensure the payrolled BIK are excluded from student loan calculations | No  | 25-26+ | No                                     | Yes  | September 2025 (deployed) |
@@ -27,7 +25,7 @@ Version numbers will be added once the scope for the release and the associated 
 
 These changes are expected to be deployed in March 2026 (to be confirmed).
 
-Version numbers will be added once the scope for the release and the associated release date are confirmed.
+Affected APIs and version numbers will be added once the scope for the release and associated release date are confirmed.
 
 | API(s) | Change | [Breaking?](#def_br) | [Tax years](#def_ty) | [Affects quarterly updates?](#def_aqu) | [Usable in year?](#def_uiy) | [Deploy to Sandbox](#def_dep) |
 | :---- | :---- | :---- | :---- | :---- | :---- | :---- |
@@ -41,27 +39,28 @@ Version numbers will be added once the scope for the release and the associated 
 | [Individual Calculations](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individual-calculations-api/), <br>[Individuals Capital Gains Income](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-capital-gains-income-api/)  | Capital Gains Tax –<br> 2 additional data items (claim or election codes, and Rtt Tax Paid) to be added to the 'Create and amend other capital gains and disposals' endpoint | TBC | 25-26+ | No  | No  | November 2025 (deployed)|
 | Guidance Only | Member of Parliament Submissions –<br>Guidance only to enable software to support Members of Parliament – submission through Employment Income API | No | 26-27+ | No | No | NA |
 | [Individual Calculations](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individual-calculations-api/) | Transition Profits –<br>Exposure of transitionProfit fields | No | 24-25+ | Yes | Yes | NA |
-|  | Mortgage evidence - Guidance only product to allow software to provide an SA302 output | N/A | 25-26+ | N/A                                    | No | N/A |
+
 
 ### June 2026
 
 These changes are expected to be deployed in June 2026 (to be confirmed).
 
-Version numbers will be added once the scope for the release and the associated release date are confirmed.
+Affected APIs and version numbers will be added once the scope for the release and associated release date are confirmed.
 
 | API(s)                   | Change | [Breaking?](#def_br) | [Tax years](#def_ty) | [Affects quarterly updates?](#def_aqu) | [Usable in year?](#def_uiy) | [Deploy to Sandbox](#def_dep) |
 |:-------------------------| :---- | :---- | :---- | :---- | :---- | :---- |
-| Property Business        | Reassert number of rental properties –<br> Expanding the property income submission API to allow a customer to reassert their number of rental properties and if they jointly let any of their rental properties for each tax year. | TBC | 26-27 \+ | Yes | Yes | March 2026 |
-|                          | Carry back of losses –<br> Enabling losses incurred in one tax year to be set off against profits made in previous years, subject to rules. | TBC | 26-27 \+ | Yes | Yes | March 2026 |
+| Property Business        | Reassert number of rental properties –<br> Expanding the property income submission API to allow a customer to reassert their number of rental properties and if they jointly let any of their rental properties for each tax year. | TBC | 26-27+ | Yes | Yes | March 2026 |
+| [Individual Calculations](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individual-calculations-api) | Carry back of losses –<br> Enabling losses incurred in one tax year to be set off against profits made in previous years, subject to rules. | TBC | 26-27 \+ | Yes | Yes | March 2026 |
 | New API                  | Partner income –<br> Enabling software to support customers that have income from partnerships. | TBC | TBC | No | No | March 2026 |
 | Individual Calculations | Enhancements within the calculation results to display Student Loan Plan Type 5 | TBC | 26-27+ | No | Yes | March 2026 |
 | Self Employment business | Providing all users who report consolidated expenses that if they reach the threshold they will need to provide consolidated expenses | TBC | 24-25+ | No | No | December 2025 |
+| Guidance only | Mortgage evidence - Guidance only product to allow software to provide an SA302 output | N/A | 25-26+ | N/A                                    | No | March 2026 |
 
 ### September 2026
 
 These changes are expected to be deployed in September 2026 (to be confirmed).
 
-Version numbers will be added once the scope for the release and the associated release date are confirmed.
+Affected APIs and version numbers will be added once the scope for the release and associated release date are confirmed.
 
 | API(s) | Change | [Breaking?](#def_br) | [Tax years](#def_ty) | [Affects quarterly updates?](#def_aqu) | [Usable in year?](#def_uiy) | [Deploy to Sandbox](#def_dep) |
 | :---- | :---- | :---- | :---- | :---- | :---- | :---- |
@@ -76,7 +75,7 @@ Version numbers will be added once the scope for the release and the associated 
 
 These changes are expected to be deployed in December 2026 (to be confirmed).
 
-Version numbers will be added once the scope for the release and the associated release date are confirmed.
+Affected APIs and version numbers will be added once the scope for the release and associated release date are confirmed.
 
 | API(s) | Change | [Breaking?](#def_br) | [Tax years](#def_ty) | [Affects quarterly updates?](#def_aqu) | [Usable in year?](#def_uiy) | [Deploy to Sandbox](#def_dep) |
 | :---- | :---- | :---- | :---- | :---- | :---- | :---- |
@@ -85,13 +84,13 @@ Version numbers will be added once the scope for the release and the associated 
 | [Individual Calculations](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individual-calculations-api) | ITSA upload facility (end of year processing) –<br>Enabling software to provide supporting attachments for ITSA submissions. | TBC | TBC | No | TBC | September 2026 |
 | TBC | Provisional figures –<br>The ability for users to inform HMRC when they have used provisional figures, through their software, | TBC | TBC | No | TBC | September 2026 |
 | Business Details, TBC | Removal of Accounting Period –<br>The removal of accounting period in the design before new endpoints were created | TBC | TBC | No | NA | September 2026 |
-|  | Foster Carers –<br>The ability for users to inform HMRC that they have been foster carers during the tax year | TBC | TBC | No | TBC | September 2026 |
+| TBC | Foster Carers –<br>The ability for users to inform HMRC that they have been foster carers during the tax year | TBC | TBC | No | TBC | September 2026 |
 
 ### April 2027
 
 These changes are expected to be deployed in April 2027 (to be confirmed).
 
-Version numbers will be added once the scope for the release and the associated release date are confirmed.
+Affected APIs and version numbers will be added once the scope for the release and associated release date are confirmed.
 
 | API(s) | Change | [Breaking?](#def_br) | [Tax years](#def_ty) | [Affects quarterly updates?](#def_aqu) | [Usable in year?](#def_uiy) | [Deploy to Sandbox](#def_dep) |
 | :---- | :---- | :---- | :---- | :---- | :---- | :---- |
@@ -113,8 +112,6 @@ The below table is not comprehensive and other APIs may be impacted by future de
 ### September 2025
 
 These changes were deployed in September 2025.
-
-Version numbers will be added once the scope for the release and the associated release date are confirmed.
 
 | API(s) | Change | [Breaking?](#def_br) | [Tax years](#def_ty) | [Affects quarterly updates?](#def_aqu) | [Usable in year?](#def_uiy) | [Deployed to Sandbox](#def_dep) |
 | --- | --- | --- | --- | --- | --- | --- |
