@@ -49,11 +49,11 @@ Affected APIs and version numbers will be added once the scope for the release a
 
 | API(s)                   | Change | [Breaking?](#def_br) | [Tax years](#def_ty) | [Affects quarterly updates?](#def_aqu) | [Usable in year?](#def_uiy) | [Deploy to Sandbox](#def_dep) |
 |:-------------------------| :---- | :---- | :---- | :---- | :---- | :---- |
-| Property Business        | Reassert number of rental properties –<br> Expanding the property income submission API to allow a customer to reassert their number of rental properties and if they jointly let any of their rental properties for each tax year. | TBC | 26-27+ | Yes | Yes | March 2026 |
+| [Property Business](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/property-business-api/) | Reassert number of rental properties –<br> Expanding the property income submission API to allow a customer to reassert their number of rental properties and if they jointly let any of their rental properties for each tax year. | TBC | 26-27+ | Yes | Yes | March 2026 |
 | [Individual Calculations](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individual-calculations-api) | Carry back of losses –<br> Enabling losses incurred in one tax year to be set off against profits made in previous years, subject to rules. | TBC | 26-27 \+ | Yes | Yes | March 2026 |
 | New API                  | Partner income –<br> Enabling software to support customers that have income from partnerships. | TBC | TBC | No | No | March 2026 |
-| Individual Calculations | Enhancements within the calculation results to display Student Loan Plan Type 5 | TBC | 26-27+ | No | Yes | March 2026 |
-| Self Employment business | Providing all users who report consolidated expenses that if they reach the threshold they will need to provide consolidated expenses | TBC | 24-25+ | No | No | December 2025 |
+| [Individual Calculations](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individual-calculations-api) | Enhancements within the calculation results to display Student Loan Plan Type 5 | TBC | 26-27+ | No | Yes | March 2026 |
+| [Self Employment business](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/self-employment-business-api/) | Providing all users who report consolidated expenses that if they reach the threshold they will need to provide consolidated expenses | TBC | 24-25+ | No | No | December 2025 |
 | Guidance only | Mortgage evidence - Guidance only product to allow software to provide an SA302 output | N/A | 25-26+ | N/A                                    | No | March 2026 |
 
 ### September 2026
