@@ -52,7 +52,7 @@ Affected APIs and version numbers will be added once the scope for the release a
 | [Individual Calculations](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individual-calculations-api),<br>  TBC | Revenue Amendments –<br> Enabling users to see the result of a revenue amendment through their software | TBC |  | No | NA | June 2026 |
 | [Individual Calculations](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individual-calculations-api),<br>  TBC | Winter Fuel Payment –<br> Enabling users to include the winter fuel payment amounts within the calculation results. | TBC |  | No | TBC | June 2026 |
 | [Individual Calculations](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individual-calculations-api),<br>  TBC | HMRC Corrections –<br> Enabling HMRC to make corrections to a tax return filed through MTD software and users to see the results of those changes in their software. | TBC |  | No | NA | June 2026 |
-| [Self Employment business](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/self-employment-business-api/) | Providing all users who report consolidated expenses that if they reach the threshold they will need to provide consolidated expenses | TBC | 24-25+ | No | No | June 2026 |
+| [Self Employment business](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/self-employment-business-api/),<br>  TBC | Providing all users who report consolidated expenses that if they reach the threshold they will need to provide consolidated expenses | TBC | 24-25+ | No | No | June 2026 |
 
 ### December 2026
 
