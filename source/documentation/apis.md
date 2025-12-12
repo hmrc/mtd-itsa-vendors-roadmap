@@ -25,6 +25,7 @@ Affected APIs and version numbers will be added once the scope for the release a
 | Guidance Only | Member of Parliament Submissions –<br>Guidance only to enable software to support Members of Parliament – submission through Employment Income API  | No  | 26-27+  | No  | No  | N/A |
 | [Individual Calculations](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individual-calculations-api/) (V7, V8) | Transition Profits –<br>Exposure of `transitionProfit` fields | No  | 24-25+  | Yes | Yes | December 2025 (deployed) |
 
+
 ### June 2026
 
 These changes are expected to be deployed in June 2026 (to be confirmed).
