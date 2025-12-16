@@ -1,7 +1,7 @@
 
 # Making Tax Digital for Income Tax roadmap 
 
-Last updated: 15 September 2025 (see [changelog](#document-changelog))
+Last updated: 15 December 2025 (see [changelog](#document-changelog))
 
 ## About this roadmap
 
@@ -11,6 +11,10 @@ New features are first released into the Sandbox, which enables you to test the 
 
 ## Document changelog
 
+**15 December 2025**
+
+- Roadmap updated based on December 2025 release
+
 **11 November 2025**
 
 - Roadmap updated based on November Sandbox release
@@ -19,7 +23,6 @@ New features are first released into the Sandbox, which enables you to test the 
 **15 September 2025**
 
 - Roadmap updated based on September 2025 release
-
 
 **29 August 2025**
 
