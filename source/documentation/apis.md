@@ -38,7 +38,6 @@ Affected APIs and version numbers will be added once the scope for the release a
 | [Individual Calculations](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individual-calculations-api) (V8),<br> New API | Partner income –<br> Enabling software to support customers that have income from partnerships. | No | 26-27+ | No | No | March 2026 |
 | [Individual Calculations](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individual-calculations-api) (V8) | Enhancements within the calculation results to display Student Loan Plan Type 5 | No | 26-27+ | No | Yes | March 2026 |
 | [Self Assessment Individual Details](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/self-assessment-individual-details-api/) (V2) | In the event a NI number is not signed up for Making Tax Digital For Income Tax, the following error will be returned 'Client_NOT_MTD_Enrolled' | No | N/A | N/A | N/A | March 2026 |
-| TBC | Mortgage evidence - Allowing software to provide an SA302 output | N/A | 25-26+ | N/A | No | TBC |
 
 ### September 2026
 
@@ -55,6 +54,7 @@ Affected APIs and version numbers will be added once the scope for the release a
 | [Individual Calculations](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individual-calculations-api),<br>  TBC | Winter Fuel Payment –<br> Enabling users to include the winter fuel payment amounts within the calculation results. | TBC |  | No | TBC | June 2026 |
 | [Individual Calculations](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individual-calculations-api),<br>  TBC | HMRC Corrections –<br> Enabling HMRC to make corrections to a tax return filed through MTD software and users to see the results of those changes in their software. | TBC |  | No | NA | June 2026 |
 | [Self Employment business](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/self-employment-business-api/),<br>  TBC | Providing all users who report consolidated expenses that if they reach the threshold they will need to provide consolidated expenses | TBC | 24-25+ | No | No | June 2026 |
+| TBC | Mortgage evidence - Allowing software to provide an SA302 output | N/A | 25-26+ | N/A | No | TBC |
 
 ### December 2026
 
