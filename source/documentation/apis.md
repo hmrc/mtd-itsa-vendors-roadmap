@@ -27,8 +27,8 @@ Affected APIs and version numbers will be added once the scope for the release a
 
 | API(s) | Change | [Breaking?](#def_br) | [Tax years](#def_ty) | [Affects quarterly updates?](#def_aqu) | [Usable in year?](#def_uiy) | [Deploy to Sandbox](#def_dep) |
 | :---- | :---- | :---- | :---- | :---- | :---- | :---- |
-| [Self Assessment Accounts](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/self-assessment-accounts-api) (V4) | Appeals and standover –<br> Enabling software to display details of a formal and informal standover | TBC | 25-26+ | No | No | June 2026 |
-| [Individual Calculations](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individual-calculations-api) (V8),<br>  TBC | Winter Fuel Payment –<br> Enabling users to include the winter fuel payment amounts within the calculation results | TBC | 26-27+ | No | Yes | June 2026 |
+| [Self Assessment Accounts](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/self-assessment-accounts-api) (V4) | Appeals and standovers –<br> Enabling software to display details of a formal and informal standover | TBC | 25-26+ | No | No | June 2026 |
+| [Individual Calculations](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individual-calculations-api) (V8),<br>  TBC | Winter Fuel Payment –<br> Enabling users to include the winter fuel payment amounts within the calculation results | No | 26-27+ | No | Yes | June 2026 |
 | [Self Employment Business](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/self-employment-business-api) |Inclusion of 4 new data items:<br>- Income which is disregarded for Class 4 NICs<br>- Adjustment for change of accounting practice <br>-  Interest you've been charged and have not included to work out your taxable profit<br>- Employment earnings you have already entered in 'net business profit for tax purpose' | TBC | 25-26+ | No | Yes | June 2026 |
 
 ### December 2026
