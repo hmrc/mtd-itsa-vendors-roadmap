@@ -31,6 +31,7 @@ Affected APIs and version numbers will be added once the scope for the release a
 | [Individual Calculations](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individual-calculations-api) (V8),<br>  TBC | Winter Fuel Payment –<br> Enabling users to include the winter fuel payment amounts within the calculation results | No | 26-27+ | No | Yes | June 2026 |
 | [Self Employment Business](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/self-employment-business-api) (V5) |Inclusion of new data item for adjustment to profits for Class 4 National Insurance, which is the total of the following:<br>- Income which is disregarded for Class 4 NICs<br>- Adjustment for change of accounting practice <br>-  Interest you've been charged and have not included to work out your taxable profit<br>- Employment earnings you have already entered in 'net business profit for tax purpose' | No | 25-26+ | No | Yes | June 2026 |
 
+
 ### December 2026
 
 These changes are expected to be deployed in December 2026 (to be confirmed).
