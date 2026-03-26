@@ -19,7 +19,7 @@ To make changes edit the source files in the `source` folder.
 
 ### Single page output
 
-Although a single page of HTML is generated the markdown is spread across
+Although a single page of HTML is generated, the markdown is spread across
 multiple files to make it easier to manage. They can be found in
 `source/documentation`.
 
