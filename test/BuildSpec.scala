@@ -1,5 +1,5 @@
 /*
- * Copyright 2023 HM Revenue & Customs
+ * Copyright 2026 HM Revenue & Customs
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -16,14 +16,56 @@
 
 import org.scalatest.matchers.should.Matchers
 import org.scalatest.wordspec.AnyWordSpecLike
-import sys.process._
+
+import java.io.{File, PrintWriter}
+import scala.io.{BufferedSource, Source}
+import scala.language.postfixOps
+import scala.sys.process.*
 
 class BuildSpec extends AnyWordSpecLike with Matchers {
+  val url: String = "/roadmaps/mtd-itsa-vendors-roadmap"
+
+  private def readFileContent(filePath: String): String = {
+    val file: File             = new File(filePath)
+    val source: BufferedSource = Source.fromFile(file, "UTF-8")
+    try source.getLines().mkString("\n")
+    finally source.close()
+  }
+
+  private def updateFileContent(filePath: String, newContent: String): Unit = {
+    val file: File               = new File(filePath)
+    val printWriter: PrintWriter = new PrintWriter(file, "UTF-8")
+    try printWriter.write(newContent)
+    finally printWriter.close()
+  }
+
   "Building the content" should {
     "produce static files" in {
-      val result = "bundle install" #&& Process("bundle exec middleman build --build-dir=public/ --clean", None, "BASE_PATH" -> "/roadmaps/mtd-itsa-vendors-roadmap/") !
+      val result: Int = "bundle install" #&& Process(
+        "bundle exec middleman build --verbose --build-dir=public/ --clean",
+        None,
+        "BASE_PATH" -> s"$url/"
+      ) !
 
       result shouldBe 0
+    }
+  }
+
+  "Modifying the content" should {
+    "update all assets urls in manifest.css to start with the base route" in {
+      val filePath: String        = "public/stylesheets/manifest.css"
+      val originalContent: String = readFileContent(filePath)
+
+      updateFileContent(
+        filePath,
+        originalContent.replace("url(\"", s"url(\"$url")
+      )
+
+      val updatedContent: String = readFileContent(filePath)
+
+      updatedContent should not be originalContent
+
+      updatedContent should include(s"url(\"$url")
     }
   }
 }
