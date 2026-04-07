@@ -82,7 +82,8 @@ This change was deployed in April 2026.
 
 | API(s) | Change | [Breaking?](#def_br) | [Tax years](#def_ty) | [Affects quarterly updates?](#def_aqu) | [Usable in year?](#def_uiy) | [Deploy to Sandbox](#def_dep) |
 | :---- | :---- | :---- | :---- | :---- | :---- | :---- |
-| [Self Assessment Individual Details](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/self-assessment-individual-details-api/) (V2) | Additional enum values added,  Capacitor; Residence and remittance; Ministers of religion; Lloyds underwriters; Blind persons allowance; Married couples allowance; Return not considered | 26-27+ | No | April 2026 (deployed) |
+| [Self Assessment Individual Details](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/self-assessment-individual-details-api/) (V2) | Additional enum values added,  Capacitor; Residence and remittance; Ministers of religion; Lloyds underwriters; Blind persons allowance; Married couples allowance; Return not considered | No | 26-27+ | No | Yes | April 2026 (deployed) |
+
 
 ### March 2026
 
