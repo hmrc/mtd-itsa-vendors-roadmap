@@ -84,6 +84,7 @@ This change was deployed in April 2026.
 | :---- | :---- | :---- | :---- | :---- | :---- | :---- |
 | [Self Assessment Individual Details](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/self-assessment-individual-details-api/) (V2) | Additional enum values added,  Capacitor; Residence and remittance; Ministers of religion; Lloyds underwriters; Blind persons allowance; Married couples allowance; Return not considered | No | 26-27+ | No | Yes | April 2026 (deployed) |
 
+
 ### March 2026
 
 These changes were deployed in March 2026.
