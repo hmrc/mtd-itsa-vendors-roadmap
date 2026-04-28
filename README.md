@@ -84,7 +84,9 @@ Once the Play server is running, the service guide can be viewed at http://local
 This option provides a preview more reflective of the deployed service guide, but it does not offer live previewing.
 Rebuilding static HTML files is necessary each time changes are made.
 
-### License
-This code is open source software licensed under the [Apache 2.0 License]("http://www.apache.org/licenses/LICENSE-2.0.html").
 **Note:** If no argument is provided when running the script, it will automatically use the Play Framework server. To specify an option,
 simply use `middleman` or `play` as an argument when running the script.
+
+### License
+
+This code is open source software licensed under the [Apache 2.0 License]("http://www.apache.org/licenses/LICENSE-2.0.html").
