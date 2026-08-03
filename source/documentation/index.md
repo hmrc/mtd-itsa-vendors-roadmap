@@ -11,6 +11,11 @@ New features are first released into the Sandbox, which enables you to test the 
 
 ## Document changelog
 
+**3 August 2026**
+
+- Added August 2026 table to 'Already Released' section
+- Release details updated for December 2026
+
 **16 June 2026**
 
 - Details added for June 2026 release
