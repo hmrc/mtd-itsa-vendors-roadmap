@@ -1,7 +1,7 @@
 
 # Making Tax Digital for Income Tax roadmap 
 
-Last updated: 16 June 2026 (see [changelog](#document-changelog))
+Last updated: 3 August 2026 (see [changelog](#document-changelog))
 
 ## About this roadmap
 
