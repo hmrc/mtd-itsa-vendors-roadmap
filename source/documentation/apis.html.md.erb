@@ -21,8 +21,8 @@ Affected APIs and version numbers will be added once the scope for the release a
 
 | API(s) | Change | [Breaking?](#def_br) | [Tax years](#def_ty) | [Affects quarterly updates?](#def_aqu) | [Usable in year?](#def_uiy) | [Deploy to Sandbox](#def_dep) |
 | :---- | :---- | :---- | :---- | :---- | :---- | :---- |
-| [Individual Charges](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individual-calculations-api) (V3),<br>[Individual Calculations](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individual-calculations-api) (V8) | Winter Fuel Payment –<br> Enabling users to include the winter fuel payment amounts within the calculation results | No | 26-27+ | No | No | June 2026 (deployed) |
-| [Self Employment Business](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/self-employment-business-api) (V5) |Inclusion of new data item for adjustment to profits for Class 4 National Insurance, which is the total of the following:<br>- Income which is disregarded for Class 4 NICs<br>- Adjustment for change of accounting practice <br>-  Interest you've been charged and have not included to work out your taxable profit<br>- Employment earnings you have already entered in 'net business profit for tax purpose' | No | 26-27+ | No | Yes | June 2026 (deployed) |
+| [Individual Charges](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individual-calculations-api) (V3),<br>[Individual Calculations](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individual-calculations-api) (V8) | Winter Fuel Payment –<br> Enabling users to include the winter fuel payment in their tax return, ensuring it is included in their tax calculation | No | 26-27+ | No | No | June 2026 (deployed) |
+| [Self Employment Business](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/self-employment-business-api) (V5) |Inclusion of new data items for adjustment to profits for Class 4 National Insurance, which is the total of the following:<br>- Income which is disregarded for Class 4 NICs<br>- Adjustment for change of accounting practice <br>-  Interest you've been charged and have not included to work out your taxable profit<br>- Employment earnings you have already entered in 'net business profit for tax purpose' | No | 26-27+ | No | Yes | June 2026 (deployed) |
 | [Self Assessment Accounts](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/self-assessment-accounts-api/) (V4) | New endpoint allowing customers to retrieve details of penalties that have been applied to their account | No | 23-24+ | No | Yes | June 2026 (deployed) |
 
 ### December 2026
@@ -34,11 +34,11 @@ Affected APIs and version numbers will be added once the scope for the release a
 | API(s) | Change | [Breaking?](#def_br) | [Tax years](#def_ty) | [Affects quarterly updates?](#def_aqu) | [Usable in year?](#def_uiy) | [Deploy to Sandbox](#def_dep) |
 | :---- | :---- | :---- | :---- | :---- | :---- | :---- |
 | [Self Employment Business ](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/self-employment-business-api) (V5)<br>[Property Business](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/property-business-api/) (V6)<br>[Business Source Adjustable Summary](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/self-assessment-bsas-api/) (V7) | Reducing Writing Down Allowance and new First Year Allowances -<br>Introduction of new data item to allow users to submit, amend and view first year allowance for qualifying expenditure incurred on plant and machinery for self employment and property income sources | No | 26-27+ | No | Yes | September 2026 |
-| [Individual Calculations](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individual-calculations-api) (V9),<br>[Self Assessment Accounts](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/self-assessment-accounts-api/) (V4) | Revenue Amendments –<br>Enabling users to see the result of a revenue amendment through their software | Yes | 26-27+ | No | No | September 2026 |
+| [Individual Calculations](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individual-calculations-api) (V9),<br>[Self Assessment Accounts](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/self-assessment-accounts-api/) (V4) | HMRC Revenue Amendments –<br>Enabling users to see the result of an HMRC revenue amendment through their software | Yes | 26-27+ | No | No | September 2026 |
 | [Individual Calculations](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individual-calculations-api) (V9),<br>[Self Assessment Accounts](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/self-assessment-accounts-api/) (V4) | Errors and Corrections -<br>Enabling HMRC to make corrections to a tax return filed through MTD software and users to see the results of those changes in their software | Yes | 26-27+ | No | No | September 2026 |
 | [Self Assessment Accounts](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/self-assessment-accounts-api/) (V4) | Appeals and standovers –<br>Enabling software to display details of a formal and informal standover | No | 25-26+ | No | No | September 2026 |
-| [Individual Calculations](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individual-calculations-api) (V9)<br>[Individuals Other Income](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-other-income-api/) (V3) | Inclusion of new data items to support submission of other UK income : <br>'Other Taxable Income', <br>'Total Amount of Allowable Expenses', <br>'Any Tax taken off other Taxable Income' and 'Benefit from Pre Owned Assets' | Yes | 26-27+ | No | Yes | September 2026 |
-| [Individuals Tax Liability Adjustments](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-tax-liability-adjustments-api) (V1)<br>[Individual Calculations](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individual-calculations-api) (V9) | Facilities for customers to declare any tax refunded or set off | No | 26-27+ | No | No | September 2026 |
+| [Individual Calculations](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individual-calculations-api) (V9)<br>[Individuals Other Income](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-other-income-api/) (V3) | Inclusion of new data items to support submission of other UK income : <br>'Additional Income', <br>'Any Tax taken off other Taxable Income',<br>'Benefit from Pre Owned Assets' | Yes | 26-27+ | No | Yes | September 2026 |
+| [Individuals Tax Liability Adjustments](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-tax-liability-adjustments-api) (V1)<br>[Individual Calculations](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individual-calculations-api) (V9) | Enabling users to submit any tax refunds or set offs received as part of their tax return and view it in their tax calculation | No | 26-27+ | No | No | September 2026 |
 
 ### April 2027
 
@@ -49,8 +49,41 @@ Affected APIs and version numbers will be added once the scope for the release a
 | API(s) | Change | [Breaking?](#def_br) | [Tax years](#def_ty) | [Affects quarterly updates?](#def_aqu) | [Usable in year?](#def_uiy) | [Deploy to Sandbox](#def_dep) |
 | :---- | :---- | :---- | :---- | :---- | :---- | :---- |
 | TBC | Whitespace –<br>The ability for users to provide additional information through their software to be submitted with their return | TBC | TBC | No | TBC | December 2026 |
-| [Individual Calculations](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individual-calculations-api) (TBC)| ITSA upload facility (end of year processing) –<br>Enabling software to provide supporting attachments for ITSA submissions. | TBC | TBC | No | TBC | December 2026 |
-| TBC | Provisional figures –<br>The ability for users to inform HMRC when they have used provisional figures, through their software, | TBC | TBC | No | TBC | December 2026 |
+| [Individual Calculations](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individual-calculations-api) (TBC)| ITSA upload facility –<br>Enabling users to provide supporting attachments for their tax return | TBC | TBC | No | TBC | December 2026 |
+| TBC | Provisional figures –<br>Enabling users to inform HMRC when they have used provisional figures | TBC | TBC | No | TBC | December 2026 |
+| TBC | Over-repayments -<br>Enabling software to display details of over-repayments to customers | TBC | TBC | No | TBC | December 2026 |
+| TBC | Create a Return Charge -<br>Enabling HMRC to create a return charge and for customers to see the charge details in software | TBC | TBC | No | TBC | December 2026 |
+
+
+### June 2027
+
+These changes are expected to be deployed in June 2027 (to be confirmed).
+
+Affected APIs and version numbers will be added once the scope for the release and associated release date are confirmed.
+
+| API(s) | Change | [Breaking?](#def_br) | [Tax years](#def_ty) | [Affects quarterly updates?](#def_aqu) | [Usable in year?](#def_uiy) | [Deploy to Sandbox](#def_dep) |
+| :---- | :---- | :---- | :---- | :---- | :---- | :---- |
+| TBC | Revenue Losses -<br>Enabling HMRC to apply revenue losses to a customer’s account and for users to see the results in their software | TBC | TBC | No | TBC | April 2027 |
+| TBC | Mortgage evidence -<br>Allowing software to provide an SA302 output | TBC | TBC | No | TBC | April 2027 |
+| [Individual Calculations](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individual-calculations-api) | Claim outside of the amendment window –<br>Enabling amendments to be made outside the amendment window, this is not likely to be actioned through software. | TBC | TBC | No | TBC | April 2027 |
+| [Individual Calculations](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individual-calculations-api),<br>  TBC | Averaging adjustments and special arrangements –<br> Enabling software to support averaging adjustments. | TBC | TBC | TBC |
+| [Individual Calculations](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individual-calculations-api),<br>  TBC | Enabling software to support customers that have income from Trusts. | TBC | TBC | TBC |
+| TBC | Payroll benefits in kind -<br> Additional data items | TBC | TBC | TBC |
+| TBC | Remission or write-off -<br> Enabling customers to view when a tax charge is subject to remission or write-off | TBC | TBC | TBC |
+
+
+### September 2027
+
+These changes are expected to be deployed in September 2027 (to be confirmed).
+
+Affected APIs and version numbers will be added once the scope for the release and associated release date are confirmed.
+
+| API(s) | Change | [Breaking?](#def_br) | [Tax years](#def_ty) | [Affects quarterly updates?](#def_aqu) | [Usable in year?](#def_uiy) | [Deploy to Sandbox](#def_dep) |
+| :---- | :---- | :---- | :---- | :---- | :---- | :---- |
+| TBC | Cessation -<br> Design to be confirmed | TBC | TBC | TBC |
+| TBC | Joint Property indicator -<br> Enabling customers to inform HMRC when a property is jointly let | TBC | TBC | TBC |
+| TBC | Change of business address -<br> Enabling customers to inform HMRC of change of address | TBC | TBC | TBC |
+
 
 ## Planned future deliveries
 
@@ -60,18 +93,12 @@ The below table is not comprehensive and other APIs may be impacted by future de
 
 | API(s) | Change | [Breaking?](#def_br) | [Tax years](#def_ty) | [Affects quarterly updates?](#def_aqu) | [Usable in year?](#def_uiy) | [Deploy to Sandbox](#def_dep) |
 | :---- | :---- | :---- | :---- | :---- | :---- | :---- |
-| [Individual Calculations](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individual-calculations-api) | Claim outside of the amendment window –<br>Enabling amendments to be made outside the amendment window, this is not likely to be actioned through software. | TBC | TBC | TBC |
+
 | [Individual Calculations](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individual-calculations-api) | Residence and remittance –<br>Enabling software to support overseas customers with UK income. | TBC | TBC | TBC |
-| [Individual Calculations](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individual-calculations-api),<br>  TBC | Averaging adjustments and special arrangements –<br> Enabling software to support averaging adjustments. | TBC | TBC | TBC |
-| [Self Employment business](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/self-employment-business-api/),<br>  TBC | Providing all users who report consolidated expenses that if they reach the threshold they will need to provide consolidated full expenses | TBC | TBC | TBC |
+| [Self Employment business](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/self-employment-business-api/),<br>  TBC | Informing all users who report consolidated expenses that if they reach the threshold they will need to provide consolidated full expenses | TBC | TBC | TBC |
 | [Business Details](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/business-details-api/), TBC | Removal of Accounting Period –<br>The removal of accounting period in the design before new endpoints were created | TBC | TBC | TBC |
-| [Individual Calculations](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individual-calculations-api),<br>  TBC | Enabling software to support customers that have income from Trusts. | TBC | TBC | TBC |
-| TBC | Revenue Assessments –<br>The ability for a revenue assessment to be made by a HMRC user.  Discovery will determine if information is required to be available to the user through their software. | TBC | TBC | No |
 | TBC | Revenue Assessments –<br>Enabling HMRC to create a Revenue Assessment and for customers to see the assessment details in software | TBC | TBC | No |
-| TBC | Revenue Losses -<br>Enabling HMRC to apply revenue losses to a customer’s account and for users to see the results in their software | TBC | TBC | TBC |
-| TBC | Mortgage evidence -<br>Allowing software to provide an SA302 output | TBC | TBC | TBC |
-| TBC | Create a Return Charge -<br>Enabling HMRC to create a return charge and for customers to see the charge details in software | TBC | TBC | TBC |
-| TBC | Over-repayments -<br>Enabling software to display details of over-repayments to customers | TBC | TBC | TBC |
+| TBC | Business Details –<br>Enabling customers to check that their Business Details are correct | TBC | TBC | No |
 
 ## Already released
 
